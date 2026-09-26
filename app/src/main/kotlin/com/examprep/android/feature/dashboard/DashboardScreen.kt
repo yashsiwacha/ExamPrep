@@ -42,6 +42,8 @@ fun DashboardScreen(
     onNavigateToFlashcards: () -> Unit = {},
     onNavigateToRoadmap: () -> Unit = {},
     onNavigateToLeaderboard: () -> Unit = {},
+    onNavigateToProfile: () -> Unit = {},
+    onNavigateToHeroFeature: () -> Unit = {},
     viewModel: DashboardViewModel = hiltViewModel()
 ) {
     val state by viewModel.uiState.collectAsState()
@@ -71,7 +73,10 @@ fun DashboardScreen(
                 Spacer(Modifier.height(Spacing.MD))
 
                 // ── Student Greeting & Header ─────────────────────────────────────────
-                StudentGreetingHeader(examName = uiState.examName)
+                StudentGreetingHeader(
+                    examName = uiState.examName,
+                    onProfileClick = onNavigateToProfile
+                )
 
                 Spacer(Modifier.height(Spacing.MD))
 
@@ -79,6 +84,13 @@ fun DashboardScreen(
                 DailyMomentumCard(
                     streakDays = uiState.studyStreakDays,
                     quizAccuracy = uiState.quizAccuracy
+                )
+
+                Spacer(Modifier.height(Spacing.MD))
+
+                // ── HERO FEATURE: AI WEAKNESS SURGERY & RANK ACCELERATOR ───────────────
+                AIWeaknessSurgeryCard(
+                    onClick = onNavigateToHeroFeature
                 )
 
                 Spacer(Modifier.height(Spacing.MD))
@@ -287,7 +299,13 @@ private fun ArsenalActionCard(
 }
 
 @Composable
-private fun StudentGreetingHeader(examName: String) {
+private fun StudentGreetingHeader(
+    examName: String,
+    onProfileClick: () -> Unit = {}
+) {
+    val currentUser by com.examprep.android.feature.auth.AuthStore.get().currentUser.collectAsState()
+    val isPro = currentUser?.isPro == true
+
     Row(
         modifier = Modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceBetween,
@@ -295,22 +313,23 @@ private fun StudentGreetingHeader(examName: String) {
     ) {
         Column {
             Text(
-                text = "Welcome back, Aspirant",
+                text = "Welcome back, ${currentUser?.name?.split(" ")?.firstOrNull() ?: "Aspirant"}",
                 style = MaterialTheme.typography.headlineSmall.copy(
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.onBackground
                 )
             )
             Text(
-                text = "Targeting $examName",
+                text = "Targeting ${currentUser?.targetExam ?: examName}",
                 style = MaterialTheme.typography.bodyMedium.copy(
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
             )
         }
         Surface(
-            color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.6f),
-            shape = MaterialTheme.shapes.small
+            color = if (isPro) ExamPrepColors.Warning.copy(alpha = 0.15f) else MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.6f),
+            shape = MaterialTheme.shapes.small,
+            modifier = Modifier.clickable { onProfileClick() }
         ) {
             Row(
                 modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp),
@@ -318,18 +337,75 @@ private fun StudentGreetingHeader(examName: String) {
                 horizontalArrangement = Arrangement.spacedBy(4.dp)
             ) {
                 Icon(
-                    Icons.Default.School,
+                    if (isPro) Icons.Default.Star else Icons.Default.Person,
                     contentDescription = null,
                     modifier = Modifier.size(16.dp),
-                    tint = MaterialTheme.colorScheme.primary
+                    tint = if (isPro) ExamPrepColors.Warning else MaterialTheme.colorScheme.primary
                 )
                 Text(
-                    text = "2026 Batch",
+                    text = if (isPro) "👑 PRO" else "FREE",
                     style = MaterialTheme.typography.labelMedium.copy(
-                        color = MaterialTheme.colorScheme.primary,
-                        fontWeight = FontWeight.SemiBold
+                        color = if (isPro) ExamPrepColors.Warning else MaterialTheme.colorScheme.primary,
+                        fontWeight = FontWeight.Bold
                     )
                 )
+            }
+        }
+    }
+}
+
+@Composable
+private fun AIWeaknessSurgeryCard(
+    onClick: () -> Unit
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable { onClick() }
+            .border(1.dp, ExamPrepColors.Warning.copy(alpha = 0.35f), MaterialTheme.shapes.large),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+        shape = MaterialTheme.shapes.large
+    ) {
+        Column(modifier = Modifier.padding(Spacing.MD)) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Box(
+                        modifier = Modifier
+                            .size(32.dp)
+                            .clip(CircleShape)
+                            .background(ExamPrepColors.Warning.copy(alpha = 0.15f)),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Icon(Icons.Default.AutoFixHigh, contentDescription = null, tint = ExamPrepColors.Warning, modifier = Modifier.size(18.dp))
+                    }
+                    Column {
+                        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                            Text(
+                                text = "AI Weakness Surgery",
+                                style = MaterialTheme.typography.titleSmall.copy(fontWeight = FontWeight.Bold)
+                            )
+                            Surface(
+                                color = ExamPrepColors.Warning.copy(alpha = 0.15f),
+                                shape = RoundedCornerShape(4.dp)
+                            ) {
+                                Text(
+                                    text = "PRO HERO",
+                                    modifier = Modifier.padding(horizontal = 4.dp, vertical = 1.dp),
+                                    style = MaterialTheme.typography.labelSmall.copy(color = ExamPrepColors.Warning, fontWeight = FontWeight.Bold, fontSize = 9.sp)
+                                )
+                            }
+                        }
+                        Text(
+                            text = "3 Critical Blindspots Detected · +3,850 AIR Boost",
+                            style = MaterialTheme.typography.labelSmall.copy(color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        )
+                    }
+                }
+                Icon(Icons.Default.ChevronRight, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
     }

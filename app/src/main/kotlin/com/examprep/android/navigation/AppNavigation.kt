@@ -29,6 +29,8 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.navigation
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.examprep.android.feature.auth.AuthScreen
+import com.examprep.android.feature.auth.ProfileScreen
 import com.examprep.android.feature.dashboard.DashboardScreen
 import com.examprep.android.feature.flashcards.FlashcardsScreen
 import com.examprep.android.feature.leaderboard.LeaderboardScreen
@@ -42,6 +44,7 @@ import com.examprep.android.feature.onboarding.OnboardingScreen
 import com.examprep.android.feature.performance.PerformanceScreen
 import com.examprep.android.feature.quiz.QuizResultScreen
 import com.examprep.android.feature.quiz.QuizScreen
+import com.examprep.android.feature.rankaccelerator.AIRankAcceleratorScreen
 import com.examprep.android.feature.revision.RevisionScreen
 import com.examprep.android.feature.roadmap.RoadmapScreen
 import com.examprep.android.feature.settings.SettingsScreen
@@ -320,6 +323,59 @@ fun AppNavigation(
                 }
             )
         }
+        composable(Screen.Auth.route) {
+            AuthScreen(
+                onAuthSuccess = {
+                    navController.navigate(Screen.MainGraph.route) {
+                        popUpTo(Screen.Auth.route) { inclusive = true }
+                    }
+                },
+                onBack = {
+                    if (!navController.popBackStack()) {
+                        navController.navigate(Screen.MainGraph.route) {
+                            popUpTo(Screen.MainGraph.route) { inclusive = false }
+                            launchSingleTop = true
+                        }
+                    }
+                }
+            )
+        }
+        composable(Screen.Profile.route) {
+            ProfileScreen(
+                onNavigateBack = {
+                    if (!navController.popBackStack()) {
+                        navController.navigate(Screen.MainGraph.route) {
+                            popUpTo(Screen.MainGraph.route) { inclusive = false }
+                            launchSingleTop = true
+                        }
+                    }
+                },
+                onNavigateToAuth = {
+                    navController.navigate(Screen.Auth.route)
+                },
+                onNavigateToHeroFeature = {
+                    navController.navigate(Screen.AIRankAccelerator.route)
+                }
+            )
+        }
+        composable(Screen.AIRankAccelerator.route) {
+            AIRankAcceleratorScreen(
+                onNavigateBack = {
+                    if (!navController.popBackStack()) {
+                        navController.navigate(Screen.MainGraph.route) {
+                            popUpTo(Screen.MainGraph.route) { inclusive = false }
+                            launchSingleTop = true
+                        }
+                    }
+                },
+                onStartSurgicalDrill = { drillId ->
+                    navController.navigate(Screen.Quiz.createRoute("surg_drill_rot_1"))
+                },
+                onUpgradeToPro = {
+                    // Refreshes in-place with Pro state unlocked
+                }
+            )
+        }
     }
 }
 
@@ -414,6 +470,12 @@ private fun MainAppScreen(rootNavController: NavHostController) {
                     },
                     onNavigateToLeaderboard = {
                         rootNavController.navigate(Screen.Leaderboard.route)
+                    },
+                    onNavigateToProfile = {
+                        rootNavController.navigate(Screen.Profile.route)
+                    },
+                    onNavigateToHeroFeature = {
+                        rootNavController.navigate(Screen.AIRankAccelerator.route)
                     }
                 )
             }

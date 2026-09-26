@@ -791,3 +791,78 @@ data class PeerBenchmarkReport(
     val leaderboard: List<LeaderboardStudent>
 )
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// USER AUTHENTICATION & SUBSCRIPTION TIER (FREE VS PRO)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+enum class SubscriptionTier {
+    FREE,
+    PRO
+}
+
+@Serializable
+data class AuthUser(
+    val id: String,
+    val name: String,
+    val email: String,
+    val passwordHash: String,
+    val salt: String,
+    val targetExam: String = "JEE Main 2026",
+    val targetYear: Int = 2026,
+    val dailyStudyTargetHours: Float = 4.5f,
+    val tier: SubscriptionTier = SubscriptionTier.FREE,
+    val proExpiryTimestamp: Long? = null,
+    val createdAt: Long = System.currentTimeMillis(),
+    val lastLoginAt: Long = System.currentTimeMillis()
+) {
+    val isPro: Boolean
+        get() = tier == SubscriptionTier.PRO && (proExpiryTimestamp == null || proExpiryTimestamp > System.currentTimeMillis())
+}
+
+enum class PremiumFeature(
+    val title: String,
+    val description: String,
+    val isProOnly: Boolean
+) {
+    STANDARD_PRACTICE("Chapter Practice", "Standard questions & PYQ library", false),
+    BASIC_MISTAKE_VAULT("Mistake Vault (Standard)", "Track up to 20 errors with basic answers", false),
+    FORMULA_FLASHCARDS("Formula Flashcards", "3D animated flashcards for quick revision", false),
+    NATIONAL_SIMULATOR_TRIAL("National Simulator (1 Test)", "Benchmark score on 1 full-length test", false),
+
+    // PRO EXCLUSIVE HERO FEATURES
+    UNLIMITED_MOCK_TESTS("Unlimited Full-Length Mocks", "Full JEE/NEET simulators with AIR ranking", true),
+    UNLIMITED_MISTAKE_VAULT("Unlimited Mistake Vault", "Deep error categorization & 5-min sprints", true),
+    DETAILED_PEER_BENCHMARKING("Detailed AIR Peer Radar", "Sectional breakdown vs AIR 1 & top 1%", true),
+    OFFLINE_DOWNLOADS("Offline Cloud Sync", "Download all mock sets & flashcard decks offline", true),
+    
+    // HERO FEATURE: AI RANK ACCELERATOR & WEAKNESS SURGERY
+    AI_RANK_ACCELERATOR("AI Weakness Surgery & Rank Predictor", "Pinpoint marks lost to conceptual traps, generate custom 15-min surgical drills & predict +40 percentile boost", true)
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// HERO FEATURE: AI RANK ACCELERATOR & WEAKNESS SURGERY
+// ═══════════════════════════════════════════════════════════════════════════════
+
+@Serializable
+data class WeaknessSurgicalNode(
+    val subject: String,
+    val chapter: String,
+    val topicTrap: String,
+    val frequencyCount: Int,
+    val marksBleeding: Int, // Marks lost across tests (e.g. -16 marks)
+    val remedyStrategy: String,
+    val surgicalActionQuizId: String
+)
+
+@Serializable
+data class AIRankAcceleratorReport(
+    val studentName: String,
+    val currentEstimatedPercentile: Float,
+    val projectedPercentileAfterSurgery: Float,
+    val predictedAirGain: Int, // e.g. +4,800 AIR boost
+    val totalMarksBleeding: Int, // e.g. -48 marks
+    val topVulnerabilities: List<WeaknessSurgicalNode>,
+    val surgicalDrillTitle: String = "15-Minute Custom Surgical Drill",
+    val generatedAt: Long = System.currentTimeMillis()
+)
+
