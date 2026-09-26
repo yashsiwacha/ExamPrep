@@ -10,3 +10,6 @@ Captures
 .cxx
 *.apk
 *.aab
+bin/
+*/bin/
+**/bin/

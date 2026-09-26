@@ -4,6 +4,7 @@ import com.examprep.domain.model.Flashcard
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -13,15 +14,21 @@ class FlashcardStore @Inject constructor() {
     private val _flashcards = MutableStateFlow<List<Flashcard>>(defaultFlashcards())
     val flashcards: StateFlow<List<Flashcard>> = _flashcards.asStateFlow()
 
+    @Synchronized
     fun toggleMastered(cardId: String) {
-        _flashcards.value = _flashcards.value.map {
-            if (it.id == cardId) it.copy(isMastered = !it.isMastered, reviewCount = it.reviewCount + 1) else it
+        _flashcards.update { oldList ->
+            oldList.map {
+                if (it.id == cardId) it.copy(isMastered = !it.isMastered, reviewCount = it.reviewCount + 1) else it
+            }
         }
     }
 
+    @Synchronized
     fun toggleBookmark(cardId: String) {
-        _flashcards.value = _flashcards.value.map {
-            if (it.id == cardId) it.copy(isBookmarked = !it.isBookmarked) else it
+        _flashcards.update { oldList ->
+            oldList.map {
+                if (it.id == cardId) it.copy(isBookmarked = !it.isBookmarked) else it
+            }
         }
     }
 

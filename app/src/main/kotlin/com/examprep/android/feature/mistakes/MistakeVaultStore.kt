@@ -9,12 +9,15 @@ import kotlinx.coroutines.flow.asStateFlow
 import javax.inject.Inject
 import javax.inject.Singleton
 
+import kotlinx.coroutines.flow.update
+
 @Singleton
 class MistakeVaultStore @Inject constructor() {
 
     private val _mistakes = MutableStateFlow<List<MistakeItem>>(defaultMistakes())
     val mistakes: StateFlow<List<MistakeItem>> = _mistakes.asStateFlow()
 
+    @Synchronized
     fun recordMistake(
         questionId: String,
         questionText: String,
@@ -26,67 +29,78 @@ class MistakeVaultStore @Inject constructor() {
         chapter: String = "Core Concepts",
         reason: MistakeReason = MistakeReason.CONCEPTUAL
     ) {
-        val current = _mistakes.value.toMutableList()
-        val existingIndex = current.indexOfFirst { it.questionId == questionId }
-        if (existingIndex >= 0) {
-            val existing = current[existingIndex]
-            current[existingIndex] = existing.copy(
-                attemptCount = existing.attemptCount + 1,
-                consecutiveCorrect = 0,
-                masteryStatus = MistakeMasteryStatus.ACTIVE,
-                studentAnswer = studentAnswer,
-                reason = reason,
-                recordedAt = System.currentTimeMillis()
-            )
-        } else {
-            current.add(
-                0,
-                MistakeItem(
-                    id = "mistake_${System.currentTimeMillis()}",
-                    questionId = questionId,
-                    questionText = questionText,
-                    options = options,
-                    correctAnswer = correctAnswer,
+        _mistakes.update { oldList ->
+            val current = oldList.toMutableList()
+            val existingIndex = current.indexOfFirst { it.questionId == questionId }
+            if (existingIndex >= 0) {
+                val existing = current[existingIndex]
+                current[existingIndex] = existing.copy(
+                    attemptCount = existing.attemptCount + 1,
+                    consecutiveCorrect = 0,
+                    masteryStatus = MistakeMasteryStatus.ACTIVE,
                     studentAnswer = studentAnswer,
-                    explanation = explanation,
-                    subject = subject,
-                    chapterName = chapter,
                     reason = reason,
-                    masteryStatus = MistakeMasteryStatus.ACTIVE
+                    recordedAt = System.currentTimeMillis()
                 )
-            )
-        }
-        _mistakes.value = current
-    }
-
-    fun markPracticed(mistakeId: String, isCorrect: Boolean) {
-        _mistakes.value = _mistakes.value.map { item ->
-            if (item.id == mistakeId) {
-                if (isCorrect) {
-                    val newConsecutive = item.consecutiveCorrect + 1
-                    item.copy(
-                        consecutiveCorrect = newConsecutive,
-                        masteryStatus = if (newConsecutive >= 2) MistakeMasteryStatus.MASTERED else MistakeMasteryStatus.REVIEWING
-                    )
-                } else {
-                    item.copy(
-                        attemptCount = item.attemptCount + 1,
-                        consecutiveCorrect = 0,
+            } else {
+                current.add(
+                    0,
+                    MistakeItem(
+                        id = "mistake_${System.nanoTime()}",
+                        questionId = questionId,
+                        questionText = questionText,
+                        options = options,
+                        correctAnswer = correctAnswer,
+                        studentAnswer = studentAnswer,
+                        explanation = explanation,
+                        subject = subject,
+                        chapterName = chapter,
+                        reason = reason,
                         masteryStatus = MistakeMasteryStatus.ACTIVE
                     )
-                }
-            } else item
+                )
+            }
+            current
         }
     }
 
+    @Synchronized
+    fun markPracticed(mistakeId: String, isCorrect: Boolean) {
+        _mistakes.update { oldList ->
+            oldList.map { item ->
+                if (item.id == mistakeId) {
+                    if (isCorrect) {
+                        val newConsecutive = item.consecutiveCorrect + 1
+                        item.copy(
+                            consecutiveCorrect = newConsecutive,
+                            masteryStatus = if (newConsecutive >= 2) MistakeMasteryStatus.MASTERED else MistakeMasteryStatus.REVIEWING
+                        )
+                    } else {
+                        item.copy(
+                            attemptCount = item.attemptCount + 1,
+                            consecutiveCorrect = 0,
+                            masteryStatus = MistakeMasteryStatus.ACTIVE
+                        )
+                    }
+                } else item
+            }
+        }
+    }
+
+    @Synchronized
     fun updateReasonTag(mistakeId: String, reason: MistakeReason) {
-        _mistakes.value = _mistakes.value.map {
-            if (it.id == mistakeId) it.copy(reason = reason) else it
+        _mistakes.update { oldList ->
+            oldList.map {
+                if (it.id == mistakeId) it.copy(reason = reason) else it
+            }
         }
     }
 
+    @Synchronized
     fun removeMistake(mistakeId: String) {
-        _mistakes.value = _mistakes.value.filter { it.id != mistakeId }
+        _mistakes.update { oldList ->
+            oldList.filter { it.id != mistakeId }
+        }
     }
 
     companion object {

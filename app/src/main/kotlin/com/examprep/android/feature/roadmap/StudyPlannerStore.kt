@@ -35,13 +35,8 @@ class StudyPlannerStore @Inject constructor() {
             return instance ?: StudyPlannerStore().also { instance = it }
         }
 
-        private fun defaultPlan(): StudyRoadmapPlan = StudyRoadmapPlan(
-            targetExamName = "JEE Main 2026 Session 1",
-            daysRemaining = 114,
-            syllabusCompletionPct = 68.5f,
-            dailyTargetHours = 4.5f,
-            hoursStudiedToday = 2.0f,
-            dailyTasks = listOf(
+        private fun defaultPlan(): StudyRoadmapPlan {
+            val tasks = listOf(
                 DailyStudyTask(
                     id = "task_1",
                     title = "Solve 15 Rotational Dynamics PYQ Questions",
@@ -82,14 +77,23 @@ class StudyPlannerStore @Inject constructor() {
                     priorityLabel = "Weekly Benchmark",
                     deepLinkRoute = "mock_test/mock_jee_2026_01"
                 )
-            ),
-            weeklyPacingVerdict = "On Track • Pacing is 12% faster than last week",
-            highPriorityTopics = listOf(
-                "Rotational Mechanics",
-                "Electrochemistry",
-                "Indefinite Integrals",
-                "Ray & Wave Optics"
             )
-        )
+            val initialCompletedMins = tasks.filter { it.isCompleted }.sumOf { it.estimatedMinutes }
+            return StudyRoadmapPlan(
+                targetExamName = "JEE Main 2026 Session 1",
+                daysRemaining = 114,
+                syllabusCompletionPct = 68.5f,
+                dailyTargetHours = 4.5f,
+                hoursStudiedToday = initialCompletedMins / 60f,
+                dailyTasks = tasks,
+                weeklyPacingVerdict = "On Track • Pacing is 12% faster than last week",
+                highPriorityTopics = listOf(
+                    "Rotational Mechanics",
+                    "Electrochemistry",
+                    "Indefinite Integrals",
+                    "Ray & Wave Optics"
+                )
+            )
+        }
     }
 }
