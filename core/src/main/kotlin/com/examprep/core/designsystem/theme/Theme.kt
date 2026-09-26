@@ -11,89 +11,92 @@ import kotlinx.coroutines.flow.asStateFlow
 
 
 // ═══════════════════════════════════════════════════════════════════════════════
-// EXAMPREP REFINED PREMIUM PALETTE (STUDENT FOCUS & COGNITIVE COMFORT)
+// EXAMPREP SUBTLE MINIMALIST PALETTE (DISTRACTION-FREE COGNITIVE COMFORT)
 //
 // Design philosophy:
-//   - Subtle, calm, distraction-free matte aesthetic
-//   - Zero neon fatigue during multi-hour late-night study sessions
-//   - Slate Obsidian dark mode with refined optical contrast
-//   - Elegant muted Indigo, Sage Green, and Honey Amber accents
+//   - Understated, matte, minimalist monochrome-with-whisper-accents aesthetic
+//   - Zero neon or harsh saturation to eliminate cognitive fatigue
+//   - Pure deep slate-noir background with frosted subtle borders
+//   - Subtle Platinum Slate, Muted Lichen Green, and Soft Champagne Sand accents
 // ═══════════════════════════════════════════════════════════════════════════════
 
 object ExamPrepColors {
 
-    // Primary — Refined Slate-Indigo (Intellect & Focus)
-    val Indigo10 = Color(0xFF090B14)
-    val Indigo20 = Color(0xFF131728)
-    val Indigo30 = Color(0xFF1F2440)
-    val Indigo40 = Color(0xFF333C66)
-    val Indigo50 = Color(0xFF4F5B93)
-    val Indigo60 = Color(0xFF6371B3)
-    val Indigo70 = Color(0xFF818FD4)   // Subtle primary light/accent
-    val Indigo80 = Color(0xFFA5B1E8)
-    val Indigo90 = Color(0xFFD2D8F7)
-    val Indigo95 = Color(0xFFE9ECFA)
-    val Indigo99 = Color(0xFFF7F8FD)
+    // Primary — Subtle Platinum-Slate Steel (Focus & Clarity)
+    val Slate10 = Color(0xFF090B0E)
+    val Slate20 = Color(0xFF111419)
+    val Slate30 = Color(0xFF1B2028)
+    val Slate40 = Color(0xFF2C3440)
+    val Slate50 = Color(0xFF455060)
+    val Slate60 = Color(0xFF64748B)
+    val Slate70 = Color(0xFF94A3B8)   // Subtle primary accent
+    val Slate80 = Color(0xFFCBD5E1)
+    val Slate90 = Color(0xFFE2E8F0)
+    val Slate95 = Color(0xFFF1F5F9)
+    val Slate99 = Color(0xFFF8FAFC)
 
-    // Secondary — Muted Nordic Sage / Soft Jade (Growth, Calm Mastery)
-    val Sage10 = Color(0xFF051510)
-    val Sage20 = Color(0xFF0C241B)
-    val Sage30 = Color(0xFF163A2D)
-    val Sage40 = Color(0xFF235543)
-    val Sage50 = Color(0xFF367A62)
-    val Sage60 = Color(0xFF4FA083)
-    val Sage70 = Color(0xFF6FC4A5)   // Subtle progress accent
-    val Sage80 = Color(0xFF98DECA)
-    val Sage90 = Color(0xFFC7EFE3)
-    val Sage95 = Color(0xFFE5F8F2)
+    // Secondary — Muted Lichen Sage (Calm Growth & Mastery)
+    val Sage10 = Color(0xFF070E0B)
+    val Sage20 = Color(0xFF101C16)
+    val Sage30 = Color(0xFF1B2D24)
+    val Sage40 = Color(0xFF2C4538)
+    val Sage50 = Color(0xFF456554)
+    val Sage60 = Color(0xFF638974)
+    val Sage70 = Color(0xFF86A795)   // Subtle progress & mastery
+    val Sage80 = Color(0xFFAEC8BA)
+    val Sage90 = Color(0xFFD6E6DE)
+    val Sage95 = Color(0xFFEDF5F1)
 
-    // Tertiary — Warm Muted Honey (Urgency, Streaks, Focus)
-    val Amber10 = Color(0xFF1E1303)
-    val Amber20 = Color(0xFF332007)
-    val Amber30 = Color(0xFF52330D)
-    val Amber40 = Color(0xFF754B17)
-    val Amber50 = Color(0xFF9E6824)
-    val Amber60 = Color(0xFFC48635)
-    val Amber70 = Color(0xFFE5A955)   // Subtle warm highlight
-    val Amber80 = Color(0xFFF3C788)
-    val Amber90 = Color(0xFFFBE4C4)
-    val Amber95 = Color(0xFFFCF2E4)
+    // Tertiary — Soft Champagne Sand (Streaks & Warm Accents)
+    val Sand10 = Color(0xFF0F0C08)
+    val Sand20 = Color(0xFF1C1710)
+    val Sand30 = Color(0xFF2E261B)
+    val Sand40 = Color(0xFF483C2C)
+    val Sand50 = Color(0xFF6A5B44)
+    val Sand60 = Color(0xFF948063)
+    val Sand70 = Color(0xFFBFAB8D)   // Subtle warm highlight
+    val Sand80 = Color(0xFFD8C9B3)
+    val Sand90 = Color(0xFFECE4D7)
+    val Sand95 = Color(0xFFF7F4EE)
 
-    // Neutral Surface — Deep Velvet Obsidian & Slate
+    // Neutral Surfaces — Deep Velvet Slate Obsidian
     val Neutral0 = Color(0xFF000000)
-    val Neutral10 = Color(0xFF0E1015)  // App Background (Soft Obsidian)
-    val Neutral15 = Color(0xFF141720)  // Elevated Surface / Cards
-    val Neutral20 = Color(0xFF1C202C)  // Card secondary / Containers
-    val Neutral30 = Color(0xFF282D3D)  // Borders / Dividers
-    val Neutral40 = Color(0xFF3B4358)  // Subdued outlines
-    val Neutral50 = Color(0xFF5A637C)
-    val Neutral60 = Color(0xFF7D87A1)  // Tertiary captions
-    val Neutral70 = Color(0xFFA2ABC0)  // Secondary text
-    val Neutral80 = Color(0xFFC9D0E0)  // Body text
-    val Neutral90 = Color(0xFFE6EAF2)  // Primary titles & headers
-    val Neutral95 = Color(0xFFF2F4F8)
-    val Neutral99 = Color(0xFFFAFBFD)
+    val Neutral10 = Color(0xFF0B0D10)  // App Background (Matte Slate Noir)
+    val Neutral15 = Color(0xFF13161C)  // Elevated Surface / Cards
+    val Neutral20 = Color(0xFF1A1E26)  // Card Secondary / Containers
+    val Neutral30 = Color(0xFF242A35)  // Borders / Dividers
+    val Neutral40 = Color(0xFF333B49)  // Subdued Outlines
+    val Neutral50 = Color(0xFF4C5668)
+    val Neutral60 = Color(0xFF6E7B91)  // Tertiary captions
+    val Neutral70 = Color(0xFF94A3B8)  // Secondary text
+    val Neutral80 = Color(0xFFCBD5E1)  // Body text
+    val Neutral90 = Color(0xFFF1F5F9)  // Primary titles & headers
+    val Neutral95 = Color(0xFFF8FAFC)
+    val Neutral99 = Color(0xFFFCFDFE)
     val Neutral100 = Color(0xFFFFFFFF)
 
-    // Semantic Status Colors (Matte, accessible WCAG AA)
-    val Success = Color(0xFF38B285)
-    val SuccessContainer = Color(0xFF112E22)
-    val Warning = Color(0xFFD98A2C)
-    val WarningContainer = Color(0xFF331E05)
-    val Error = Color(0xFFD9534F)
-    val ErrorContainer = Color(0xFF331312)
+    // Semantic Status Colors (Matte, Low-Fatigue, WCAG AA Compliant)
+    val Success = Color(0xFF68B294)
+    val SuccessContainer = Color(0xFF132820)
+    val Warning = Color(0xFFCCA564)
+    val WarningContainer = Color(0xFF2A2213)
+    val Error = Color(0xFFC26E6E)
+    val ErrorContainer = Color(0xFF2B1616)
 
-    // Mastery State Colors (Harmonious & Professional)
-    val MasteryNotStarted = Color(0xFF4A5268)
-    val MasteryInProgress = Color(0xFF5E7FD9)
-    val MasteryLearned = Color(0xFF818FD4)
-    val MasteryPracticing = Color(0xFF57B896)
-    val MasteryMastered = Color(0xFF38B285)
-    val MasteryRevisionDue = Color(0xFFD98A2C)
+    // Mastery State Colors (Muted & Harmonious)
+    val MasteryNotStarted = Color(0xFF3E4654)
+    val MasteryInProgress = Color(0xFF667890)
+    val MasteryLearned = Color(0xFF8697AB)
+    val MasteryPracticing = Color(0xFF759A87)
+    val MasteryMastered = Color(0xFF68B294)
+    val MasteryRevisionDue = Color(0xFFCCA564)
 
-    // Legacy aliases for backward compatibility across screens
-    val Primary = Indigo70
-    val BrandPrimary = Indigo70
+    // Aliases for compatibility
+    val Primary = Slate80
+    val BrandPrimary = Slate80
+    val Indigo70 = Slate70
+    val Indigo80 = Slate80
+    val Amber70 = Sand70
     val Teal60 = Sage60
     val Teal70 = Sage70
 }
@@ -103,20 +106,20 @@ object ExamPrepColors {
 // ═══════════════════════════════════════════════════════════════════════════════
 
 private val DarkColorScheme = darkColorScheme(
-    primary = ExamPrepColors.Indigo70,
-    onPrimary = ExamPrepColors.Indigo10,
-    primaryContainer = ExamPrepColors.Indigo30,
-    onPrimaryContainer = ExamPrepColors.Indigo90,
+    primary = ExamPrepColors.Slate80,
+    onPrimary = ExamPrepColors.Slate10,
+    primaryContainer = ExamPrepColors.Slate30,
+    onPrimaryContainer = ExamPrepColors.Slate90,
 
     secondary = ExamPrepColors.Sage70,
     onSecondary = ExamPrepColors.Sage10,
-    secondaryContainer = ExamPrepColors.Sage30,
+    secondaryContainer = ExamPrepColors.Sage20,
     onSecondaryContainer = ExamPrepColors.Sage90,
 
-    tertiary = ExamPrepColors.Amber70,
-    onTertiary = ExamPrepColors.Amber10,
-    tertiaryContainer = ExamPrepColors.Amber30,
-    onTertiaryContainer = ExamPrepColors.Amber90,
+    tertiary = ExamPrepColors.Sand70,
+    onTertiary = ExamPrepColors.Sand10,
+    tertiaryContainer = ExamPrepColors.Sand20,
+    onTertiaryContainer = ExamPrepColors.Sand90,
 
     background = ExamPrepColors.Neutral10,
     onBackground = ExamPrepColors.Neutral90,
@@ -136,20 +139,20 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = ExamPrepColors.Indigo50,
+    primary = ExamPrepColors.Slate50,
     onPrimary = ExamPrepColors.Neutral100,
-    primaryContainer = ExamPrepColors.Indigo95,
-    onPrimaryContainer = ExamPrepColors.Indigo20,
+    primaryContainer = ExamPrepColors.Slate95,
+    onPrimaryContainer = ExamPrepColors.Slate20,
 
     secondary = ExamPrepColors.Sage50,
     onSecondary = ExamPrepColors.Neutral100,
     secondaryContainer = ExamPrepColors.Sage95,
     onSecondaryContainer = ExamPrepColors.Sage20,
 
-    tertiary = ExamPrepColors.Amber50,
+    tertiary = ExamPrepColors.Sand50,
     onTertiary = ExamPrepColors.Neutral100,
-    tertiaryContainer = ExamPrepColors.Amber95,
-    onTertiaryContainer = ExamPrepColors.Amber20,
+    tertiaryContainer = ExamPrepColors.Sand95,
+    onTertiaryContainer = ExamPrepColors.Sand20,
 
     background = ExamPrepColors.Neutral99,
     onBackground = ExamPrepColors.Neutral10,
