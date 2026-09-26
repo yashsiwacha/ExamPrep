@@ -355,6 +355,11 @@ fun AppNavigation(
                 },
                 onNavigateToHeroFeature = {
                     navController.navigate(Screen.AIRankAccelerator.route)
+                },
+                onLoggedOut = {
+                    navController.navigate(Screen.Auth.route) {
+                        popUpTo(Screen.MainGraph.route) { inclusive = true }
+                    }
                 }
             )
         }
@@ -514,7 +519,13 @@ private fun MainAppScreen(rootNavController: NavHostController) {
                 )
             }
             composable(Screen.Settings.route) {
-                SettingsScreen()
+                SettingsScreen(
+                    onLoggedOut = {
+                        rootNavController.navigate(Screen.Auth.route) {
+                            popUpTo(Screen.MainGraph.route) { inclusive = true }
+                        }
+                    }
+                )
             }
         }
     }

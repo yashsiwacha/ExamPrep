@@ -247,9 +247,55 @@ fun ProfileScreen(
     onNavigateBack: () -> Unit,
     onNavigateToAuth: () -> Unit,
     onNavigateToHeroFeature: () -> Unit,
+    onLoggedOut: () -> Unit = {},
     viewModel: AuthViewModel = hiltViewModel()
 ) {
     val currentUser by viewModel.currentUser.collectAsState()
+    var showLogoutDialog by remember { mutableStateOf(false) }
+
+    if (showLogoutDialog) {
+        AlertDialog(
+            onDismissRequest = { showLogoutDialog = false },
+            containerColor = MaterialTheme.colorScheme.surface,
+            icon = {
+                Icon(
+                    Icons.Default.Logout,
+                    contentDescription = null,
+                    tint = MaterialTheme.colorScheme.error,
+                    modifier = Modifier.size(28.dp)
+                )
+            },
+            title = {
+                Text(
+                    "Log Out of ExamPrep?",
+                    style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold)
+                )
+            },
+            text = {
+                Text(
+                    "You will need to sign in again with your email and password to resume your mock tests, target tasks, and AI Weakness Surgery drills.",
+                    style = MaterialTheme.typography.bodyMedium.copy(color = MaterialTheme.colorScheme.onSurfaceVariant)
+                )
+            },
+            confirmButton = {
+                Button(
+                    onClick = {
+                        showLogoutDialog = false
+                        viewModel.signOut()
+                        onLoggedOut()
+                    },
+                    colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+                ) {
+                    Text("Log Out", color = MaterialTheme.colorScheme.onError, fontWeight = FontWeight.Bold)
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { showLogoutDialog = false }) {
+                    Text("Cancel", color = MaterialTheme.colorScheme.onSurface)
+                }
+            }
+        )
+    }
 
     Scaffold(
         topBar = {
@@ -258,6 +304,15 @@ fun ProfileScreen(
                 navigationIcon = {
                     IconButton(onClick = onNavigateBack) {
                         Icon(Icons.Default.ArrowBack, contentDescription = "Back")
+                    }
+                },
+                actions = {
+                    IconButton(onClick = { showLogoutDialog = true }) {
+                        Icon(
+                            Icons.Default.Logout,
+                            contentDescription = "Log Out",
+                            tint = MaterialTheme.colorScheme.error
+                        )
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
@@ -512,6 +567,32 @@ fun ProfileScreen(
                 Icon(Icons.Default.AccountCircle, contentDescription = null, modifier = Modifier.size(18.dp))
                 Spacer(Modifier.width(8.dp))
                 Text("Switch / Create Another Account")
+            }
+
+            Spacer(Modifier.height(Spacing.SM))
+
+            // ── DEDICATED LOG OUT BUTTON ───────────────────────────────────
+            OutlinedButton(
+                onClick = { showLogoutDialog = true },
+                modifier = Modifier.fillMaxWidth().height(46.dp),
+                shape = MaterialTheme.shapes.medium,
+                colors = ButtonDefaults.outlinedButtonColors(
+                    contentColor = MaterialTheme.colorScheme.error
+                ),
+                border = androidx.compose.foundation.BorderStroke(1.dp, MaterialTheme.colorScheme.error.copy(alpha = 0.4f))
+            ) {
+                Icon(
+                    Icons.Default.Logout,
+                    contentDescription = null,
+                    modifier = Modifier.size(18.dp),
+                    tint = MaterialTheme.colorScheme.error
+                )
+                Spacer(Modifier.width(8.dp))
+                Text(
+                    "Log Out",
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.error
+                )
             }
 
             Spacer(Modifier.height(Spacing.XL))

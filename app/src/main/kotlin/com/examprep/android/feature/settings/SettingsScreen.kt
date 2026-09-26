@@ -22,11 +22,51 @@ import com.examprep.core.designsystem.theme.ThemeState
 
 @Composable
 fun SettingsScreen(
+    onLoggedOut: () -> Unit = {},
     viewModel: SettingsViewModel = hiltViewModel()
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val isDarkMode by ThemeState.isDarkMode.collectAsState()
     var showReferralDialog by remember { mutableStateOf(false) }
+    var showLogoutDialog by remember { mutableStateOf(false) }
+
+    val authStore = remember { com.examprep.android.feature.auth.AuthStore.get() }
+    val currentUser by authStore.currentUser.collectAsState()
+
+    if (showLogoutDialog) {
+        AlertDialog(
+            onDismissRequest = { showLogoutDialog = false },
+            icon = {
+                Icon(
+                    Icons.Default.Logout,
+                    contentDescription = null,
+                    tint = MaterialTheme.colorScheme.error,
+                    modifier = Modifier.size(28.dp)
+                )
+            },
+            title = { Text("Log Out of ExamPrep?", fontWeight = FontWeight.Bold) },
+            text = {
+                Text("Are you sure you want to log out? Your local study plans and offline cards will remain safely stored on this device.")
+            },
+            confirmButton = {
+                Button(
+                    onClick = {
+                        showLogoutDialog = false
+                        authStore.signOut()
+                        onLoggedOut()
+                    },
+                    colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+                ) {
+                    Text("Log Out", color = MaterialTheme.colorScheme.onError, fontWeight = FontWeight.Bold)
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { showLogoutDialog = false }) {
+                    Text("Cancel")
+                }
+            }
+        )
+    }
 
     if (showReferralDialog) {
         AlertDialog(
@@ -193,6 +233,64 @@ fun SettingsScreen(
                             "Full 10-Year PYQ Papers, Step-by-Step AI Explanations & Error Analytics included.",
                             style = MaterialTheme.typography.bodySmall.copy(color = MaterialTheme.colorScheme.onSurfaceVariant)
                         )
+                    }
+                }
+            }
+
+            // ── Account & Session Section ──────────────────────────────────────
+            item { SectionHeader("Account & Session") }
+            item {
+                Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                    SettingsTile(
+                        icon = Icons.Default.Person,
+                        label = "Signed In As",
+                        value = currentUser?.name ?: "Guest Aspirant"
+                    )
+                    SettingsTile(
+                        icon = Icons.Default.Email,
+                        label = "Email Address",
+                        value = currentUser?.email ?: "guest@examprep.io"
+                    )
+                    Card(
+                        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+                        shape = MaterialTheme.shapes.medium,
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .border(1.dp, MaterialTheme.colorScheme.error.copy(alpha = 0.3f), MaterialTheme.shapes.medium)
+                    ) {
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(horizontal = Spacing.MD, vertical = 12.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.SpaceBetween
+                        ) {
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(Spacing.SM)
+                            ) {
+                                Icon(
+                                    Icons.Default.Logout,
+                                    contentDescription = null,
+                                    modifier = Modifier.size(20.dp),
+                                    tint = MaterialTheme.colorScheme.error
+                                )
+                                Text(
+                                    "Log Out Account",
+                                    style = MaterialTheme.typography.bodyMedium.copy(
+                                        color = MaterialTheme.colorScheme.error,
+                                        fontWeight = FontWeight.SemiBold
+                                    )
+                                )
+                            }
+                            Button(
+                                onClick = { showLogoutDialog = true },
+                                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error.copy(alpha = 0.15f)),
+                                contentPadding = PaddingValues(horizontal = 14.dp, vertical = 4.dp)
+                            ) {
+                                Text("Log Out", color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold))
+                            }
+                        }
                     }
                 }
             }
