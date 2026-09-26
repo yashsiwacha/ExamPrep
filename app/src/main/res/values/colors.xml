@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launcher icon background — ExamPrep Indigo brand color -->
+    <color name="ic_launcher_background">#5C1FE8</color>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background filled by adaptive icon background color -->
+
+    <!-- "EP" text as geometric shapes — ExamPrep monogram -->
+    <!-- E shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,30 L28,78 L48,78 L48,70 L36,70 L36,58 L46,58 L46,50 L36,50 L36,38 L48,38 L48,30 Z" />
+
+    <!-- P shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,30 L52,78 L60,78 L60,58 L68,58 C76,58 82,52 82,44 C82,36 76,30 68,30 Z
+                         M60,38 L67,38 C71,38 74,41 74,44 C74,47 71,50 67,50 L60,50 Z" />
+</vector>
