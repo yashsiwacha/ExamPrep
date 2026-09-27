@@ -20,6 +20,7 @@ class AuthStore @Inject constructor() {
     private val userDatabase = mutableMapOf<String, AuthUser>()
 
     init {
+        instance = this
         defaultSeedUser()?.let { userDatabase[it.email.lowercase()] = it }
     }
 
@@ -142,9 +143,13 @@ class AuthStore @Inject constructor() {
     }
 
     companion object {
+        @Volatile
         private var instance: AuthStore? = null
+
         fun get(): AuthStore {
-            return instance ?: AuthStore().also { instance = it }
+            return instance ?: synchronized(this) {
+                instance ?: AuthStore().also { instance = it }
+            }
         }
 
         private fun defaultSeedUser(): AuthUser? {

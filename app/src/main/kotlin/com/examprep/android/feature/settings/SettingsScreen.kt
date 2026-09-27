@@ -5,6 +5,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ExitToApp
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -38,7 +39,7 @@ fun SettingsScreen(
             onDismissRequest = { showLogoutDialog = false },
             icon = {
                 Icon(
-                    Icons.Default.Logout,
+                    Icons.AutoMirrored.Filled.ExitToApp,
                     contentDescription = null,
                     tint = MaterialTheme.colorScheme.error,
                     modifier = Modifier.size(28.dp)
@@ -244,12 +245,12 @@ fun SettingsScreen(
                     SettingsTile(
                         icon = Icons.Default.Person,
                         label = "Signed In As",
-                        value = currentUser?.name ?: "Guest Aspirant"
+                        value = currentUser?.name ?: "Not Signed In"
                     )
                     SettingsTile(
                         icon = Icons.Default.Email,
                         label = "Email Address",
-                        value = currentUser?.email ?: "guest@examprep.io"
+                        value = currentUser?.email ?: "No Active Account"
                     )
                     Card(
                         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
@@ -270,7 +271,7 @@ fun SettingsScreen(
                                 horizontalArrangement = Arrangement.spacedBy(Spacing.SM)
                             ) {
                                 Icon(
-                                    Icons.Default.Logout,
+                                    Icons.AutoMirrored.Filled.ExitToApp,
                                     contentDescription = null,
                                     modifier = Modifier.size(20.dp),
                                     tint = MaterialTheme.colorScheme.error
