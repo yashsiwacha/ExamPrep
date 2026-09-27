@@ -11,6 +11,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -19,6 +20,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
@@ -35,6 +37,7 @@ import com.examprep.domain.model.SubscriptionTier
 @Composable
 fun AuthScreen(
     onAuthSuccess: () -> Unit,
+    onSignUpSuccess: () -> Unit = onAuthSuccess,
     onBack: () -> Unit = {},
     viewModel: AuthViewModel = hiltViewModel()
 ) {
@@ -42,22 +45,38 @@ fun AuthScreen(
     var name by remember { mutableStateOf("") }
     var email by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
+    var confirmPassword by remember { mutableStateOf("") }
     var passwordVisible by remember { mutableStateOf(false) }
-    var selectedExam by remember { mutableStateOf("JEE Main 2026") }
-    var targetYear by remember { mutableIntStateOf(2026) }
 
     val uiState by viewModel.uiState.collectAsState()
 
     LaunchedEffect(uiState) {
         if (uiState is AuthUiState.Success) {
-            onAuthSuccess()
+            if (isSignUp) {
+                onSignUpSuccess()
+            } else {
+                onAuthSuccess()
+            }
         }
+    }
+
+    // Real-time password strength calculation
+    val hasMinLength = password.length >= 8
+    val hasLetter = password.any { it.isLetter() }
+    val hasDigit = password.any { it.isDigit() }
+    val hasSpecial = password.any { !it.isLetterOrDigit() }
+    val strengthScore = listOf(hasMinLength, hasLetter, hasDigit, hasSpecial).count { it }
+    val (strengthLabel, strengthColor) = when {
+        password.isEmpty() -> "" to Color.Transparent
+        strengthScore <= 1 -> "Weak" to ExamPrepColors.Error
+        strengthScore in 2..3 -> "Moderate" to ExamPrepColors.Warning
+        else -> "Strong" to ExamPrepColors.Success
     }
 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(if (isSignUp) "Create Account" else "Welcome Back", fontWeight = FontWeight.Bold) },
+                title = { },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.Default.ArrowBack, contentDescription = "Back")
@@ -79,20 +98,19 @@ fun AuthScreen(
                 .padding(horizontal = Spacing.LG),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Spacer(Modifier.height(Spacing.MD))
-
-            // Logo & Badge
+            // ── App Branding Header ─────────────────────────────────────────
             Surface(
-                modifier = Modifier.size(64.dp),
-                shape = CircleShape,
-                color = MaterialTheme.colorScheme.surfaceVariant
+                modifier = Modifier.size(56.dp),
+                shape = RoundedCornerShape(16.dp),
+                color = ExamPrepColors.Sage70.copy(alpha = 0.15f),
+                border = androidx.compose.foundation.BorderStroke(1.dp, ExamPrepColors.Sage70.copy(alpha = 0.3f))
             ) {
                 Box(contentAlignment = Alignment.Center) {
                     Icon(
-                        Icons.Default.School,
+                        Icons.Default.AutoAwesome,
                         contentDescription = null,
-                        tint = MaterialTheme.colorScheme.primary,
-                        modifier = Modifier.size(32.dp)
+                        tint = ExamPrepColors.Sage70,
+                        modifier = Modifier.size(28.dp)
                     )
                 }
             }
@@ -101,15 +119,72 @@ fun AuthScreen(
 
             Text(
                 text = "ExamPrep Intelligence",
-                style = MaterialTheme.typography.titleMedium.copy(
+                style = MaterialTheme.typography.titleLarge.copy(
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.onBackground
                 )
             )
             Text(
-                text = if (isSignUp) "Set up your target exam & study profile" else "Sign in to resume your daily preparation",
-                style = MaterialTheme.typography.bodySmall.copy(color = MaterialTheme.colorScheme.onSurfaceVariant)
+                text = if (isSignUp) "Create your account to configure your custom preparation blueprint" else "Sign in to resume your daily rank acceleration",
+                style = MaterialTheme.typography.bodySmall.copy(
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    textAlign = TextAlign.Center
+                ),
+                modifier = Modifier.padding(horizontal = 16.dp)
             )
+
+            Spacer(Modifier.height(Spacing.LG))
+
+            // ── Segmented Tab Switcher (Sign In vs Create Account) ─────────
+            Surface(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(48.dp),
+                shape = RoundedCornerShape(12.dp),
+                color = MaterialTheme.colorScheme.surfaceVariant
+            ) {
+                Row(modifier = Modifier.fillMaxSize().padding(4.dp)) {
+                    Surface(
+                        onClick = {
+                            isSignUp = false
+                            viewModel.clearError()
+                        },
+                        modifier = Modifier.weight(1f).fillMaxHeight(),
+                        shape = RoundedCornerShape(8.dp),
+                        color = if (!isSignUp) MaterialTheme.colorScheme.surface else Color.Transparent
+                    ) {
+                        Box(contentAlignment = Alignment.Center) {
+                            Text(
+                                text = "Sign In",
+                                style = MaterialTheme.typography.labelMedium.copy(
+                                    fontWeight = if (!isSignUp) FontWeight.Bold else FontWeight.Medium,
+                                    color = if (!isSignUp) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            )
+                        }
+                    }
+
+                    Surface(
+                        onClick = {
+                            isSignUp = true
+                            viewModel.clearError()
+                        },
+                        modifier = Modifier.weight(1f).fillMaxHeight(),
+                        shape = RoundedCornerShape(8.dp),
+                        color = if (isSignUp) MaterialTheme.colorScheme.surface else Color.Transparent
+                    ) {
+                        Box(contentAlignment = Alignment.Center) {
+                            Text(
+                                text = "Create Account",
+                                style = MaterialTheme.typography.labelMedium.copy(
+                                    fontWeight = if (isSignUp) FontWeight.Bold else FontWeight.Medium,
+                                    color = if (isSignUp) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            )
+                        }
+                    }
+                }
+            }
 
             Spacer(Modifier.height(Spacing.LG))
 
@@ -134,6 +209,7 @@ fun AuthScreen(
                 }
             }
 
+            // ── Form Inputs ────────────────────────────────────────────────
             if (isSignUp) {
                 OutlinedTextField(
                     value = name,
@@ -144,27 +220,6 @@ fun AuthScreen(
                     singleLine = true,
                     shape = MaterialTheme.shapes.medium
                 )
-                Spacer(Modifier.height(Spacing.SM))
-
-                // Exam selector chip row
-                Text(
-                    text = "Target Examination",
-                    style = MaterialTheme.typography.labelSmall.copy(color = MaterialTheme.colorScheme.onSurfaceVariant),
-                    modifier = Modifier.align(Alignment.Start).padding(bottom = 4.dp)
-                )
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(8.dp)
-                ) {
-                    listOf("JEE Main 2026", "NEET UG 2026", "JEE Advanced").forEach { exam ->
-                        val isSelected = selectedExam == exam
-                        FilterChip(
-                            selected = isSelected,
-                            onClick = { selectedExam = exam },
-                            label = { Text(exam, fontSize = 12.sp) }
-                        )
-                    }
-                }
                 Spacer(Modifier.height(Spacing.SM))
             }
 
@@ -184,7 +239,7 @@ fun AuthScreen(
             OutlinedTextField(
                 value = password,
                 onValueChange = { password = it },
-                label = { Text("Password (min 8 chars, letters & digits)") },
+                label = { Text("Password (min 8 characters)") },
                 leadingIcon = { Icon(Icons.Default.Lock, contentDescription = null) },
                 trailingIcon = {
                     IconButton(onClick = { passwordVisible = !passwordVisible }) {
@@ -201,39 +256,102 @@ fun AuthScreen(
                 shape = MaterialTheme.shapes.medium
             )
 
+            // Password Strength Indicator for Sign Up
+            if (isSignUp && password.isNotEmpty()) {
+                Spacer(Modifier.height(6.dp))
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        text = "Password Strength: $strengthLabel",
+                        style = MaterialTheme.typography.labelSmall.copy(
+                            color = strengthColor,
+                            fontWeight = FontWeight.Bold
+                        )
+                    )
+                    Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+                        (1..4).forEach { level ->
+                            Box(
+                                modifier = Modifier
+                                    .width(28.dp)
+                                    .height(4.dp)
+                                    .clip(RoundedCornerShape(2.dp))
+                                    .background(if (level <= strengthScore) strengthColor else MaterialTheme.colorScheme.surfaceVariant)
+                            )
+                        }
+                    }
+                }
+            }
+
+            if (isSignUp) {
+                Spacer(Modifier.height(Spacing.SM))
+                OutlinedTextField(
+                    value = confirmPassword,
+                    onValueChange = { confirmPassword = it },
+                    label = { Text("Confirm Password") },
+                    leadingIcon = { Icon(Icons.Default.LockClock, contentDescription = null) },
+                    visualTransformation = if (passwordVisible) VisualTransformation.None else PasswordVisualTransformation(),
+                    keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
+                    modifier = Modifier.fillMaxWidth(),
+                    singleLine = true,
+                    shape = MaterialTheme.shapes.medium,
+                    isError = confirmPassword.isNotEmpty() && confirmPassword != password
+                )
+            }
+
             Spacer(Modifier.height(Spacing.LG))
 
             Button(
                 onClick = {
                     if (isSignUp) {
-                        viewModel.signUp(name, email, password, selectedExam, targetYear)
+                        viewModel.signUp(name, email, password)
                     } else {
                         viewModel.signIn(email, password)
                     }
                 },
-                modifier = Modifier.fillMaxWidth().height(48.dp),
+                modifier = Modifier.fillMaxWidth().height(50.dp),
                 shape = MaterialTheme.shapes.medium,
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = ExamPrepColors.Sage70,
+                    contentColor = Color(0xFF090B0E)
+                ),
                 enabled = uiState !is AuthUiState.Loading
             ) {
                 if (uiState is AuthUiState.Loading) {
-                    CircularProgressIndicator(modifier = Modifier.size(20.dp), color = MaterialTheme.colorScheme.onPrimary)
+                    CircularProgressIndicator(modifier = Modifier.size(20.dp), color = Color(0xFF090B0E))
                 } else {
-                    Text(if (isSignUp) "Create Account & Start" else "Sign In")
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        Text(
+                            text = if (isSignUp) "Create Account & Start Onboarding" else "Sign In",
+                            style = MaterialTheme.typography.titleSmall.copy(fontWeight = FontWeight.Bold)
+                        )
+                        Icon(
+                            imageVector = Icons.AutoMirrored.Filled.ArrowForward,
+                            contentDescription = null,
+                            modifier = Modifier.size(16.dp)
+                        )
+                    }
                 }
             }
 
             Spacer(Modifier.height(Spacing.MD))
 
-            TextButton(
+            // ── 1-Tap Demo / Guest Login ────────────────────────────────────
+            OutlinedButton(
                 onClick = {
-                    isSignUp = !isSignUp
-                    viewModel.clearError()
-                }
+                    viewModel.signIn("aspirant.yash@examprep.io", "Aspirant2026!")
+                },
+                modifier = Modifier.fillMaxWidth().height(46.dp),
+                shape = MaterialTheme.shapes.medium
             ) {
-                Text(
-                    text = if (isSignUp) "Already have an account? Sign In" else "New to ExamPrep? Create Free Account",
-                    style = MaterialTheme.typography.bodySmall.copy(color = MaterialTheme.colorScheme.primary)
-                )
+                Icon(Icons.Default.FlashOn, contentDescription = null, modifier = Modifier.size(18.dp), tint = ExamPrepColors.Warning)
+                Spacer(Modifier.width(8.dp))
+                Text("1-Tap Demo Aspirant Sign-In")
             }
 
             Spacer(Modifier.height(Spacing.XL))

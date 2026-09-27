@@ -37,6 +37,7 @@ import com.examprep.android.feature.leaderboard.LeaderboardScreen
 import com.examprep.android.feature.mistakes.MistakeVaultScreen
 import com.examprep.android.feature.mocktest.MockTestResultScreen
 import com.examprep.android.feature.mocktest.MockTestScreen
+import com.examprep.android.feature.onboarding.StudentOnboardingScreen
 import com.examprep.android.feature.onboarding.DiagnosticScreen
 import com.examprep.android.feature.onboarding.ExamSelectionScreen
 import com.examprep.android.feature.onboarding.ExamSetupScreen
@@ -330,11 +331,32 @@ fun AppNavigation(
                         popUpTo(Screen.Auth.route) { inclusive = true }
                     }
                 },
+                onSignUpSuccess = {
+                    navController.navigate(Screen.StudentOnboarding.route) {
+                        popUpTo(Screen.Auth.route) { inclusive = true }
+                    }
+                },
                 onBack = {
                     if (!navController.popBackStack()) {
                         navController.navigate(Screen.MainGraph.route) {
                             popUpTo(Screen.MainGraph.route) { inclusive = false }
                             launchSingleTop = true
+                        }
+                    }
+                }
+            )
+        }
+        composable(Screen.StudentOnboarding.route) {
+            StudentOnboardingScreen(
+                onOnboardingComplete = {
+                    navController.navigate(Screen.MainGraph.route) {
+                        popUpTo(Screen.StudentOnboarding.route) { inclusive = true }
+                    }
+                },
+                onNavigateBack = {
+                    if (!navController.popBackStack()) {
+                        navController.navigate(Screen.Auth.route) {
+                            popUpTo(Screen.StudentOnboarding.route) { inclusive = true }
                         }
                     }
                 }

@@ -34,8 +34,8 @@ class AuthViewModel @Inject constructor(
         name: String,
         email: String,
         password: String,
-        targetExam: String,
-        targetYear: Int
+        targetExam: String = "JEE Main 2026",
+        targetYear: Int = 2026
     ) {
         viewModelScope.launch {
             _uiState.value = AuthUiState.Loading

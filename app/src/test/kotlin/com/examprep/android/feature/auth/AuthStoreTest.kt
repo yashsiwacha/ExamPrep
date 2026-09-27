@@ -114,4 +114,20 @@ class AuthStoreTest {
         assertFalse(user?.name?.contains("<script>") ?: true)
         assertFalse(user?.name?.contains("\u0000") ?: true)
     }
+
+    @Test
+    fun testOnboardingProfileUpdate() {
+        store.signUp("Priya Patel", "priya@test.com", "PriyaPass2026!")
+        store.updateProfile(
+            name = "Priya Patel",
+            targetExam = "NEET UG 2026",
+            targetYear = 2026,
+            dailyHours = 6.5f
+        )
+        val user = store.currentUser.value
+        assertNotNull(user)
+        assertEquals("NEET UG 2026", user?.targetExam)
+        assertEquals(2026, user?.targetYear)
+        assertEquals(6.5f, user?.dailyStudyTargetHours ?: 0f, 0.01f)
+    }
 }
