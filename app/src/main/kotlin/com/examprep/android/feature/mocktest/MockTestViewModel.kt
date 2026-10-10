@@ -3,6 +3,7 @@ package com.examprep.android.feature.mocktest
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.examprep.data.repository.QuestionBankRepository
 import com.examprep.domain.model.MockQuestionStatus
 import com.examprep.domain.model.MockTest
 import com.examprep.domain.model.Question
@@ -25,7 +26,9 @@ data class MockTestUiState(
     val visitedQuestions: Set<String> = emptySet(),
     val remainingSeconds: Long = 180 * 60L,
     val isSubmitted: Boolean = false,
-    val showSubmitDialog: Boolean = false
+    val showSubmitDialog: Boolean = false,
+    val isTimeOver: Boolean = false,
+    val submittedAttemptId: String? = null
 ) {
     val currentSection get() = mockTest?.sections?.getOrNull(currentSectionIndex)
     val currentQuestion: Question? get() = currentSection?.questions?.getOrNull(currentQuestionIndex)
@@ -54,6 +57,7 @@ data class MockTestUiState(
 class MockTestViewModel @Inject constructor(
     savedStateHandle: SavedStateHandle,
     private val questionRepository: QuestionRepository,
+    private val questionBankRepository: QuestionBankRepository,
     private val userProfileRepository: UserProfileRepository,
     private val mockTestStore: MockTestStore
 ) : ViewModel() {
@@ -76,15 +80,41 @@ class MockTestViewModel @Inject constructor(
             val profile = userProfileRepository.getUserProfileOnce()
             val examId = profile?.selectedExamId ?: "exam_jee_main"
 
-            val questions = questionRepository.getRandomQuestions(
-                examId = examId,
-                topicId = null,
-                subjectId = null,
-                count = 30,
-                difficulty = null
-            )
+            // Check if mockTestId corresponds to a specific paper (e.g. jee_main_paper_1, cat_paper_2, etc.)
+            val isSpecificPaper = mockTestId.contains("paper_")
 
-            val mockTest = mockTestStore.generateStandardMockTest(examId, questions)
+            val questions: List<Question> = if (isSpecificPaper) {
+                try {
+                    questionBankRepository.downloadPaper(mockTestId)
+                } catch (e: Exception) {
+                    // ignore
+                }
+                val paperQuestions = questionRepository.getQuestionsForPaper(mockTestId)
+                if (paperQuestions.isNotEmpty()) paperQuestions else questionRepository.getAllQuestionsForExam(examId)
+            } else {
+                // For full standard mock test, ensure papers for the exam are loaded into Room
+                try {
+                    questionBankRepository.ensureAllPapersLoadedForExam(examId)
+                } catch (e: Exception) {
+                    try {
+                        questionBankRepository.ensureDefaultPaperLoaded(examId)
+                    } catch (_: Exception) {}
+                }
+                val allExamQuestions = questionRepository.getAllQuestionsForExam(examId)
+                if (allExamQuestions.isNotEmpty()) {
+                    allExamQuestions
+                } else {
+                    questionRepository.getRandomQuestions(
+                        examId = examId,
+                        topicId = null,
+                        subjectId = null,
+                        count = 200,
+                        difficulty = null
+                    )
+                }
+            }
+
+            val mockTest = mockTestStore.generateStandardMockTest(examId, questions, mockTestId)
             totalDurationSeconds = mockTest.durationMinutes * 60L
 
             val firstQId = mockTest.sections.firstOrNull()?.questions?.firstOrNull()?.id
@@ -108,9 +138,14 @@ class MockTestViewModel @Inject constructor(
         timerJob = viewModelScope.launch {
             while (_uiState.value.remainingSeconds > 0 && !_uiState.value.isSubmitted) {
                 delay(1000L)
+                val nextSec = _uiState.value.remainingSeconds - 1
                 _uiState.update {
-                    val nextSec = it.remainingSeconds - 1
-                    it.copy(remainingSeconds = nextSec)
+                    it.copy(remainingSeconds = nextSec.coerceAtLeast(0L))
+                }
+
+                if (nextSec <= 0L && !_uiState.value.isSubmitted) {
+                    autoSubmitTest()
+                    break
                 }
             }
         }
@@ -199,16 +234,44 @@ class MockTestViewModel @Inject constructor(
         _uiState.update { it.copy(showSubmitDialog = show) }
     }
 
-    fun submitTest(onComplete: (attemptId: String) -> Unit) {
+    fun autoSubmitTest() {
         timerJob?.cancel()
         val state = _uiState.value
         val mockTest = state.mockTest ?: return
+        if (state.isSubmitted) return
+
+        val result = mockTestStore.evaluateTest(mockTest, state.userAnswers, totalDurationSeconds)
+        _uiState.update {
+            it.copy(
+                remainingSeconds = 0L,
+                isSubmitted = true,
+                showSubmitDialog = false,
+                isTimeOver = true,
+                submittedAttemptId = result.attemptId
+            )
+        }
+    }
+
+    fun submitTest(onComplete: ((attemptId: String) -> Unit)? = null) {
+        timerJob?.cancel()
+        val state = _uiState.value
+        val mockTest = state.mockTest ?: return
+        if (state.isSubmitted) {
+            state.submittedAttemptId?.let { onComplete?.invoke(it) }
+            return
+        }
 
         val timeSpentSeconds = (totalDurationSeconds - state.remainingSeconds).coerceAtLeast(1L)
         val result = mockTestStore.evaluateTest(mockTest, state.userAnswers, timeSpentSeconds)
 
-        _uiState.update { it.copy(isSubmitted = true, showSubmitDialog = false) }
-        onComplete(result.attemptId)
+        _uiState.update {
+            it.copy(
+                isSubmitted = true,
+                showSubmitDialog = false,
+                submittedAttemptId = result.attemptId
+            )
+        }
+        onComplete?.invoke(result.attemptId)
     }
 
     override fun onCleared() {

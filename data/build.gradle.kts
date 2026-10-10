@@ -51,8 +51,16 @@ dependencies {
     // DataStore
     implementation(libs.androidx.datastore.preferences)
 
+    // Firebase
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
+
     // Serialization (for JSON content import)
     implementation(libs.kotlinx.serialization.json)
+
+    // Networking (remote question bank downloads)
+    implementation(libs.bundles.networking)
 
     // Logging
     implementation(libs.timber)

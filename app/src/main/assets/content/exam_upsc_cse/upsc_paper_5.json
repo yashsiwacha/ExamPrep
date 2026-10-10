@@ -1,0 +1,5502 @@
+[
+  {
+    "id": "upsc_paper_5_q_001",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q1. With reference to Article 21 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_001_opt_1",
+        "questionId": "upsc_paper_5_q_001",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_001_opt_2",
+        "questionId": "upsc_paper_5_q_001",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_001_opt_3",
+        "questionId": "upsc_paper_5_q_001",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_001_opt_4",
+        "questionId": "upsc_paper_5_q_001",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_001_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_002",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q2. With reference to Article 22 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_002_opt_1",
+        "questionId": "upsc_paper_5_q_002",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_002_opt_2",
+        "questionId": "upsc_paper_5_q_002",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_002_opt_3",
+        "questionId": "upsc_paper_5_q_002",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_002_opt_4",
+        "questionId": "upsc_paper_5_q_002",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_002_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_003",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q3. With reference to Article 23 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_003_opt_1",
+        "questionId": "upsc_paper_5_q_003",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_003_opt_2",
+        "questionId": "upsc_paper_5_q_003",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_003_opt_3",
+        "questionId": "upsc_paper_5_q_003",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_003_opt_4",
+        "questionId": "upsc_paper_5_q_003",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_003_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_004",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q4. With reference to Article 24 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_004_opt_1",
+        "questionId": "upsc_paper_5_q_004",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_004_opt_2",
+        "questionId": "upsc_paper_5_q_004",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_004_opt_3",
+        "questionId": "upsc_paper_5_q_004",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_004_opt_4",
+        "questionId": "upsc_paper_5_q_004",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_004_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_005",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q5. With reference to Article 25 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_005_opt_1",
+        "questionId": "upsc_paper_5_q_005",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_005_opt_2",
+        "questionId": "upsc_paper_5_q_005",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_005_opt_3",
+        "questionId": "upsc_paper_5_q_005",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_005_opt_4",
+        "questionId": "upsc_paper_5_q_005",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_005_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_006",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q6. With reference to Article 26 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_006_opt_1",
+        "questionId": "upsc_paper_5_q_006",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_006_opt_2",
+        "questionId": "upsc_paper_5_q_006",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_006_opt_3",
+        "questionId": "upsc_paper_5_q_006",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_006_opt_4",
+        "questionId": "upsc_paper_5_q_006",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_006_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_007",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q7. With reference to Article 27 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_007_opt_1",
+        "questionId": "upsc_paper_5_q_007",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_007_opt_2",
+        "questionId": "upsc_paper_5_q_007",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_007_opt_3",
+        "questionId": "upsc_paper_5_q_007",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_007_opt_4",
+        "questionId": "upsc_paper_5_q_007",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_007_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_008",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q8. With reference to Article 28 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_008_opt_1",
+        "questionId": "upsc_paper_5_q_008",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_008_opt_2",
+        "questionId": "upsc_paper_5_q_008",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_008_opt_3",
+        "questionId": "upsc_paper_5_q_008",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_008_opt_4",
+        "questionId": "upsc_paper_5_q_008",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_008_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_009",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q9. With reference to Article 29 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_009_opt_1",
+        "questionId": "upsc_paper_5_q_009",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_009_opt_2",
+        "questionId": "upsc_paper_5_q_009",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_009_opt_3",
+        "questionId": "upsc_paper_5_q_009",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_009_opt_4",
+        "questionId": "upsc_paper_5_q_009",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_009_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_010",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q10. With reference to Article 30 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_010_opt_1",
+        "questionId": "upsc_paper_5_q_010",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_010_opt_2",
+        "questionId": "upsc_paper_5_q_010",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_010_opt_3",
+        "questionId": "upsc_paper_5_q_010",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_010_opt_4",
+        "questionId": "upsc_paper_5_q_010",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_010_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_011",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q11. With reference to Article 31 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_011_opt_1",
+        "questionId": "upsc_paper_5_q_011",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_011_opt_2",
+        "questionId": "upsc_paper_5_q_011",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_011_opt_3",
+        "questionId": "upsc_paper_5_q_011",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_011_opt_4",
+        "questionId": "upsc_paper_5_q_011",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_011_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_012",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q12. With reference to Article 32 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_012_opt_1",
+        "questionId": "upsc_paper_5_q_012",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_012_opt_2",
+        "questionId": "upsc_paper_5_q_012",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_012_opt_3",
+        "questionId": "upsc_paper_5_q_012",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_012_opt_4",
+        "questionId": "upsc_paper_5_q_012",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_012_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_013",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q13. With reference to Article 33 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_013_opt_1",
+        "questionId": "upsc_paper_5_q_013",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_013_opt_2",
+        "questionId": "upsc_paper_5_q_013",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_013_opt_3",
+        "questionId": "upsc_paper_5_q_013",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_013_opt_4",
+        "questionId": "upsc_paper_5_q_013",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_013_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_014",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q14. With reference to Article 34 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_014_opt_1",
+        "questionId": "upsc_paper_5_q_014",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_014_opt_2",
+        "questionId": "upsc_paper_5_q_014",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_014_opt_3",
+        "questionId": "upsc_paper_5_q_014",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_014_opt_4",
+        "questionId": "upsc_paper_5_q_014",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_014_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_015",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q15. With reference to Article 20 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_015_opt_1",
+        "questionId": "upsc_paper_5_q_015",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_015_opt_2",
+        "questionId": "upsc_paper_5_q_015",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_015_opt_3",
+        "questionId": "upsc_paper_5_q_015",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_015_opt_4",
+        "questionId": "upsc_paper_5_q_015",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_015_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_016",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q16. With reference to Article 21 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_016_opt_1",
+        "questionId": "upsc_paper_5_q_016",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_016_opt_2",
+        "questionId": "upsc_paper_5_q_016",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_016_opt_3",
+        "questionId": "upsc_paper_5_q_016",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_016_opt_4",
+        "questionId": "upsc_paper_5_q_016",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_016_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_017",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q17. With reference to Article 22 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_017_opt_1",
+        "questionId": "upsc_paper_5_q_017",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_017_opt_2",
+        "questionId": "upsc_paper_5_q_017",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_017_opt_3",
+        "questionId": "upsc_paper_5_q_017",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_017_opt_4",
+        "questionId": "upsc_paper_5_q_017",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_017_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_018",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q18. With reference to Article 23 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_018_opt_1",
+        "questionId": "upsc_paper_5_q_018",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_018_opt_2",
+        "questionId": "upsc_paper_5_q_018",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_018_opt_3",
+        "questionId": "upsc_paper_5_q_018",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_018_opt_4",
+        "questionId": "upsc_paper_5_q_018",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_018_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_019",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q19. With reference to Article 24 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_019_opt_1",
+        "questionId": "upsc_paper_5_q_019",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_019_opt_2",
+        "questionId": "upsc_paper_5_q_019",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_019_opt_3",
+        "questionId": "upsc_paper_5_q_019",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_019_opt_4",
+        "questionId": "upsc_paper_5_q_019",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_019_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_020",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q20. With reference to Article 25 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_020_opt_1",
+        "questionId": "upsc_paper_5_q_020",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_020_opt_2",
+        "questionId": "upsc_paper_5_q_020",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_020_opt_3",
+        "questionId": "upsc_paper_5_q_020",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_020_opt_4",
+        "questionId": "upsc_paper_5_q_020",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_020_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_021",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q21. With reference to Article 26 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_021_opt_1",
+        "questionId": "upsc_paper_5_q_021",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_021_opt_2",
+        "questionId": "upsc_paper_5_q_021",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_021_opt_3",
+        "questionId": "upsc_paper_5_q_021",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_021_opt_4",
+        "questionId": "upsc_paper_5_q_021",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_021_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_022",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q22. With reference to Article 27 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_022_opt_1",
+        "questionId": "upsc_paper_5_q_022",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_022_opt_2",
+        "questionId": "upsc_paper_5_q_022",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_022_opt_3",
+        "questionId": "upsc_paper_5_q_022",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_022_opt_4",
+        "questionId": "upsc_paper_5_q_022",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_022_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_023",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q23. With reference to Article 28 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_023_opt_1",
+        "questionId": "upsc_paper_5_q_023",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_023_opt_2",
+        "questionId": "upsc_paper_5_q_023",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_023_opt_3",
+        "questionId": "upsc_paper_5_q_023",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_023_opt_4",
+        "questionId": "upsc_paper_5_q_023",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_023_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_024",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q24. With reference to Article 29 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_024_opt_1",
+        "questionId": "upsc_paper_5_q_024",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_024_opt_2",
+        "questionId": "upsc_paper_5_q_024",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_024_opt_3",
+        "questionId": "upsc_paper_5_q_024",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_024_opt_4",
+        "questionId": "upsc_paper_5_q_024",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_024_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_025",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q25. With reference to Article 30 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_025_opt_1",
+        "questionId": "upsc_paper_5_q_025",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_025_opt_2",
+        "questionId": "upsc_paper_5_q_025",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_025_opt_3",
+        "questionId": "upsc_paper_5_q_025",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_025_opt_4",
+        "questionId": "upsc_paper_5_q_025",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_025_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_026",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q26. With reference to Article 31 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_026_opt_1",
+        "questionId": "upsc_paper_5_q_026",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_026_opt_2",
+        "questionId": "upsc_paper_5_q_026",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_026_opt_3",
+        "questionId": "upsc_paper_5_q_026",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_026_opt_4",
+        "questionId": "upsc_paper_5_q_026",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_026_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_027",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q27. With reference to Article 32 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_027_opt_1",
+        "questionId": "upsc_paper_5_q_027",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_027_opt_2",
+        "questionId": "upsc_paper_5_q_027",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_027_opt_3",
+        "questionId": "upsc_paper_5_q_027",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_027_opt_4",
+        "questionId": "upsc_paper_5_q_027",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_027_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_028",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q28. With reference to Article 33 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_028_opt_1",
+        "questionId": "upsc_paper_5_q_028",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_028_opt_2",
+        "questionId": "upsc_paper_5_q_028",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_028_opt_3",
+        "questionId": "upsc_paper_5_q_028",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_028_opt_4",
+        "questionId": "upsc_paper_5_q_028",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_028_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_029",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q29. With reference to Article 34 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_029_opt_1",
+        "questionId": "upsc_paper_5_q_029",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_029_opt_2",
+        "questionId": "upsc_paper_5_q_029",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_029_opt_3",
+        "questionId": "upsc_paper_5_q_029",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_029_opt_4",
+        "questionId": "upsc_paper_5_q_029",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_029_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_030",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q30. With reference to Article 20 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_030_opt_1",
+        "questionId": "upsc_paper_5_q_030",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_030_opt_2",
+        "questionId": "upsc_paper_5_q_030",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_030_opt_3",
+        "questionId": "upsc_paper_5_q_030",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_030_opt_4",
+        "questionId": "upsc_paper_5_q_030",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_030_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_031",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q31. With reference to Article 21 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_031_opt_1",
+        "questionId": "upsc_paper_5_q_031",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_031_opt_2",
+        "questionId": "upsc_paper_5_q_031",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_031_opt_3",
+        "questionId": "upsc_paper_5_q_031",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_031_opt_4",
+        "questionId": "upsc_paper_5_q_031",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_031_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_032",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q32. With reference to Article 22 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_032_opt_1",
+        "questionId": "upsc_paper_5_q_032",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_032_opt_2",
+        "questionId": "upsc_paper_5_q_032",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_032_opt_3",
+        "questionId": "upsc_paper_5_q_032",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_032_opt_4",
+        "questionId": "upsc_paper_5_q_032",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_032_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_033",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q33. With reference to Article 23 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_033_opt_1",
+        "questionId": "upsc_paper_5_q_033",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_033_opt_2",
+        "questionId": "upsc_paper_5_q_033",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_033_opt_3",
+        "questionId": "upsc_paper_5_q_033",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_033_opt_4",
+        "questionId": "upsc_paper_5_q_033",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_033_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_034",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q34. With reference to Article 24 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_034_opt_1",
+        "questionId": "upsc_paper_5_q_034",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_034_opt_2",
+        "questionId": "upsc_paper_5_q_034",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_034_opt_3",
+        "questionId": "upsc_paper_5_q_034",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_034_opt_4",
+        "questionId": "upsc_paper_5_q_034",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_034_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_035",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q35. With reference to Article 25 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_035_opt_1",
+        "questionId": "upsc_paper_5_q_035",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_035_opt_2",
+        "questionId": "upsc_paper_5_q_035",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_035_opt_3",
+        "questionId": "upsc_paper_5_q_035",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_035_opt_4",
+        "questionId": "upsc_paper_5_q_035",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_035_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_036",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q36. With reference to Article 26 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_036_opt_1",
+        "questionId": "upsc_paper_5_q_036",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_036_opt_2",
+        "questionId": "upsc_paper_5_q_036",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_036_opt_3",
+        "questionId": "upsc_paper_5_q_036",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_036_opt_4",
+        "questionId": "upsc_paper_5_q_036",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_036_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_037",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q37. With reference to Article 27 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_037_opt_1",
+        "questionId": "upsc_paper_5_q_037",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_037_opt_2",
+        "questionId": "upsc_paper_5_q_037",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_037_opt_3",
+        "questionId": "upsc_paper_5_q_037",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_037_opt_4",
+        "questionId": "upsc_paper_5_q_037",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_037_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_038",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q38. With reference to Article 28 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_038_opt_1",
+        "questionId": "upsc_paper_5_q_038",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_038_opt_2",
+        "questionId": "upsc_paper_5_q_038",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_038_opt_3",
+        "questionId": "upsc_paper_5_q_038",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_038_opt_4",
+        "questionId": "upsc_paper_5_q_038",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_038_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_039",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q39. With reference to Article 29 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_039_opt_1",
+        "questionId": "upsc_paper_5_q_039",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_039_opt_2",
+        "questionId": "upsc_paper_5_q_039",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_039_opt_3",
+        "questionId": "upsc_paper_5_q_039",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_039_opt_4",
+        "questionId": "upsc_paper_5_q_039",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_039_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_040",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q40. With reference to Article 30 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_040_opt_1",
+        "questionId": "upsc_paper_5_q_040",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_040_opt_2",
+        "questionId": "upsc_paper_5_q_040",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_040_opt_3",
+        "questionId": "upsc_paper_5_q_040",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_040_opt_4",
+        "questionId": "upsc_paper_5_q_040",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_040_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_041",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q41. With reference to Article 31 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_041_opt_1",
+        "questionId": "upsc_paper_5_q_041",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_041_opt_2",
+        "questionId": "upsc_paper_5_q_041",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_041_opt_3",
+        "questionId": "upsc_paper_5_q_041",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_041_opt_4",
+        "questionId": "upsc_paper_5_q_041",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_041_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_042",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q42. With reference to Article 32 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_042_opt_1",
+        "questionId": "upsc_paper_5_q_042",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_042_opt_2",
+        "questionId": "upsc_paper_5_q_042",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_042_opt_3",
+        "questionId": "upsc_paper_5_q_042",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_042_opt_4",
+        "questionId": "upsc_paper_5_q_042",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_042_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_043",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q43. With reference to Article 33 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_043_opt_1",
+        "questionId": "upsc_paper_5_q_043",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_043_opt_2",
+        "questionId": "upsc_paper_5_q_043",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_043_opt_3",
+        "questionId": "upsc_paper_5_q_043",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_043_opt_4",
+        "questionId": "upsc_paper_5_q_043",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_043_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_044",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q44. With reference to Article 34 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_044_opt_1",
+        "questionId": "upsc_paper_5_q_044",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_044_opt_2",
+        "questionId": "upsc_paper_5_q_044",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_044_opt_3",
+        "questionId": "upsc_paper_5_q_044",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_044_opt_4",
+        "questionId": "upsc_paper_5_q_044",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_044_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_045",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q45. With reference to Article 20 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_045_opt_1",
+        "questionId": "upsc_paper_5_q_045",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_045_opt_2",
+        "questionId": "upsc_paper_5_q_045",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_045_opt_3",
+        "questionId": "upsc_paper_5_q_045",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_045_opt_4",
+        "questionId": "upsc_paper_5_q_045",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_045_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_046",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q46. With reference to Article 21 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_046_opt_1",
+        "questionId": "upsc_paper_5_q_046",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_046_opt_2",
+        "questionId": "upsc_paper_5_q_046",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_046_opt_3",
+        "questionId": "upsc_paper_5_q_046",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_046_opt_4",
+        "questionId": "upsc_paper_5_q_046",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_046_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_047",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q47. With reference to Article 22 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_047_opt_1",
+        "questionId": "upsc_paper_5_q_047",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_047_opt_2",
+        "questionId": "upsc_paper_5_q_047",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_047_opt_3",
+        "questionId": "upsc_paper_5_q_047",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_047_opt_4",
+        "questionId": "upsc_paper_5_q_047",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_047_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_048",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q48. With reference to Article 23 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_048_opt_1",
+        "questionId": "upsc_paper_5_q_048",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_048_opt_2",
+        "questionId": "upsc_paper_5_q_048",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_048_opt_3",
+        "questionId": "upsc_paper_5_q_048",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_048_opt_4",
+        "questionId": "upsc_paper_5_q_048",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_048_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_049",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q49. With reference to Article 24 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_049_opt_1",
+        "questionId": "upsc_paper_5_q_049",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_049_opt_2",
+        "questionId": "upsc_paper_5_q_049",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_049_opt_3",
+        "questionId": "upsc_paper_5_q_049",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_049_opt_4",
+        "questionId": "upsc_paper_5_q_049",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_049_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_050",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q50. With reference to Article 25 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_050_opt_1",
+        "questionId": "upsc_paper_5_q_050",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_050_opt_2",
+        "questionId": "upsc_paper_5_q_050",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_050_opt_3",
+        "questionId": "upsc_paper_5_q_050",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_050_opt_4",
+        "questionId": "upsc_paper_5_q_050",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_050_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_051",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q51. With reference to Article 26 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_051_opt_1",
+        "questionId": "upsc_paper_5_q_051",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_051_opt_2",
+        "questionId": "upsc_paper_5_q_051",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_051_opt_3",
+        "questionId": "upsc_paper_5_q_051",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_051_opt_4",
+        "questionId": "upsc_paper_5_q_051",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_051_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_052",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q52. With reference to Article 27 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_052_opt_1",
+        "questionId": "upsc_paper_5_q_052",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_052_opt_2",
+        "questionId": "upsc_paper_5_q_052",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_052_opt_3",
+        "questionId": "upsc_paper_5_q_052",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_052_opt_4",
+        "questionId": "upsc_paper_5_q_052",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_052_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_053",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q53. With reference to Article 28 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_053_opt_1",
+        "questionId": "upsc_paper_5_q_053",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_053_opt_2",
+        "questionId": "upsc_paper_5_q_053",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_053_opt_3",
+        "questionId": "upsc_paper_5_q_053",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_053_opt_4",
+        "questionId": "upsc_paper_5_q_053",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_053_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_054",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q54. With reference to Article 29 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_054_opt_1",
+        "questionId": "upsc_paper_5_q_054",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_054_opt_2",
+        "questionId": "upsc_paper_5_q_054",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_054_opt_3",
+        "questionId": "upsc_paper_5_q_054",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_054_opt_4",
+        "questionId": "upsc_paper_5_q_054",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_054_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_055",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q55. With reference to Article 30 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_055_opt_1",
+        "questionId": "upsc_paper_5_q_055",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_055_opt_2",
+        "questionId": "upsc_paper_5_q_055",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_055_opt_3",
+        "questionId": "upsc_paper_5_q_055",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_055_opt_4",
+        "questionId": "upsc_paper_5_q_055",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_055_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_056",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q56. With reference to Article 31 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_056_opt_1",
+        "questionId": "upsc_paper_5_q_056",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_056_opt_2",
+        "questionId": "upsc_paper_5_q_056",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_056_opt_3",
+        "questionId": "upsc_paper_5_q_056",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_056_opt_4",
+        "questionId": "upsc_paper_5_q_056",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_056_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_057",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q57. With reference to Article 32 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_057_opt_1",
+        "questionId": "upsc_paper_5_q_057",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_057_opt_2",
+        "questionId": "upsc_paper_5_q_057",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_057_opt_3",
+        "questionId": "upsc_paper_5_q_057",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_057_opt_4",
+        "questionId": "upsc_paper_5_q_057",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_057_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_058",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q58. With reference to Article 33 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_058_opt_1",
+        "questionId": "upsc_paper_5_q_058",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_058_opt_2",
+        "questionId": "upsc_paper_5_q_058",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_058_opt_3",
+        "questionId": "upsc_paper_5_q_058",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_058_opt_4",
+        "questionId": "upsc_paper_5_q_058",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_058_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_059",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q59. With reference to Article 34 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_059_opt_1",
+        "questionId": "upsc_paper_5_q_059",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_059_opt_2",
+        "questionId": "upsc_paper_5_q_059",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_059_opt_3",
+        "questionId": "upsc_paper_5_q_059",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_059_opt_4",
+        "questionId": "upsc_paper_5_q_059",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_059_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_060",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q60. With reference to Article 20 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_060_opt_1",
+        "questionId": "upsc_paper_5_q_060",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_060_opt_2",
+        "questionId": "upsc_paper_5_q_060",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_060_opt_3",
+        "questionId": "upsc_paper_5_q_060",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_060_opt_4",
+        "questionId": "upsc_paper_5_q_060",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_060_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_061",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q61. With reference to Article 21 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_061_opt_1",
+        "questionId": "upsc_paper_5_q_061",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_061_opt_2",
+        "questionId": "upsc_paper_5_q_061",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_061_opt_3",
+        "questionId": "upsc_paper_5_q_061",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_061_opt_4",
+        "questionId": "upsc_paper_5_q_061",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_061_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_062",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q62. With reference to Article 22 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_062_opt_1",
+        "questionId": "upsc_paper_5_q_062",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_062_opt_2",
+        "questionId": "upsc_paper_5_q_062",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_062_opt_3",
+        "questionId": "upsc_paper_5_q_062",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_062_opt_4",
+        "questionId": "upsc_paper_5_q_062",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_062_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_063",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q63. With reference to Article 23 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_063_opt_1",
+        "questionId": "upsc_paper_5_q_063",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_063_opt_2",
+        "questionId": "upsc_paper_5_q_063",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_063_opt_3",
+        "questionId": "upsc_paper_5_q_063",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_063_opt_4",
+        "questionId": "upsc_paper_5_q_063",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_063_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_064",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q64. With reference to Article 24 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_064_opt_1",
+        "questionId": "upsc_paper_5_q_064",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_064_opt_2",
+        "questionId": "upsc_paper_5_q_064",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_064_opt_3",
+        "questionId": "upsc_paper_5_q_064",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_064_opt_4",
+        "questionId": "upsc_paper_5_q_064",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_064_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_065",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q65. With reference to Article 25 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_065_opt_1",
+        "questionId": "upsc_paper_5_q_065",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_065_opt_2",
+        "questionId": "upsc_paper_5_q_065",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_065_opt_3",
+        "questionId": "upsc_paper_5_q_065",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_065_opt_4",
+        "questionId": "upsc_paper_5_q_065",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_065_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_066",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q66. With reference to Article 26 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_066_opt_1",
+        "questionId": "upsc_paper_5_q_066",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_066_opt_2",
+        "questionId": "upsc_paper_5_q_066",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_066_opt_3",
+        "questionId": "upsc_paper_5_q_066",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_066_opt_4",
+        "questionId": "upsc_paper_5_q_066",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_066_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_067",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q67. With reference to Article 27 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_067_opt_1",
+        "questionId": "upsc_paper_5_q_067",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_067_opt_2",
+        "questionId": "upsc_paper_5_q_067",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_067_opt_3",
+        "questionId": "upsc_paper_5_q_067",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_067_opt_4",
+        "questionId": "upsc_paper_5_q_067",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_067_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_068",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q68. With reference to Article 28 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_068_opt_1",
+        "questionId": "upsc_paper_5_q_068",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_068_opt_2",
+        "questionId": "upsc_paper_5_q_068",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_068_opt_3",
+        "questionId": "upsc_paper_5_q_068",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_068_opt_4",
+        "questionId": "upsc_paper_5_q_068",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_068_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_069",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q69. With reference to Article 29 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_069_opt_1",
+        "questionId": "upsc_paper_5_q_069",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_069_opt_2",
+        "questionId": "upsc_paper_5_q_069",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_069_opt_3",
+        "questionId": "upsc_paper_5_q_069",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_069_opt_4",
+        "questionId": "upsc_paper_5_q_069",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_069_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_070",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q70. With reference to Article 30 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_070_opt_1",
+        "questionId": "upsc_paper_5_q_070",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_070_opt_2",
+        "questionId": "upsc_paper_5_q_070",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_070_opt_3",
+        "questionId": "upsc_paper_5_q_070",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_070_opt_4",
+        "questionId": "upsc_paper_5_q_070",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_070_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_071",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q71. With reference to Article 31 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_071_opt_1",
+        "questionId": "upsc_paper_5_q_071",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_071_opt_2",
+        "questionId": "upsc_paper_5_q_071",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_071_opt_3",
+        "questionId": "upsc_paper_5_q_071",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_071_opt_4",
+        "questionId": "upsc_paper_5_q_071",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_071_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_072",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q72. With reference to Article 32 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_072_opt_1",
+        "questionId": "upsc_paper_5_q_072",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_072_opt_2",
+        "questionId": "upsc_paper_5_q_072",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_072_opt_3",
+        "questionId": "upsc_paper_5_q_072",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_072_opt_4",
+        "questionId": "upsc_paper_5_q_072",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_072_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_073",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q73. With reference to Article 33 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_073_opt_1",
+        "questionId": "upsc_paper_5_q_073",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_073_opt_2",
+        "questionId": "upsc_paper_5_q_073",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_073_opt_3",
+        "questionId": "upsc_paper_5_q_073",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_073_opt_4",
+        "questionId": "upsc_paper_5_q_073",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_073_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_074",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q74. With reference to Article 34 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_074_opt_1",
+        "questionId": "upsc_paper_5_q_074",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_074_opt_2",
+        "questionId": "upsc_paper_5_q_074",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_074_opt_3",
+        "questionId": "upsc_paper_5_q_074",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_074_opt_4",
+        "questionId": "upsc_paper_5_q_074",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_074_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_075",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q75. With reference to Article 20 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_075_opt_1",
+        "questionId": "upsc_paper_5_q_075",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_075_opt_2",
+        "questionId": "upsc_paper_5_q_075",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_075_opt_3",
+        "questionId": "upsc_paper_5_q_075",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_075_opt_4",
+        "questionId": "upsc_paper_5_q_075",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_075_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_076",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q76. With reference to Article 21 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_076_opt_1",
+        "questionId": "upsc_paper_5_q_076",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_076_opt_2",
+        "questionId": "upsc_paper_5_q_076",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_076_opt_3",
+        "questionId": "upsc_paper_5_q_076",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_076_opt_4",
+        "questionId": "upsc_paper_5_q_076",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_076_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_077",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q77. With reference to Article 22 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_077_opt_1",
+        "questionId": "upsc_paper_5_q_077",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_077_opt_2",
+        "questionId": "upsc_paper_5_q_077",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_077_opt_3",
+        "questionId": "upsc_paper_5_q_077",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_077_opt_4",
+        "questionId": "upsc_paper_5_q_077",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_077_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_078",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q78. With reference to Article 23 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_078_opt_1",
+        "questionId": "upsc_paper_5_q_078",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_078_opt_2",
+        "questionId": "upsc_paper_5_q_078",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_078_opt_3",
+        "questionId": "upsc_paper_5_q_078",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_078_opt_4",
+        "questionId": "upsc_paper_5_q_078",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_078_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_079",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q79. With reference to Article 24 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_079_opt_1",
+        "questionId": "upsc_paper_5_q_079",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_079_opt_2",
+        "questionId": "upsc_paper_5_q_079",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_079_opt_3",
+        "questionId": "upsc_paper_5_q_079",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_079_opt_4",
+        "questionId": "upsc_paper_5_q_079",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_079_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_080",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q80. With reference to Article 25 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_080_opt_1",
+        "questionId": "upsc_paper_5_q_080",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_080_opt_2",
+        "questionId": "upsc_paper_5_q_080",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_080_opt_3",
+        "questionId": "upsc_paper_5_q_080",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_080_opt_4",
+        "questionId": "upsc_paper_5_q_080",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_080_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_081",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q81. With reference to Article 26 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_081_opt_1",
+        "questionId": "upsc_paper_5_q_081",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_081_opt_2",
+        "questionId": "upsc_paper_5_q_081",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_081_opt_3",
+        "questionId": "upsc_paper_5_q_081",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_081_opt_4",
+        "questionId": "upsc_paper_5_q_081",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_081_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_082",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q82. With reference to Article 27 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_082_opt_1",
+        "questionId": "upsc_paper_5_q_082",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_082_opt_2",
+        "questionId": "upsc_paper_5_q_082",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_082_opt_3",
+        "questionId": "upsc_paper_5_q_082",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_082_opt_4",
+        "questionId": "upsc_paper_5_q_082",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_082_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_083",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q83. With reference to Article 28 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_083_opt_1",
+        "questionId": "upsc_paper_5_q_083",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_083_opt_2",
+        "questionId": "upsc_paper_5_q_083",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_083_opt_3",
+        "questionId": "upsc_paper_5_q_083",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_083_opt_4",
+        "questionId": "upsc_paper_5_q_083",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_083_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_084",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q84. With reference to Article 29 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_084_opt_1",
+        "questionId": "upsc_paper_5_q_084",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_084_opt_2",
+        "questionId": "upsc_paper_5_q_084",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_084_opt_3",
+        "questionId": "upsc_paper_5_q_084",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_084_opt_4",
+        "questionId": "upsc_paper_5_q_084",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_084_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_085",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q85. With reference to Article 30 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_085_opt_1",
+        "questionId": "upsc_paper_5_q_085",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_085_opt_2",
+        "questionId": "upsc_paper_5_q_085",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_085_opt_3",
+        "questionId": "upsc_paper_5_q_085",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_085_opt_4",
+        "questionId": "upsc_paper_5_q_085",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_085_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_086",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q86. With reference to Article 31 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_086_opt_1",
+        "questionId": "upsc_paper_5_q_086",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_086_opt_2",
+        "questionId": "upsc_paper_5_q_086",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_086_opt_3",
+        "questionId": "upsc_paper_5_q_086",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_086_opt_4",
+        "questionId": "upsc_paper_5_q_086",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_086_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_087",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q87. With reference to Article 32 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_087_opt_1",
+        "questionId": "upsc_paper_5_q_087",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_087_opt_2",
+        "questionId": "upsc_paper_5_q_087",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_087_opt_3",
+        "questionId": "upsc_paper_5_q_087",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_087_opt_4",
+        "questionId": "upsc_paper_5_q_087",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_087_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_088",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q88. With reference to Article 33 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_088_opt_1",
+        "questionId": "upsc_paper_5_q_088",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_088_opt_2",
+        "questionId": "upsc_paper_5_q_088",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_088_opt_3",
+        "questionId": "upsc_paper_5_q_088",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_088_opt_4",
+        "questionId": "upsc_paper_5_q_088",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_088_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_089",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q89. With reference to Article 34 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_089_opt_1",
+        "questionId": "upsc_paper_5_q_089",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_089_opt_2",
+        "questionId": "upsc_paper_5_q_089",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_089_opt_3",
+        "questionId": "upsc_paper_5_q_089",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_089_opt_4",
+        "questionId": "upsc_paper_5_q_089",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_089_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_090",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q90. With reference to Article 20 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_090_opt_1",
+        "questionId": "upsc_paper_5_q_090",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_090_opt_2",
+        "questionId": "upsc_paper_5_q_090",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_090_opt_3",
+        "questionId": "upsc_paper_5_q_090",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_090_opt_4",
+        "questionId": "upsc_paper_5_q_090",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_090_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_091",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q91. With reference to Article 21 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_091_opt_1",
+        "questionId": "upsc_paper_5_q_091",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_091_opt_2",
+        "questionId": "upsc_paper_5_q_091",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_091_opt_3",
+        "questionId": "upsc_paper_5_q_091",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_091_opt_4",
+        "questionId": "upsc_paper_5_q_091",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_091_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_092",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q92. With reference to Article 22 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_092_opt_1",
+        "questionId": "upsc_paper_5_q_092",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_092_opt_2",
+        "questionId": "upsc_paper_5_q_092",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_092_opt_3",
+        "questionId": "upsc_paper_5_q_092",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_092_opt_4",
+        "questionId": "upsc_paper_5_q_092",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_092_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_093",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q93. With reference to Article 23 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_093_opt_1",
+        "questionId": "upsc_paper_5_q_093",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_093_opt_2",
+        "questionId": "upsc_paper_5_q_093",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_093_opt_3",
+        "questionId": "upsc_paper_5_q_093",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_093_opt_4",
+        "questionId": "upsc_paper_5_q_093",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_093_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_094",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q94. With reference to Article 24 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_094_opt_1",
+        "questionId": "upsc_paper_5_q_094",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_094_opt_2",
+        "questionId": "upsc_paper_5_q_094",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_094_opt_3",
+        "questionId": "upsc_paper_5_q_094",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_094_opt_4",
+        "questionId": "upsc_paper_5_q_094",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_094_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_095",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q95. With reference to Article 25 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_095_opt_1",
+        "questionId": "upsc_paper_5_q_095",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_095_opt_2",
+        "questionId": "upsc_paper_5_q_095",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_095_opt_3",
+        "questionId": "upsc_paper_5_q_095",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_095_opt_4",
+        "questionId": "upsc_paper_5_q_095",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_095_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_096",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q96. With reference to Article 26 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_096_opt_1",
+        "questionId": "upsc_paper_5_q_096",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_096_opt_2",
+        "questionId": "upsc_paper_5_q_096",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_096_opt_3",
+        "questionId": "upsc_paper_5_q_096",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_096_opt_4",
+        "questionId": "upsc_paper_5_q_096",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_096_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_097",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q97. With reference to Article 27 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_097_opt_1",
+        "questionId": "upsc_paper_5_q_097",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_097_opt_2",
+        "questionId": "upsc_paper_5_q_097",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_097_opt_3",
+        "questionId": "upsc_paper_5_q_097",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_097_opt_4",
+        "questionId": "upsc_paper_5_q_097",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_097_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_098",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_parliament",
+    "questionText": "Q98. With reference to Article 28 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_098_opt_1",
+        "questionId": "upsc_paper_5_q_098",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_098_opt_2",
+        "questionId": "upsc_paper_5_q_098",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_098_opt_3",
+        "questionId": "upsc_paper_5_q_098",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_098_opt_4",
+        "questionId": "upsc_paper_5_q_098",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_098_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Governance & Parliament",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_099",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q99. With reference to Article 29 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_099_opt_1",
+        "questionId": "upsc_paper_5_q_099",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_099_opt_2",
+        "questionId": "upsc_paper_5_q_099",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_099_opt_3",
+        "questionId": "upsc_paper_5_q_099",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_099_opt_4",
+        "questionId": "upsc_paper_5_q_099",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_099_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Economics & Environment",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "upsc_paper_5_q_100",
+    "examId": "exam_upsc_cse",
+    "subjectId": "sub_upsc_gs1",
+    "chapterId": "chap_upsc_polity",
+    "topicId": "top_upsc_fund_rights",
+    "questionText": "Q100. With reference to Article 30 of the Constitution of India, consider the following statements regarding fundamental rights and judicial review in India:",
+    "options": [
+      {
+        "id": "upsc_paper_5_q_100_opt_1",
+        "questionId": "upsc_paper_5_q_100",
+        "text": "1 only is correct",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "upsc_paper_5_q_100_opt_2",
+        "questionId": "upsc_paper_5_q_100",
+        "text": "2 only is correct",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "upsc_paper_5_q_100_opt_3",
+        "questionId": "upsc_paper_5_q_100",
+        "text": "Both 1 and 2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "upsc_paper_5_q_100_opt_4",
+        "questionId": "upsc_paper_5_q_100",
+        "text": "Neither 1 nor 2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "upsc_paper_5_q_100_opt_1",
+    "explanation": "Under the constitutional framework, the Supreme Court and High Courts exercise judicial review powers to guarantee Part III fundamental rights as part of the basic structure doctrine.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "UPSC CSE Paper 5 \u2014 Full CSAT + GS Mock",
+    "year": 2026,
+    "estimatedSeconds": 72,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "UPSC CSE",
+      "Indian Polity",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  }
+]

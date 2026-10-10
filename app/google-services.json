@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "102938475610",
+    "project_id": "examprep-os-prod",
+    "storage_bucket": "examprep-os-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102938475610:android:a1b2c3d4e5f67890",
+        "android_client_info": {
+          "package_name": "com.examprep.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102938475610-mockclientidforauth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyMockKeyForInitializationPurposesOnly_Replace"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102938475610:android:a1b2c3d4e5f67891",
+        "android_client_info": {
+          "package_name": "com.examprep.android.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102938475610-mockclientidforauthdebug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyMockKeyForInitializationPurposesOnly_Replace"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -40,6 +40,7 @@ interface UserProfileRepository {
     suspend fun markDiagnosticComplete(userId: String)
     suspend fun getEntitlement(): Entitlement?
     suspend fun saveEntitlement(entitlement: Entitlement)
+    suspend fun clearAllUserData()
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -92,6 +93,8 @@ interface QuestionRepository {
     suspend fun insertQuestion(question: Question)
     suspend fun insertQuestions(questions: List<Question>)
     suspend fun getQuestionCountForTopic(topicId: String): Int
+    suspend fun getQuestionsForPaper(paperId: String): List<Question> = emptyList()
+    suspend fun getAllQuestionsForExam(examId: String): List<Question> = emptyList()
 }
 
 interface QuizRepository {
@@ -129,6 +132,7 @@ interface RevisionRepository {
     suspend fun markRevisionComplete(recordId: String, performanceScore: Float)
     suspend fun scheduleNextRevision(topicId: String, userId: String, revisionNumber: Int): RevisionRecord
     suspend fun getRevisionHistory(userId: String, topicId: String): List<RevisionRecord>
+    fun getCompletedRevisionsCount(userId: String): Flow<Int>
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -154,3 +158,42 @@ interface ContentRepository {
     suspend fun getContentVersion(examId: String): String?
     suspend fun updateContentVersion(examId: String, version: String)
 }
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// CLOUD SYNC & PROGRESS REPOSITORY (FIREBASE / CLOUD)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+data class CloudSyncProgressSummary(
+    val userId: String,
+    val targetExamId: String = "",
+    val targetYear: Int = 2026,
+    val dailyStreak: Int = 0,
+    val totalStudyMinutes: Int = 0,
+    val questionsAttempted: Int = 0,
+    val questionsCorrect: Int = 0,
+    val overallAccuracy: Float = 0f,
+    val masteredTopicsCount: Int = 0,
+    val nationalRankEstimate: String = "Top 15.0%",
+    val lastSyncEpochMs: Long = System.currentTimeMillis()
+)
+
+interface CloudSyncRepository {
+    suspend fun syncProgressToCloud(summary: CloudSyncProgressSummary): Result<Unit>
+    suspend fun fetchProgressFromCloud(userId: String): Result<CloudSyncProgressSummary?>
+    suspend fun syncUserProfile(profile: UserProfile): Result<Unit>
+}
+
+interface FirebaseAuthRepository {
+    suspend fun signUpWithFirebase(name: String, email: String, password: String): Result<com.examprep.domain.model.AuthUser>
+    suspend fun signInWithFirebase(email: String, password: String): Result<com.examprep.domain.model.AuthUser>
+    suspend fun sendEmailVerification(): Result<Unit>
+    suspend fun checkEmailVerified(): Result<Boolean>
+    suspend fun sendPasswordReset(email: String): Result<Unit>
+    suspend fun signOut(): Result<Unit>
+    suspend fun deleteAccount(): Result<Unit>
+    fun isEmailVerified(): Boolean
+    fun getCurrentFirebaseUserEmail(): String?
+}
+
+
+

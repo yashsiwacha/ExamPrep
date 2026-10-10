@@ -80,4 +80,42 @@ class StudyPlanningEngineTest {
         assertEquals(-5, rebalanced.daysAheadOrBehind)
         assertEquals(PlanStatus.ON_TRACK, rebalanced.status)
     }
+
+    @Test
+    fun `generatePlan prioritizes weak topics based on baseline mastery`() = runTest {
+        val profile = UserProfile(
+            id = "user_1",
+            examDate = System.currentTimeMillis() + (120L * 24 * 60 * 60 * 1000),
+            dailyStudyHours = 4f
+        )
+        val exam = createSampleExam()
+
+        // Suppose topic top_2 was failed in diagnostic assessment
+        val baselineMastery = listOf(
+            MasteryRecord(
+                id = "m_1",
+                topicId = "top_2",
+                userId = "user_1",
+                masteryState = MasteryState.IN_PROGRESS,
+                quizAccuracy = 20f,
+                totalAttempts = 1,
+                correctAttempts = 0
+            ),
+            MasteryRecord(
+                id = "m_2",
+                topicId = "top_1",
+                userId = "user_1",
+                masteryState = MasteryState.LEARNED,
+                quizAccuracy = 100f,
+                totalAttempts = 1,
+                correctAttempts = 1
+            )
+        )
+
+        val plan = engine.generatePlan(profile, exam, baselineMastery)
+        val foundationPhase = plan.phases.first { it.phaseType == StudyPhaseType.FOUNDATION }
+        val weakTask = foundationPhase.tasks.find { it.topicId == "top_2" }
+        assertNotNull(weakTask)
+        assertEquals(Priority.CRITICAL, weakTask?.priority)
+    }
 }

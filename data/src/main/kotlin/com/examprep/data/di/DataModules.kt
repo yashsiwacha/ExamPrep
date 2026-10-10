@@ -99,6 +99,8 @@ object DatabaseModule {
     @Provides fun provideRevisionDao(db: ExamPrepDatabase): RevisionDao = db.revisionDao()
     @Provides fun provideRecommendationDao(db: ExamPrepDatabase): RecommendationDao = db.recommendationDao()
     @Provides fun provideEntitlementDao(db: ExamPrepDatabase): EntitlementDao = db.entitlementDao()
+    @Provides fun provideQuestionPaperDao(db: ExamPrepDatabase): QuestionPaperDao = db.questionPaperDao()
+
 }
 
 /**

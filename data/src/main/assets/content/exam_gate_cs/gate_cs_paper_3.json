@@ -1,0 +1,5502 @@
+[
+  {
+    "id": "gate_cs_paper_3_q_001",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q1. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_001_opt_1",
+        "questionId": "gate_cs_paper_3_q_001",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_001_opt_2",
+        "questionId": "gate_cs_paper_3_q_001",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_001_opt_3",
+        "questionId": "gate_cs_paper_3_q_001",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_001_opt_4",
+        "questionId": "gate_cs_paper_3_q_001",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_001_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_002",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q2. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_002_opt_1",
+        "questionId": "gate_cs_paper_3_q_002",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_002_opt_2",
+        "questionId": "gate_cs_paper_3_q_002",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_002_opt_3",
+        "questionId": "gate_cs_paper_3_q_002",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_002_opt_4",
+        "questionId": "gate_cs_paper_3_q_002",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_002_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_003",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q3. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_003_opt_1",
+        "questionId": "gate_cs_paper_3_q_003",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_003_opt_2",
+        "questionId": "gate_cs_paper_3_q_003",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_003_opt_3",
+        "questionId": "gate_cs_paper_3_q_003",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_003_opt_4",
+        "questionId": "gate_cs_paper_3_q_003",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_003_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_004",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q4. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_004_opt_1",
+        "questionId": "gate_cs_paper_3_q_004",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_004_opt_2",
+        "questionId": "gate_cs_paper_3_q_004",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_004_opt_3",
+        "questionId": "gate_cs_paper_3_q_004",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_004_opt_4",
+        "questionId": "gate_cs_paper_3_q_004",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_004_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_005",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q5. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_005_opt_1",
+        "questionId": "gate_cs_paper_3_q_005",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_005_opt_2",
+        "questionId": "gate_cs_paper_3_q_005",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_005_opt_3",
+        "questionId": "gate_cs_paper_3_q_005",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_005_opt_4",
+        "questionId": "gate_cs_paper_3_q_005",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_005_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_006",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q6. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_006_opt_1",
+        "questionId": "gate_cs_paper_3_q_006",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_006_opt_2",
+        "questionId": "gate_cs_paper_3_q_006",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_006_opt_3",
+        "questionId": "gate_cs_paper_3_q_006",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_006_opt_4",
+        "questionId": "gate_cs_paper_3_q_006",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_006_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_007",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q7. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_007_opt_1",
+        "questionId": "gate_cs_paper_3_q_007",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_007_opt_2",
+        "questionId": "gate_cs_paper_3_q_007",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_007_opt_3",
+        "questionId": "gate_cs_paper_3_q_007",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_007_opt_4",
+        "questionId": "gate_cs_paper_3_q_007",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_007_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_008",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q8. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_008_opt_1",
+        "questionId": "gate_cs_paper_3_q_008",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_008_opt_2",
+        "questionId": "gate_cs_paper_3_q_008",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_008_opt_3",
+        "questionId": "gate_cs_paper_3_q_008",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_008_opt_4",
+        "questionId": "gate_cs_paper_3_q_008",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_008_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_009",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q9. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_009_opt_1",
+        "questionId": "gate_cs_paper_3_q_009",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_009_opt_2",
+        "questionId": "gate_cs_paper_3_q_009",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_009_opt_3",
+        "questionId": "gate_cs_paper_3_q_009",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_009_opt_4",
+        "questionId": "gate_cs_paper_3_q_009",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_009_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_010",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q10. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_010_opt_1",
+        "questionId": "gate_cs_paper_3_q_010",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_010_opt_2",
+        "questionId": "gate_cs_paper_3_q_010",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_010_opt_3",
+        "questionId": "gate_cs_paper_3_q_010",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_010_opt_4",
+        "questionId": "gate_cs_paper_3_q_010",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_010_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_011",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q11. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_011_opt_1",
+        "questionId": "gate_cs_paper_3_q_011",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_011_opt_2",
+        "questionId": "gate_cs_paper_3_q_011",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_011_opt_3",
+        "questionId": "gate_cs_paper_3_q_011",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_011_opt_4",
+        "questionId": "gate_cs_paper_3_q_011",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_011_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_012",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q12. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_012_opt_1",
+        "questionId": "gate_cs_paper_3_q_012",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_012_opt_2",
+        "questionId": "gate_cs_paper_3_q_012",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_012_opt_3",
+        "questionId": "gate_cs_paper_3_q_012",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_012_opt_4",
+        "questionId": "gate_cs_paper_3_q_012",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_012_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_013",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q13. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_013_opt_1",
+        "questionId": "gate_cs_paper_3_q_013",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_013_opt_2",
+        "questionId": "gate_cs_paper_3_q_013",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_013_opt_3",
+        "questionId": "gate_cs_paper_3_q_013",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_013_opt_4",
+        "questionId": "gate_cs_paper_3_q_013",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_013_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_014",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q14. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_014_opt_1",
+        "questionId": "gate_cs_paper_3_q_014",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_014_opt_2",
+        "questionId": "gate_cs_paper_3_q_014",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_014_opt_3",
+        "questionId": "gate_cs_paper_3_q_014",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_014_opt_4",
+        "questionId": "gate_cs_paper_3_q_014",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_014_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_015",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q15. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_015_opt_1",
+        "questionId": "gate_cs_paper_3_q_015",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_015_opt_2",
+        "questionId": "gate_cs_paper_3_q_015",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_015_opt_3",
+        "questionId": "gate_cs_paper_3_q_015",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_015_opt_4",
+        "questionId": "gate_cs_paper_3_q_015",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_015_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_016",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q16. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_016_opt_1",
+        "questionId": "gate_cs_paper_3_q_016",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_016_opt_2",
+        "questionId": "gate_cs_paper_3_q_016",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_016_opt_3",
+        "questionId": "gate_cs_paper_3_q_016",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_016_opt_4",
+        "questionId": "gate_cs_paper_3_q_016",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_016_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_017",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q17. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_017_opt_1",
+        "questionId": "gate_cs_paper_3_q_017",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_017_opt_2",
+        "questionId": "gate_cs_paper_3_q_017",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_017_opt_3",
+        "questionId": "gate_cs_paper_3_q_017",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_017_opt_4",
+        "questionId": "gate_cs_paper_3_q_017",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_017_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_018",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q18. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_018_opt_1",
+        "questionId": "gate_cs_paper_3_q_018",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_018_opt_2",
+        "questionId": "gate_cs_paper_3_q_018",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_018_opt_3",
+        "questionId": "gate_cs_paper_3_q_018",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_018_opt_4",
+        "questionId": "gate_cs_paper_3_q_018",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_018_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_019",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q19. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_019_opt_1",
+        "questionId": "gate_cs_paper_3_q_019",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_019_opt_2",
+        "questionId": "gate_cs_paper_3_q_019",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_019_opt_3",
+        "questionId": "gate_cs_paper_3_q_019",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_019_opt_4",
+        "questionId": "gate_cs_paper_3_q_019",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_019_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_020",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q20. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_020_opt_1",
+        "questionId": "gate_cs_paper_3_q_020",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_020_opt_2",
+        "questionId": "gate_cs_paper_3_q_020",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_020_opt_3",
+        "questionId": "gate_cs_paper_3_q_020",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_020_opt_4",
+        "questionId": "gate_cs_paper_3_q_020",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_020_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_021",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q21. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_021_opt_1",
+        "questionId": "gate_cs_paper_3_q_021",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_021_opt_2",
+        "questionId": "gate_cs_paper_3_q_021",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_021_opt_3",
+        "questionId": "gate_cs_paper_3_q_021",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_021_opt_4",
+        "questionId": "gate_cs_paper_3_q_021",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_021_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_022",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q22. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_022_opt_1",
+        "questionId": "gate_cs_paper_3_q_022",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_022_opt_2",
+        "questionId": "gate_cs_paper_3_q_022",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_022_opt_3",
+        "questionId": "gate_cs_paper_3_q_022",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_022_opt_4",
+        "questionId": "gate_cs_paper_3_q_022",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_022_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_023",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q23. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_023_opt_1",
+        "questionId": "gate_cs_paper_3_q_023",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_023_opt_2",
+        "questionId": "gate_cs_paper_3_q_023",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_023_opt_3",
+        "questionId": "gate_cs_paper_3_q_023",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_023_opt_4",
+        "questionId": "gate_cs_paper_3_q_023",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_023_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_024",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q24. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_024_opt_1",
+        "questionId": "gate_cs_paper_3_q_024",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_024_opt_2",
+        "questionId": "gate_cs_paper_3_q_024",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_024_opt_3",
+        "questionId": "gate_cs_paper_3_q_024",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_024_opt_4",
+        "questionId": "gate_cs_paper_3_q_024",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_024_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_025",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q25. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_025_opt_1",
+        "questionId": "gate_cs_paper_3_q_025",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_025_opt_2",
+        "questionId": "gate_cs_paper_3_q_025",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_025_opt_3",
+        "questionId": "gate_cs_paper_3_q_025",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_025_opt_4",
+        "questionId": "gate_cs_paper_3_q_025",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_025_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_026",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q26. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_026_opt_1",
+        "questionId": "gate_cs_paper_3_q_026",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_026_opt_2",
+        "questionId": "gate_cs_paper_3_q_026",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_026_opt_3",
+        "questionId": "gate_cs_paper_3_q_026",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_026_opt_4",
+        "questionId": "gate_cs_paper_3_q_026",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_026_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_027",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q27. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_027_opt_1",
+        "questionId": "gate_cs_paper_3_q_027",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_027_opt_2",
+        "questionId": "gate_cs_paper_3_q_027",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_027_opt_3",
+        "questionId": "gate_cs_paper_3_q_027",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_027_opt_4",
+        "questionId": "gate_cs_paper_3_q_027",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_027_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_028",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q28. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_028_opt_1",
+        "questionId": "gate_cs_paper_3_q_028",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_028_opt_2",
+        "questionId": "gate_cs_paper_3_q_028",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_028_opt_3",
+        "questionId": "gate_cs_paper_3_q_028",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_028_opt_4",
+        "questionId": "gate_cs_paper_3_q_028",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_028_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_029",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q29. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_029_opt_1",
+        "questionId": "gate_cs_paper_3_q_029",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_029_opt_2",
+        "questionId": "gate_cs_paper_3_q_029",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_029_opt_3",
+        "questionId": "gate_cs_paper_3_q_029",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_029_opt_4",
+        "questionId": "gate_cs_paper_3_q_029",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_029_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_030",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q30. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_030_opt_1",
+        "questionId": "gate_cs_paper_3_q_030",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_030_opt_2",
+        "questionId": "gate_cs_paper_3_q_030",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_030_opt_3",
+        "questionId": "gate_cs_paper_3_q_030",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_030_opt_4",
+        "questionId": "gate_cs_paper_3_q_030",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_030_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_031",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q31. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_031_opt_1",
+        "questionId": "gate_cs_paper_3_q_031",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_031_opt_2",
+        "questionId": "gate_cs_paper_3_q_031",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_031_opt_3",
+        "questionId": "gate_cs_paper_3_q_031",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_031_opt_4",
+        "questionId": "gate_cs_paper_3_q_031",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_031_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_032",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q32. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_032_opt_1",
+        "questionId": "gate_cs_paper_3_q_032",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_032_opt_2",
+        "questionId": "gate_cs_paper_3_q_032",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_032_opt_3",
+        "questionId": "gate_cs_paper_3_q_032",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_032_opt_4",
+        "questionId": "gate_cs_paper_3_q_032",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_032_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_033",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q33. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_033_opt_1",
+        "questionId": "gate_cs_paper_3_q_033",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_033_opt_2",
+        "questionId": "gate_cs_paper_3_q_033",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_033_opt_3",
+        "questionId": "gate_cs_paper_3_q_033",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_033_opt_4",
+        "questionId": "gate_cs_paper_3_q_033",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_033_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_034",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q34. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_034_opt_1",
+        "questionId": "gate_cs_paper_3_q_034",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_034_opt_2",
+        "questionId": "gate_cs_paper_3_q_034",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_034_opt_3",
+        "questionId": "gate_cs_paper_3_q_034",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_034_opt_4",
+        "questionId": "gate_cs_paper_3_q_034",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_034_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_035",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q35. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_035_opt_1",
+        "questionId": "gate_cs_paper_3_q_035",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_035_opt_2",
+        "questionId": "gate_cs_paper_3_q_035",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_035_opt_3",
+        "questionId": "gate_cs_paper_3_q_035",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_035_opt_4",
+        "questionId": "gate_cs_paper_3_q_035",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_035_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_036",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q36. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_036_opt_1",
+        "questionId": "gate_cs_paper_3_q_036",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_036_opt_2",
+        "questionId": "gate_cs_paper_3_q_036",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_036_opt_3",
+        "questionId": "gate_cs_paper_3_q_036",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_036_opt_4",
+        "questionId": "gate_cs_paper_3_q_036",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_036_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_037",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q37. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_037_opt_1",
+        "questionId": "gate_cs_paper_3_q_037",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_037_opt_2",
+        "questionId": "gate_cs_paper_3_q_037",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_037_opt_3",
+        "questionId": "gate_cs_paper_3_q_037",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_037_opt_4",
+        "questionId": "gate_cs_paper_3_q_037",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_037_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_038",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q38. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_038_opt_1",
+        "questionId": "gate_cs_paper_3_q_038",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_038_opt_2",
+        "questionId": "gate_cs_paper_3_q_038",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_038_opt_3",
+        "questionId": "gate_cs_paper_3_q_038",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_038_opt_4",
+        "questionId": "gate_cs_paper_3_q_038",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_038_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_039",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q39. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_039_opt_1",
+        "questionId": "gate_cs_paper_3_q_039",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_039_opt_2",
+        "questionId": "gate_cs_paper_3_q_039",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_039_opt_3",
+        "questionId": "gate_cs_paper_3_q_039",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_039_opt_4",
+        "questionId": "gate_cs_paper_3_q_039",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_039_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_040",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q40. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_040_opt_1",
+        "questionId": "gate_cs_paper_3_q_040",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_040_opt_2",
+        "questionId": "gate_cs_paper_3_q_040",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_040_opt_3",
+        "questionId": "gate_cs_paper_3_q_040",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_040_opt_4",
+        "questionId": "gate_cs_paper_3_q_040",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_040_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_041",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q41. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_041_opt_1",
+        "questionId": "gate_cs_paper_3_q_041",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_041_opt_2",
+        "questionId": "gate_cs_paper_3_q_041",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_041_opt_3",
+        "questionId": "gate_cs_paper_3_q_041",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_041_opt_4",
+        "questionId": "gate_cs_paper_3_q_041",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_041_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_042",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q42. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_042_opt_1",
+        "questionId": "gate_cs_paper_3_q_042",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_042_opt_2",
+        "questionId": "gate_cs_paper_3_q_042",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_042_opt_3",
+        "questionId": "gate_cs_paper_3_q_042",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_042_opt_4",
+        "questionId": "gate_cs_paper_3_q_042",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_042_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_043",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q43. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_043_opt_1",
+        "questionId": "gate_cs_paper_3_q_043",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_043_opt_2",
+        "questionId": "gate_cs_paper_3_q_043",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_043_opt_3",
+        "questionId": "gate_cs_paper_3_q_043",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_043_opt_4",
+        "questionId": "gate_cs_paper_3_q_043",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_043_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_044",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q44. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_044_opt_1",
+        "questionId": "gate_cs_paper_3_q_044",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_044_opt_2",
+        "questionId": "gate_cs_paper_3_q_044",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_044_opt_3",
+        "questionId": "gate_cs_paper_3_q_044",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_044_opt_4",
+        "questionId": "gate_cs_paper_3_q_044",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_044_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_045",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q45. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_045_opt_1",
+        "questionId": "gate_cs_paper_3_q_045",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_045_opt_2",
+        "questionId": "gate_cs_paper_3_q_045",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_045_opt_3",
+        "questionId": "gate_cs_paper_3_q_045",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_045_opt_4",
+        "questionId": "gate_cs_paper_3_q_045",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_045_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_046",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q46. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_046_opt_1",
+        "questionId": "gate_cs_paper_3_q_046",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_046_opt_2",
+        "questionId": "gate_cs_paper_3_q_046",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_046_opt_3",
+        "questionId": "gate_cs_paper_3_q_046",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_046_opt_4",
+        "questionId": "gate_cs_paper_3_q_046",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_046_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_047",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q47. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_047_opt_1",
+        "questionId": "gate_cs_paper_3_q_047",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_047_opt_2",
+        "questionId": "gate_cs_paper_3_q_047",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_047_opt_3",
+        "questionId": "gate_cs_paper_3_q_047",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_047_opt_4",
+        "questionId": "gate_cs_paper_3_q_047",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_047_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_048",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q48. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_048_opt_1",
+        "questionId": "gate_cs_paper_3_q_048",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_048_opt_2",
+        "questionId": "gate_cs_paper_3_q_048",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_048_opt_3",
+        "questionId": "gate_cs_paper_3_q_048",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_048_opt_4",
+        "questionId": "gate_cs_paper_3_q_048",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_048_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_049",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q49. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_049_opt_1",
+        "questionId": "gate_cs_paper_3_q_049",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_049_opt_2",
+        "questionId": "gate_cs_paper_3_q_049",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_049_opt_3",
+        "questionId": "gate_cs_paper_3_q_049",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_049_opt_4",
+        "questionId": "gate_cs_paper_3_q_049",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_049_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_050",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q50. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_050_opt_1",
+        "questionId": "gate_cs_paper_3_q_050",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_050_opt_2",
+        "questionId": "gate_cs_paper_3_q_050",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_050_opt_3",
+        "questionId": "gate_cs_paper_3_q_050",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_050_opt_4",
+        "questionId": "gate_cs_paper_3_q_050",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_050_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_051",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q51. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_051_opt_1",
+        "questionId": "gate_cs_paper_3_q_051",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_051_opt_2",
+        "questionId": "gate_cs_paper_3_q_051",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_051_opt_3",
+        "questionId": "gate_cs_paper_3_q_051",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_051_opt_4",
+        "questionId": "gate_cs_paper_3_q_051",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_051_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_052",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q52. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_052_opt_1",
+        "questionId": "gate_cs_paper_3_q_052",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_052_opt_2",
+        "questionId": "gate_cs_paper_3_q_052",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_052_opt_3",
+        "questionId": "gate_cs_paper_3_q_052",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_052_opt_4",
+        "questionId": "gate_cs_paper_3_q_052",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_052_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_053",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q53. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_053_opt_1",
+        "questionId": "gate_cs_paper_3_q_053",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_053_opt_2",
+        "questionId": "gate_cs_paper_3_q_053",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_053_opt_3",
+        "questionId": "gate_cs_paper_3_q_053",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_053_opt_4",
+        "questionId": "gate_cs_paper_3_q_053",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_053_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_054",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q54. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_054_opt_1",
+        "questionId": "gate_cs_paper_3_q_054",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_054_opt_2",
+        "questionId": "gate_cs_paper_3_q_054",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_054_opt_3",
+        "questionId": "gate_cs_paper_3_q_054",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_054_opt_4",
+        "questionId": "gate_cs_paper_3_q_054",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_054_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_055",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q55. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_055_opt_1",
+        "questionId": "gate_cs_paper_3_q_055",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_055_opt_2",
+        "questionId": "gate_cs_paper_3_q_055",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_055_opt_3",
+        "questionId": "gate_cs_paper_3_q_055",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_055_opt_4",
+        "questionId": "gate_cs_paper_3_q_055",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_055_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_056",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q56. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_056_opt_1",
+        "questionId": "gate_cs_paper_3_q_056",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_056_opt_2",
+        "questionId": "gate_cs_paper_3_q_056",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_056_opt_3",
+        "questionId": "gate_cs_paper_3_q_056",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_056_opt_4",
+        "questionId": "gate_cs_paper_3_q_056",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_056_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_057",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q57. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_057_opt_1",
+        "questionId": "gate_cs_paper_3_q_057",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_057_opt_2",
+        "questionId": "gate_cs_paper_3_q_057",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_057_opt_3",
+        "questionId": "gate_cs_paper_3_q_057",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_057_opt_4",
+        "questionId": "gate_cs_paper_3_q_057",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_057_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_058",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q58. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_058_opt_1",
+        "questionId": "gate_cs_paper_3_q_058",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_058_opt_2",
+        "questionId": "gate_cs_paper_3_q_058",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_058_opt_3",
+        "questionId": "gate_cs_paper_3_q_058",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_058_opt_4",
+        "questionId": "gate_cs_paper_3_q_058",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_058_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_059",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q59. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_059_opt_1",
+        "questionId": "gate_cs_paper_3_q_059",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_059_opt_2",
+        "questionId": "gate_cs_paper_3_q_059",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_059_opt_3",
+        "questionId": "gate_cs_paper_3_q_059",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_059_opt_4",
+        "questionId": "gate_cs_paper_3_q_059",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_059_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_060",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q60. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_060_opt_1",
+        "questionId": "gate_cs_paper_3_q_060",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_060_opt_2",
+        "questionId": "gate_cs_paper_3_q_060",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_060_opt_3",
+        "questionId": "gate_cs_paper_3_q_060",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_060_opt_4",
+        "questionId": "gate_cs_paper_3_q_060",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_060_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_061",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q61. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_061_opt_1",
+        "questionId": "gate_cs_paper_3_q_061",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_061_opt_2",
+        "questionId": "gate_cs_paper_3_q_061",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_061_opt_3",
+        "questionId": "gate_cs_paper_3_q_061",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_061_opt_4",
+        "questionId": "gate_cs_paper_3_q_061",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_061_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_062",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q62. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_062_opt_1",
+        "questionId": "gate_cs_paper_3_q_062",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_062_opt_2",
+        "questionId": "gate_cs_paper_3_q_062",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_062_opt_3",
+        "questionId": "gate_cs_paper_3_q_062",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_062_opt_4",
+        "questionId": "gate_cs_paper_3_q_062",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_062_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_063",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q63. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_063_opt_1",
+        "questionId": "gate_cs_paper_3_q_063",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_063_opt_2",
+        "questionId": "gate_cs_paper_3_q_063",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_063_opt_3",
+        "questionId": "gate_cs_paper_3_q_063",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_063_opt_4",
+        "questionId": "gate_cs_paper_3_q_063",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_063_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_064",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q64. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_064_opt_1",
+        "questionId": "gate_cs_paper_3_q_064",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_064_opt_2",
+        "questionId": "gate_cs_paper_3_q_064",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_064_opt_3",
+        "questionId": "gate_cs_paper_3_q_064",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_064_opt_4",
+        "questionId": "gate_cs_paper_3_q_064",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_064_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_065",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q65. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_065_opt_1",
+        "questionId": "gate_cs_paper_3_q_065",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_065_opt_2",
+        "questionId": "gate_cs_paper_3_q_065",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_065_opt_3",
+        "questionId": "gate_cs_paper_3_q_065",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_065_opt_4",
+        "questionId": "gate_cs_paper_3_q_065",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_065_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_066",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q66. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_066_opt_1",
+        "questionId": "gate_cs_paper_3_q_066",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_066_opt_2",
+        "questionId": "gate_cs_paper_3_q_066",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_066_opt_3",
+        "questionId": "gate_cs_paper_3_q_066",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_066_opt_4",
+        "questionId": "gate_cs_paper_3_q_066",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_066_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_067",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q67. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_067_opt_1",
+        "questionId": "gate_cs_paper_3_q_067",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_067_opt_2",
+        "questionId": "gate_cs_paper_3_q_067",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_067_opt_3",
+        "questionId": "gate_cs_paper_3_q_067",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_067_opt_4",
+        "questionId": "gate_cs_paper_3_q_067",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_067_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_068",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q68. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_068_opt_1",
+        "questionId": "gate_cs_paper_3_q_068",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_068_opt_2",
+        "questionId": "gate_cs_paper_3_q_068",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_068_opt_3",
+        "questionId": "gate_cs_paper_3_q_068",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_068_opt_4",
+        "questionId": "gate_cs_paper_3_q_068",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_068_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_069",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q69. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_069_opt_1",
+        "questionId": "gate_cs_paper_3_q_069",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_069_opt_2",
+        "questionId": "gate_cs_paper_3_q_069",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_069_opt_3",
+        "questionId": "gate_cs_paper_3_q_069",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_069_opt_4",
+        "questionId": "gate_cs_paper_3_q_069",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_069_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_070",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q70. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_070_opt_1",
+        "questionId": "gate_cs_paper_3_q_070",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_070_opt_2",
+        "questionId": "gate_cs_paper_3_q_070",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_070_opt_3",
+        "questionId": "gate_cs_paper_3_q_070",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_070_opt_4",
+        "questionId": "gate_cs_paper_3_q_070",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_070_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_071",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q71. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_071_opt_1",
+        "questionId": "gate_cs_paper_3_q_071",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_071_opt_2",
+        "questionId": "gate_cs_paper_3_q_071",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_071_opt_3",
+        "questionId": "gate_cs_paper_3_q_071",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_071_opt_4",
+        "questionId": "gate_cs_paper_3_q_071",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_071_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_072",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q72. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_072_opt_1",
+        "questionId": "gate_cs_paper_3_q_072",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_072_opt_2",
+        "questionId": "gate_cs_paper_3_q_072",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_072_opt_3",
+        "questionId": "gate_cs_paper_3_q_072",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_072_opt_4",
+        "questionId": "gate_cs_paper_3_q_072",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_072_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_073",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q73. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_073_opt_1",
+        "questionId": "gate_cs_paper_3_q_073",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_073_opt_2",
+        "questionId": "gate_cs_paper_3_q_073",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_073_opt_3",
+        "questionId": "gate_cs_paper_3_q_073",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_073_opt_4",
+        "questionId": "gate_cs_paper_3_q_073",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_073_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_074",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q74. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_074_opt_1",
+        "questionId": "gate_cs_paper_3_q_074",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_074_opt_2",
+        "questionId": "gate_cs_paper_3_q_074",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_074_opt_3",
+        "questionId": "gate_cs_paper_3_q_074",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_074_opt_4",
+        "questionId": "gate_cs_paper_3_q_074",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_074_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_075",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q75. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_075_opt_1",
+        "questionId": "gate_cs_paper_3_q_075",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_075_opt_2",
+        "questionId": "gate_cs_paper_3_q_075",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_075_opt_3",
+        "questionId": "gate_cs_paper_3_q_075",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_075_opt_4",
+        "questionId": "gate_cs_paper_3_q_075",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_075_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_076",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q76. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_076_opt_1",
+        "questionId": "gate_cs_paper_3_q_076",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_076_opt_2",
+        "questionId": "gate_cs_paper_3_q_076",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_076_opt_3",
+        "questionId": "gate_cs_paper_3_q_076",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_076_opt_4",
+        "questionId": "gate_cs_paper_3_q_076",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_076_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_077",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q77. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_077_opt_1",
+        "questionId": "gate_cs_paper_3_q_077",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_077_opt_2",
+        "questionId": "gate_cs_paper_3_q_077",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_077_opt_3",
+        "questionId": "gate_cs_paper_3_q_077",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_077_opt_4",
+        "questionId": "gate_cs_paper_3_q_077",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_077_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_078",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q78. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_078_opt_1",
+        "questionId": "gate_cs_paper_3_q_078",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_078_opt_2",
+        "questionId": "gate_cs_paper_3_q_078",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_078_opt_3",
+        "questionId": "gate_cs_paper_3_q_078",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_078_opt_4",
+        "questionId": "gate_cs_paper_3_q_078",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_078_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_079",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q79. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_079_opt_1",
+        "questionId": "gate_cs_paper_3_q_079",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_079_opt_2",
+        "questionId": "gate_cs_paper_3_q_079",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_079_opt_3",
+        "questionId": "gate_cs_paper_3_q_079",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_079_opt_4",
+        "questionId": "gate_cs_paper_3_q_079",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_079_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_080",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q80. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_080_opt_1",
+        "questionId": "gate_cs_paper_3_q_080",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_080_opt_2",
+        "questionId": "gate_cs_paper_3_q_080",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_080_opt_3",
+        "questionId": "gate_cs_paper_3_q_080",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_080_opt_4",
+        "questionId": "gate_cs_paper_3_q_080",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_080_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_081",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q81. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_081_opt_1",
+        "questionId": "gate_cs_paper_3_q_081",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_081_opt_2",
+        "questionId": "gate_cs_paper_3_q_081",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_081_opt_3",
+        "questionId": "gate_cs_paper_3_q_081",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_081_opt_4",
+        "questionId": "gate_cs_paper_3_q_081",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_081_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_082",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q82. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_082_opt_1",
+        "questionId": "gate_cs_paper_3_q_082",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_082_opt_2",
+        "questionId": "gate_cs_paper_3_q_082",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_082_opt_3",
+        "questionId": "gate_cs_paper_3_q_082",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_082_opt_4",
+        "questionId": "gate_cs_paper_3_q_082",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_082_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_083",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q83. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_083_opt_1",
+        "questionId": "gate_cs_paper_3_q_083",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_083_opt_2",
+        "questionId": "gate_cs_paper_3_q_083",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_083_opt_3",
+        "questionId": "gate_cs_paper_3_q_083",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_083_opt_4",
+        "questionId": "gate_cs_paper_3_q_083",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_083_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_084",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q84. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_084_opt_1",
+        "questionId": "gate_cs_paper_3_q_084",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_084_opt_2",
+        "questionId": "gate_cs_paper_3_q_084",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_084_opt_3",
+        "questionId": "gate_cs_paper_3_q_084",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_084_opt_4",
+        "questionId": "gate_cs_paper_3_q_084",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_084_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_085",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q85. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_085_opt_1",
+        "questionId": "gate_cs_paper_3_q_085",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_085_opt_2",
+        "questionId": "gate_cs_paper_3_q_085",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_085_opt_3",
+        "questionId": "gate_cs_paper_3_q_085",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_085_opt_4",
+        "questionId": "gate_cs_paper_3_q_085",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_085_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_086",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q86. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_086_opt_1",
+        "questionId": "gate_cs_paper_3_q_086",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_086_opt_2",
+        "questionId": "gate_cs_paper_3_q_086",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_086_opt_3",
+        "questionId": "gate_cs_paper_3_q_086",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_086_opt_4",
+        "questionId": "gate_cs_paper_3_q_086",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_086_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_087",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q87. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_087_opt_1",
+        "questionId": "gate_cs_paper_3_q_087",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_087_opt_2",
+        "questionId": "gate_cs_paper_3_q_087",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_087_opt_3",
+        "questionId": "gate_cs_paper_3_q_087",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_087_opt_4",
+        "questionId": "gate_cs_paper_3_q_087",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_087_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_088",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q88. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_088_opt_1",
+        "questionId": "gate_cs_paper_3_q_088",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_088_opt_2",
+        "questionId": "gate_cs_paper_3_q_088",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_088_opt_3",
+        "questionId": "gate_cs_paper_3_q_088",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_088_opt_4",
+        "questionId": "gate_cs_paper_3_q_088",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_088_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_089",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q89. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_089_opt_1",
+        "questionId": "gate_cs_paper_3_q_089",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_089_opt_2",
+        "questionId": "gate_cs_paper_3_q_089",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_089_opt_3",
+        "questionId": "gate_cs_paper_3_q_089",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_089_opt_4",
+        "questionId": "gate_cs_paper_3_q_089",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_089_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_090",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q90. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_090_opt_1",
+        "questionId": "gate_cs_paper_3_q_090",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_090_opt_2",
+        "questionId": "gate_cs_paper_3_q_090",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_090_opt_3",
+        "questionId": "gate_cs_paper_3_q_090",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_090_opt_4",
+        "questionId": "gate_cs_paper_3_q_090",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_090_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_091",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q91. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_091_opt_1",
+        "questionId": "gate_cs_paper_3_q_091",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_091_opt_2",
+        "questionId": "gate_cs_paper_3_q_091",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_091_opt_3",
+        "questionId": "gate_cs_paper_3_q_091",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_091_opt_4",
+        "questionId": "gate_cs_paper_3_q_091",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_091_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_092",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q92. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_092_opt_1",
+        "questionId": "gate_cs_paper_3_q_092",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_092_opt_2",
+        "questionId": "gate_cs_paper_3_q_092",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_092_opt_3",
+        "questionId": "gate_cs_paper_3_q_092",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_092_opt_4",
+        "questionId": "gate_cs_paper_3_q_092",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_092_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_093",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q93. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_093_opt_1",
+        "questionId": "gate_cs_paper_3_q_093",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_093_opt_2",
+        "questionId": "gate_cs_paper_3_q_093",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_093_opt_3",
+        "questionId": "gate_cs_paper_3_q_093",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_093_opt_4",
+        "questionId": "gate_cs_paper_3_q_093",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_093_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_094",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q94. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_094_opt_1",
+        "questionId": "gate_cs_paper_3_q_094",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_094_opt_2",
+        "questionId": "gate_cs_paper_3_q_094",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_094_opt_3",
+        "questionId": "gate_cs_paper_3_q_094",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_094_opt_4",
+        "questionId": "gate_cs_paper_3_q_094",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_094_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_095",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q95. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_095_opt_1",
+        "questionId": "gate_cs_paper_3_q_095",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_095_opt_2",
+        "questionId": "gate_cs_paper_3_q_095",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_095_opt_3",
+        "questionId": "gate_cs_paper_3_q_095",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_095_opt_4",
+        "questionId": "gate_cs_paper_3_q_095",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_095_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_096",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q96. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_096_opt_1",
+        "questionId": "gate_cs_paper_3_q_096",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_096_opt_2",
+        "questionId": "gate_cs_paper_3_q_096",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_096_opt_3",
+        "questionId": "gate_cs_paper_3_q_096",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_096_opt_4",
+        "questionId": "gate_cs_paper_3_q_096",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_096_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_097",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q97. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_097_opt_1",
+        "questionId": "gate_cs_paper_3_q_097",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_097_opt_2",
+        "questionId": "gate_cs_paper_3_q_097",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_097_opt_3",
+        "questionId": "gate_cs_paper_3_q_097",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_097_opt_4",
+        "questionId": "gate_cs_paper_3_q_097",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_097_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_098",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_dp",
+    "questionText": "Q98. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_098_opt_1",
+        "questionId": "gate_cs_paper_3_q_098",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_098_opt_2",
+        "questionId": "gate_cs_paper_3_q_098",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_098_opt_3",
+        "questionId": "gate_cs_paper_3_q_098",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_098_opt_4",
+        "questionId": "gate_cs_paper_3_q_098",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_098_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Dynamic Programming",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_099",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q99. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_099_opt_1",
+        "questionId": "gate_cs_paper_3_q_099",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_099_opt_2",
+        "questionId": "gate_cs_paper_3_q_099",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_099_opt_3",
+        "questionId": "gate_cs_paper_3_q_099",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_099_opt_4",
+        "questionId": "gate_cs_paper_3_q_099",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_099_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Operating Systems & Networks",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "gate_cs_paper_3_q_100",
+    "examId": "exam_gate_cs",
+    "subjectId": "sub_gate_dsa",
+    "chapterId": "chap_gate_algos",
+    "topicId": "top_gate_sorting",
+    "questionText": "Q100. What is the worst-case time complexity of finding the k-th smallest element in an unsorted array of n elements using the QuickSelect (Median of Medians) algorithm?",
+    "options": [
+      {
+        "id": "gate_cs_paper_3_q_100_opt_1",
+        "questionId": "gate_cs_paper_3_q_100",
+        "text": "O(n)",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "gate_cs_paper_3_q_100_opt_2",
+        "questionId": "gate_cs_paper_3_q_100",
+        "text": "O(n log n)",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "gate_cs_paper_3_q_100_opt_3",
+        "questionId": "gate_cs_paper_3_q_100",
+        "text": "O(n\u00b2)",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "gate_cs_paper_3_q_100_opt_4",
+        "questionId": "gate_cs_paper_3_q_100",
+        "text": "O(log n)",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "gate_cs_paper_3_q_100_opt_1",
+    "explanation": "Using the Median of Medians deterministic pivot selection rule, the recurrence is T(n) <= T(n/5) + T(7n/10) + O(n), which solves to O(n) linear time in the worst case.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "GATE CS Paper 3 \u2014 DBMS & Compiler Design",
+    "year": 2026,
+    "estimatedSeconds": 120,
+    "marks": 2.0,
+    "negativeMarks": -0.66,
+    "tags": [
+      "GATE CS",
+      "Algorithms",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  }
+]

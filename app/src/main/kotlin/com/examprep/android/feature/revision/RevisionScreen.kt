@@ -5,7 +5,8 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.*
+import androidx.compose.material.icons.filled.NotificationsActive
+import androidx.compose.material.icons.filled.Schedule
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -13,9 +14,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.examprep.core.designsystem.component.ExamPrepErrorState
+import com.examprep.core.designsystem.component.ExamPrepLoadingState
 import com.examprep.core.designsystem.theme.ExamPrepColors
 import com.examprep.core.designsystem.theme.Spacing
-import com.examprep.domain.model.RevisionRecord
 
 @Composable
 fun RevisionScreen(
@@ -42,30 +44,24 @@ fun RevisionScreen(
         }
 
         when (val uiState = state) {
-            is RevisionUiState.Loading -> {
-                Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    CircularProgressIndicator()
-                }
-            }
-            is RevisionUiState.Error -> {
-                Text("Error: ${uiState.message}", modifier = Modifier.padding(Spacing.MD))
-            }
+            is RevisionUiState.Loading -> ExamPrepLoadingState()
+            is RevisionUiState.Error -> ExamPrepErrorState(message = uiState.message)
             is RevisionUiState.Success -> {
                 LazyColumn(
                     contentPadding = PaddingValues(horizontal = Spacing.MD),
                     verticalArrangement = Arrangement.spacedBy(Spacing.SM)
                 ) {
-                    // FIX B10: Condition was inverted — real data was never shown.
-                    // Now: show real revisions when available, sample fallback only when empty.
                     if (uiState.dueRevisions.isNotEmpty()) {
                         items(uiState.dueRevisions, key = { it.id }) { record ->
-                            RealRevisionCard(
-                                record = record,
+                            RevisionCard(
+                                title = "Topic ${record.topicId}",
+                                subtitle = "Revision #${record.revisionNumber}",
+                                dueLabel = "Due for Spaced Review",
+                                isDueToday = true,
                                 onStart = { onStartRevision("revision_${record.topicId}") }
                             )
                         }
                     } else {
-                        // Fallback sample data for new users with no due revisions
                         val sampleRevisions = listOf(
                             SampleRevisionItem("Laws of Motion", "Physics", "Due Today", true),
                             SampleRevisionItem("Atomic Structure", "Chemistry", "Due Today", true),
@@ -73,24 +69,40 @@ fun RevisionScreen(
                             SampleRevisionItem("Thermodynamics", "Physics", "Due in 4 days", false)
                         )
                         items(sampleRevisions, key = { it.topicName }) { item ->
-                            SampleRevisionCard(item = item, onStart = { onStartRevision("revision_${item.topicName}") })
+                            RevisionCard(
+                                title = item.topicName,
+                                subtitle = item.subject,
+                                dueLabel = item.dueLabel,
+                                isDueToday = item.isDueToday,
+                                onStart = { onStartRevision("revision_${item.topicName}") }
+                            )
                         }
                     }
                     item { Spacer(Modifier.height(Spacing.XL)) }
                 }
             }
-
         }
     }
 }
 
-private data class SampleRevisionItem(val topicName: String, val subject: String, val dueLabel: String, val isDueToday: Boolean)
+private data class SampleRevisionItem(
+    val topicName: String,
+    val subject: String,
+    val dueLabel: String,
+    val isDueToday: Boolean
+)
 
 @Composable
-private fun SampleRevisionCard(item: SampleRevisionItem, onStart: () -> Unit) {
+private fun RevisionCard(
+    title: String,
+    subtitle: String,
+    dueLabel: String,
+    isDueToday: Boolean,
+    onStart: () -> Unit
+) {
     Card(
         colors = CardDefaults.cardColors(
-            containerColor = if (item.isDueToday)
+            containerColor = if (isDueToday)
                 MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = 0.6f)
             else MaterialTheme.colorScheme.surfaceVariant
         ),
@@ -104,58 +116,30 @@ private fun SampleRevisionCard(item: SampleRevisionItem, onStart: () -> Unit) {
         ) {
             Row(horizontalArrangement = Arrangement.spacedBy(Spacing.SM), verticalAlignment = Alignment.CenterVertically) {
                 Icon(
-                    if (item.isDueToday) Icons.Default.NotificationsActive else Icons.Default.Schedule,
+                    imageVector = if (isDueToday) Icons.Default.NotificationsActive else Icons.Default.Schedule,
                     contentDescription = null,
-                    tint = if (item.isDueToday) ExamPrepColors.Warning else MaterialTheme.colorScheme.onSurfaceVariant,
+                    tint = if (isDueToday) ExamPrepColors.Warning else MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.size(20.dp)
                 )
                 Column {
-                    Text(item.topicName, style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold))
-                    Text(item.subject, style = MaterialTheme.typography.labelSmall.copy(
-                        color = MaterialTheme.colorScheme.onSurfaceVariant))
-                    Text(item.dueLabel, style = MaterialTheme.typography.labelSmall.copy(
-                        color = if (item.isDueToday) ExamPrepColors.Warning else MaterialTheme.colorScheme.onSurfaceVariant,
-                        fontWeight = if (item.isDueToday) FontWeight.Bold else FontWeight.Normal
-                    ))
+                    Text(title, style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold))
+                    Text(
+                        subtitle,
+                        style = MaterialTheme.typography.labelSmall.copy(color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    )
+                    Text(
+                        dueLabel,
+                        style = MaterialTheme.typography.labelSmall.copy(
+                            color = if (isDueToday) ExamPrepColors.Warning else MaterialTheme.colorScheme.onSurfaceVariant,
+                            fontWeight = if (isDueToday) FontWeight.Bold else FontWeight.Normal
+                        )
+                    )
                 }
             }
-            FilledTonalButton(onClick = onStart, contentPadding = PaddingValues(horizontal = Spacing.MD, vertical = 8.dp)) {
-                Text("Revise", style = MaterialTheme.typography.labelMedium)
-            }
-        }
-    }
-}
-
-@Composable
-private fun RealRevisionCard(record: RevisionRecord, onStart: () -> Unit) {
-    Card(
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = 0.6f)),
-        shape = MaterialTheme.shapes.large,
-        modifier = Modifier.fillMaxWidth()
-    ) {
-        Row(
-            modifier = Modifier.padding(Spacing.MD).fillMaxWidth(),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.SpaceBetween
-        ) {
-            Row(horizontalArrangement = Arrangement.spacedBy(Spacing.SM), verticalAlignment = Alignment.CenterVertically) {
-                Icon(
-                    Icons.Default.NotificationsActive,
-                    contentDescription = null,
-                    tint = ExamPrepColors.Warning,
-                    modifier = Modifier.size(20.dp)
-                )
-                Column {
-                    Text("Topic ${record.topicId}", style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold))
-                    Text("Revision #${record.revisionNumber}", style = MaterialTheme.typography.labelSmall.copy(
-                        color = MaterialTheme.colorScheme.onSurfaceVariant))
-                    Text("Due for Spaced Review", style = MaterialTheme.typography.labelSmall.copy(
-                        color = ExamPrepColors.Warning,
-                        fontWeight = FontWeight.Bold
-                    ))
-                }
-            }
-            FilledTonalButton(onClick = onStart, contentPadding = PaddingValues(horizontal = Spacing.MD, vertical = 8.dp)) {
+            FilledTonalButton(
+                onClick = onStart,
+                contentPadding = PaddingValues(horizontal = Spacing.MD, vertical = 8.dp)
+            ) {
                 Text("Revise", style = MaterialTheme.typography.labelMedium)
             }
         }

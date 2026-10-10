@@ -74,10 +74,14 @@ sealed class Screen(val route: String) {
     data object Roadmap : Screen("study_roadmap")
     data object Leaderboard : Screen("leaderboard")
     data object Auth : Screen("auth")
+    data object EmailVerification : Screen("email_verification")
     data object StudentOnboarding : Screen("student_onboarding")
     data object Profile : Screen("profile")
     data object AIRankAccelerator : Screen("ai_rank_accelerator")
+    data object Subscription : Screen("subscription")
+    data object QuestionLibrary : Screen("question_library")
 }
+
 
 /**
  * Bottom navigation items — the primary app navigation destinations.

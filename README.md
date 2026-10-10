@@ -1,227 +1,179 @@
-# ExamPrep OS — Android Application
+# ExamPrepOS — Autonomous Android Preparation Operating System
 
-**Platform:** Android (API 26+)  
-**Language:** Kotlin (exclusive)  
-**Architecture:** Clean Architecture + MVVM  
-**Status:** Phase 0 — Scaffold Complete ✅
+[![Platform](https://img.shields.io/badge/Platform-Android_8.0+_(API_26+)-brightgreen.svg)](https://developer.android.com)
+[![Language](https://img.shields.io/badge/Language-Kotlin_1.9.25-blue.svg)](https://kotlinlang.org)
+[![UI](https://img.shields.io/badge/UI-Jetpack_Compose_Material_3-purple.svg)](https://developer.android.com/jetpack/compose)
+[![Architecture](https://img.shields.io/badge/Architecture-Clean_Architecture_+_MVVM-orange.svg)](docs/SYSTEM_ARCHITECTURE.md)
+[![Build](https://img.shields.io/badge/Build-Gradle_8.7_KTS-blue.svg)](https://gradle.org)
 
----
-
-## Overview
-
-ExamPrep OS is a personalized exam preparation manager for competitive exam students (JEE, NEET, UPSC, CAT, GATE, and more). It continuously maintains a model of the student's preparation and helps them understand where they are, what comes next, and whether they are on track.
-
-> **Core principle:** This app does not simply tell students what to study. It acts as their preparation operating system — tracking mastery, generating dynamic study plans, scheduling revision, and providing transparent progress intelligence.
+ExamPrepOS is a production-grade, offline-first exam preparation operating system engineered for competitive exam aspirants (JEE, NEET, UPSC, GATE, CAT, SSC, and Banking). It continuously maintains an intelligent mastery model of the student's preparation, generating adaptive study plans, spaced revision intervals, diagnostic assessments, and OLED-optimized distraction-free study sessions.
 
 ---
 
-## Quick Start (Developer)
+## 🏛️ System Architecture
+
+ExamPrepOS follows strict **Clean Architecture** and **Multi-Module Separation of Concerns**:
+
+```text
+ExamPrepOS/
+├── app/                           # Android Application Module
+│   ├── src/main/kotlin/com/examprep/android/
+│   │   ├── feature/               # Feature UI & ViewModels (MVI/MVVM pattern)
+│   │   │   ├── auth/              # Email/Password + Google Sign-In & Verification
+│   │   │   ├── onboarding/        # Diagnostic Assessment, Stream, Target Date Setup
+│   │   │   ├── dashboard/         # Preparation Health, Streak, Today's Focus Plan
+│   │   │   ├── study/             # OLED Focus Session & Pomodoro Timer
+│   │   │   ├── mocktest/          # Full-length timed mock tests with negative marking
+│   │   │   ├── quiz/              # Topic-level micro-quizzes & instant feedback
+│   │   │   ├── mistakes/          # Mistake Vault error tracking & bookmarking
+│   │   │   ├── revision/          # Spaced repetition queue & mastery decay
+│   │   │   ├── syllabus/          # Hierarchical syllabus tree & progress indicators
+│   │   │   ├── performance/       # Weak-area analytics, speed-accuracy curves
+│   │   │   ├── subscription/      # Google Play In-App Billing (Pro Tier)
+│   │   │   └── settings/          # Data export, theme toggles, notification configs
+│   │   ├── navigation/            # Type-safe Navigation Compose routes & NavHost
+│   │   ├── notification/          # Daily study reminder notification manager
+│   │   └── ads/                   # Google AdMob banner & rewarded video wrappers
+│   └── src/main/assets/content/   # Bundled 2,500 question curriculum JSONs
+│
+├── core/                          # Shared Android Library Module
+│   ├── designsystem/              # ExamPrepTheme (Dark OLED / Deep Space), Typography, Shapes
+│   ├── component/                 # Buttons, cards, badges, progress rings, dialogs
+│   └── security/                  # Cryptographic hashing & secure payload verification
+│
+├── domain/                        # Pure Kotlin Library (Zero Android dependencies)
+│   ├── model/                     # Domain entities, value objects, and enum classes
+│   ├── repository/                # Abstract repository contracts
+│   └── engine/                    # Core business logic engines
+│       ├── StudyPlanningEngine    # Dynamic syllabus pacing & time allocation
+│       ├── MasteryEngine          # Multi-signal mastery state calculation
+│       ├── QuizScoringEngine      # Negative marking & percentile estimation
+│       ├── RevisionEngine         # SuperMemo/SM-2 spaced repetition decay
+│       └── RecommendationEngine   # Deterministic, explainable next-action recommendations
+│
+├── data/                          # Data & Persistence Layer Module
+│   ├── local/
+│   │   ├── database/              # Room SQLite database (18 entities, TypeConverters)
+│   │   ├── dao/                   # 11 DAO interfaces with reactive Kotlin Flows
+│   │   └── entity/                # Room table definitions & relational indices
+│   ├── repository/                # Clean Architecture repository implementations
+│   ├── firebase/                  # Firebase Auth & Cloud Firestore sync
+│   └── di/                        # Dagger Hilt dependency injection modules
+│
+├── marketing/                     # Autonomous Short-Form Video & Content Studio
+│   ├── templates/                 # Neural TTS (Edge-TTS) & FFmpeg / MoviePy render engines
+│   ├── assets/                    # Production screenshots, app icons, and sound design
+│   ├── posts/                     # Platform packages (YouTube, IG, TikTok, X, LinkedIn, FB)
+│   ├── calendar/                  # 30-day content calendar & publishing queue
+│   └── videos/final/              # Mastered 1080x1920 MP4 marketing videos & thumbnails
+│
+├── scripts/                       # Reusable Engineering & Asset Generation Utilities
+│   └── generate_question_bank.py  # 2,500+ Question Bank JSON curriculum generator
+│
+└── docs/                          # Comprehensive Architecture, Product & Maintenance Docs
+    ├── architecture/              # System architecture, engine contracts & DB schemas
+    ├── product/                   # Product vision, PRDs & feature roadmaps
+    ├── ADR/                       # Architectural Decision Records (ADR-001 to ADR-009)
+    ├── launch/                    # Pre-launch checklists, ASO strategies, pricing models
+    ├── legal/                     # Privacy Policy, Terms of Service, IP guidelines
+    └── maintenance/               # Repository baselines and cleanup reports
+```
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
-| Tool | Version | Install |
-|------|---------|---------|
-| JDK | 21 | `brew install openjdk@21` |
-| Android SDK | API 35 | Via `sdkmanager` or Android Studio |
-| Android Studio | Hedgehog+ | Optional but recommended |
-| Kotlin | 1.9.25 | Bundled via Gradle |
+| Component | Required Version | Verification Command |
+|-----------|------------------|----------------------|
+| **JDK** | OpenJDK 21 (LTS) | `javac -version` |
+| **Android SDK** | API 35 (compileSdk), API 26+ (minSdk) | `sdkmanager --list` |
+| **Gradle** | 8.7 (bundled via wrapper) | `./gradlew -v` |
+| **Python** | 3.10+ (for marketing & scripts) | `python3 --version` |
+| **FFmpeg** | 5.0+ (for video rendering) | `ffmpeg -version` |
 
-### Build
+### Environment Configuration
+
+Ensure your `local.properties` specifies your local Android SDK directory:
+
+```properties
+sdk.dir=/path/to/your/android-sdk
+```
+
+---
+
+## 🔨 Building & Testing
+
+### 1. Verification & Unit Tests
+Run all unit tests across all modules (Domain, Data, Core, App):
 
 ```bash
-# Clone / open the project
-cd projects/active/android/
-
-# Build domain module (fastest verification)
-./gradlew :domain:compileKotlin
-
-# Build all modules
-./gradlew build
-
-# Run unit tests
+# Run all unit test suites
 ./gradlew test
 
-# Install on connected device
+# Run app-specific unit tests
+./gradlew :app:testDebugUnitTest
+
+# Run pure domain engine tests
+./gradlew :domain:test
+```
+
+### 2. Compiling the Application
+```bash
+# Build Debug APK
+./gradlew :app:assembleDebug
+
+# Build Release APK (unsigned)
+./gradlew :app:assembleRelease
+
+# Install directly on a connected device/emulator
 ./gradlew :app:installDebug
 ```
 
-### SDK Setup
+---
 
-The project uses the Android SDK at the path configured in `local.properties`:
+## 📚 Question Bank Pipeline
 
-```properties
-sdk.dir=/opt/homebrew/share/android-commandlinetools
+ExamPrepOS includes a standalone, deterministic curriculum generator that populates full-length papers and micro-quizzes across Physics, Chemistry, Mathematics, Biology, History, Economy, and Quantitative Aptitude.
+
+```bash
+# Regenerate curriculum directly into Android assets:
+python3 scripts/generate_question_bank.py
 ```
 
-Update this to match your local SDK path if different.
+Generated assets are placed directly in `data/src/main/assets/content/` and `app/src/main/assets/content/`.
 
 ---
 
-## Project Structure
+## 🎬 Marketing Video Studio Pipeline
 
-```
-android/
-├── app/                    # Android application module
-│   ├── navigation/         # Type-safe navigation routes + NavHost
-│   └── feature/            # One package per screen
-│       ├── onboarding/     # Splash, Exam Selection, Setup, Diagnostic
-│       ├── dashboard/      # Home screen (today's task, countdown, stats)
-│       ├── timeline/       # Study plan phases + task list
-│       ├── study/          # Focus session (Pomodoro timer)
-│       ├── quiz/           # Quiz engine + result screen
-│       ├── syllabus/       # Syllabus tree + practice hub
-│       ├── performance/    # Analytics and progress
-│       ├── revision/       # Spaced repetition queue
-│       └── settings/       # User preferences
-│
-├── core/                   # Shared Android library
-│   └── designsystem/
-│       └── theme/          # ExamPrepTheme (Indigo/Teal palette), Typography, Shapes
-│
-├── domain/                 # Pure Kotlin JVM — NO Android dependencies
-│   ├── model/              # All domain models + enums
-│   ├── repository/         # Repository interfaces
-│   └── engine/             # Engine interfaces (Planning, Mastery, Quiz, Revision)
-│
-├── data/                   # Android library — Room + DataStore + DI
-│   ├── local/
-│   │   ├── database/       # ExamPrepDatabase, TypeConverters
-│   │   ├── entity/         # 18 Room @Entity classes
-│   │   └── dao/            # 11 DAO interfaces
-│   ├── mapper/             # Entity ↔ Domain mappings
-│   ├── repository/         # Repository implementations
-│   └── di/                 # Hilt modules
-│
-└── docs/                   # Architecture + product documentation
-    ├── PRODUCT_VISION.md
-    ├── SYSTEM_ARCHITECTURE.md
-    ├── DOMAIN_MODEL.md
-    ├── FEATURE_ROADMAP.md
-    ├── DATABASE_SCHEMA.md
-    ├── ENGINE_CONTRACTS.md
-    └── ADR/                # Architecture Decision Records (8 ADRs)
+To build and render high-converting vertical marketing videos with natural neural voiceovers:
+
+```bash
+# Run voice benchmarking:
+python3 marketing/templates/generate_voice_samples.py
+
+# Render master marketing videos:
+python3 marketing/templates/build_initial_assets.py
 ```
 
----
-
-## Technology Stack
-
-| Concern | Technology |
-|---------|-----------|
-| UI | Jetpack Compose + Material 3 |
-| Architecture | MVVM + Clean Architecture |
-| Navigation | Navigation Compose (single-activity) |
-| DI | Hilt |
-| Database | Room (SQLite) |
-| Async | Kotlin Coroutines + Flow |
-| Background Jobs | WorkManager |
-| Preferences | DataStore (Preferences) |
-| Serialization | kotlinx.serialization |
-| Logging | Timber (debug only) |
-| Testing | JUnit4 + MockK + Turbine |
+Master deliverables will be exported to `marketing/videos/final/`. For complete details, see [marketing/README.md](marketing/README.md).
 
 ---
 
-## Architecture
+## 📖 Key Documentation Index
 
-```
-:app  →  :core  →  :domain
-:app  →           :domain
-:data →           :domain
-```
-
-**Clean Architecture layers:**
-1. **Domain** (`:domain`) — Pure Kotlin. Models, repository interfaces, engine interfaces.
-2. **Data** (`:data`) — Android. Room entities, DAOs, repository implementations, Hilt DI.
-3. **Core** (`:core`) — Android library. Design system, shared utilities.
-4. **App** (`:app`) — Android application. Screens, ViewModels, navigation.
-
-The `:domain` module has **zero Android dependencies** — all business logic is portable and unit-testable without an emulator.
+- **Product Strategy**: [PRODUCT_VISION.md](docs/PRODUCT_VISION.md) | [FEATURE_ROADMAP.md](docs/FEATURE_ROADMAP.md)
+- **Architecture**: [SYSTEM_ARCHITECTURE.md](docs/SYSTEM_ARCHITECTURE.md) | [ENGINE_CONTRACTS.md](docs/ENGINE_CONTRACTS.md) | [DATABASE_SCHEMA.md](docs/DATABASE_SCHEMA.md)
+- **Architectural Decisions**: [ADR Index](docs/ADR/) (ADR-001 through ADR-009)
+- **Launch & Growth**: [ORGANIC_GROWTH_PLAN.md](docs/launch/ORGANIC_GROWTH_PLAN.md) | [MONETIZATION_STRATEGY.md](docs/launch/MONETIZATION_STRATEGY.md) | [FINAL_PRE_LAUNCH_REPORT.md](docs/launch/FINAL_PRE_LAUNCH_REPORT.md)
+- **Legal & Compliance**: [PRIVACY_POLICY.md](docs/legal/PRIVACY_POLICY.md) | [TERMS_OF_SERVICE.md](docs/legal/TERMS_OF_SERVICE.md)
+- **Repository Maintenance**: [REPOSITORY_BASELINE.md](docs/maintenance/REPOSITORY_BASELINE.md) | [REPOSITORY_CLEANUP_REPORT.md](docs/maintenance/REPOSITORY_CLEANUP_REPORT.md)
 
 ---
 
-## Domain Concepts
+## ⚖️ License & Content Rights
 
-### MasteryState
-A topic progresses through: `NOT_STARTED → IN_PROGRESS → LEARNED → PRACTICING → MASTERED`
-
-Mastery is determined by quiz accuracy, attempt count, time efficiency, and recency — not just "completion."
-
-### StudyPlan
-Generated from: exam date + available hours + current mastery. Organized into phases (Foundation → Core → Practice → PYQ → Revision → Mock).
-
-### Recommendation Engine
-Deterministic, rule-based. Every recommendation includes a `reason` string shown to the user. No black-box AI in MVP.
-
-### Content Rights
-All questions have a `ContentSource` classification. Only `ORIGINAL`, `OFFICIAL`, and `LICENSED` questions may be shown to users. **Never use copyrighted coaching institute questions.**
-
----
-
-## Feature Roadmap
-
-| Phase | Focus | Status |
-|-------|-------|--------|
-| 0 | Scaffold + Architecture | ✅ Complete |
-| 1 | Core User Journey (onboarding, plan, session) | 🔜 Next |
-| 2 | Mastery Layer (syllabus tracking, mastery engine) | 📅 Planned |
-| 3 | Practice Engine (quiz, scoring, performance) | 📅 Planned |
-| 4 | Revision + Intelligence (spaced rep, recommendations) | 📅 Planned |
-| 5 | Monetization + AI (AdMob, billing, Gemini) | 📅 Planned |
-
-See [FEATURE_ROADMAP.md](docs/FEATURE_ROADMAP.md) for detailed user stories.
-
----
-
-## Documentation Index
-
-| Document | Purpose |
-|----------|---------|
-| [PRODUCT_VISION.md](docs/PRODUCT_VISION.md) | Why this app exists, target users, success metrics |
-| [SYSTEM_ARCHITECTURE.md](docs/SYSTEM_ARCHITECTURE.md) | Module structure, data flow, technology choices |
-| [DOMAIN_MODEL.md](docs/DOMAIN_MODEL.md) | Entity relationships, enums, key models |
-| [DATABASE_SCHEMA.md](docs/DATABASE_SCHEMA.md) | Table definitions, indexes, migration strategy |
-| [ENGINE_CONTRACTS.md](docs/ENGINE_CONTRACTS.md) | Precise engine interface specifications |
-| [FEATURE_ROADMAP.md](docs/FEATURE_ROADMAP.md) | Phase-by-phase development plan |
-| [ADR/ADR-001](docs/ADR/ADR-001-offline-first.md) | Offline-first architecture |
-| [ADR/ADR-002](docs/ADR/ADR-002-pure-kotlin-domain.md) | Pure Kotlin domain module |
-| [ADR/ADR-003](docs/ADR/ADR-003-monetization-admob.md) | Freemium + AdMob monetization |
-| [ADR/ADR-004](docs/ADR/ADR-004-recommendation-engine.md) | Rule-based recommendation engine |
-| [ADR/ADR-005](docs/ADR/ADR-005-uuid-primary-keys.md) | UUID string primary keys |
-| [ADR/ADR-006](docs/ADR/ADR-006-single-activity-navigation.md) | Single activity + Navigation Compose |
-| [ADR/ADR-007](docs/ADR/ADR-007-content-rights.md) | Content rights & IP policy |
-| [ADR/ADR-008](docs/ADR/ADR-008-mastery-model.md) | Multi-signal mastery model |
-
----
-
-## Contributing
-
-### Branching Strategy
-
-```
-main              ← stable, release-ready
-  └── develop     ← integration branch
-        └── feature/EP-NNN-short-description
-        └── fix/EP-NNN-short-description
-```
-
-### Code Standards
-
-- **Kotlin only** — no Java
-- **ktlint** formatting (configure in Phase 1)
-- **No business logic in Composables** — all logic in ViewModels or domain
-- **No Android imports in `:domain`** — enforced by module structure
-- **All repository access via coroutines** — no blocking calls on main thread
-
-### Testing Requirements
-
-- Domain models and engines: **100% unit test coverage** (target)
-- Repository implementations: integration tests with in-memory Room
-- UI screens: snapshot tests (Phase 2)
-
----
-
-## License
-
-Copyright © 2025 ExamPrep. All rights reserved.  
-Proprietary and confidential. Not for distribution.
+Copyright © 2025–2026 ExamPrepOS. All rights reserved.  
+All curriculum questions are original works created for ExamPrepOS or derived under fair-use open education guidelines (ADR-007).

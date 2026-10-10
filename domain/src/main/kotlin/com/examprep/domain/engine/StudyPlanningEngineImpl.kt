@@ -47,7 +47,8 @@ class StudyPlanningEngineImpl(
             taskType = StudyTaskType.LEARN,
             startDate = currentPhaseStart,
             durationDays = foundationDays,
-            dailyHours = profile.dailyStudyHours
+            dailyHours = profile.dailyStudyHours,
+            masteryRecords = masteryRecords
         )
         phases.add(
             StudyPhase(
@@ -71,7 +72,8 @@ class StudyPlanningEngineImpl(
             taskType = StudyTaskType.LEARN,
             startDate = currentPhaseStart,
             durationDays = coreLearningDays,
-            dailyHours = profile.dailyStudyHours
+            dailyHours = profile.dailyStudyHours,
+            masteryRecords = masteryRecords
         )
         phases.add(
             StudyPhase(
@@ -95,7 +97,8 @@ class StudyPlanningEngineImpl(
             taskType = StudyTaskType.PRACTICE,
             startDate = currentPhaseStart,
             durationDays = practiceDays,
-            dailyHours = profile.dailyStudyHours
+            dailyHours = profile.dailyStudyHours,
+            masteryRecords = masteryRecords
         )
         phases.add(
             StudyPhase(
@@ -119,7 +122,8 @@ class StudyPlanningEngineImpl(
             taskType = StudyTaskType.SOLVE_PYQ,
             startDate = currentPhaseStart,
             durationDays = pyqDays,
-            dailyHours = profile.dailyStudyHours
+            dailyHours = profile.dailyStudyHours,
+            masteryRecords = masteryRecords
         )
         phases.add(
             StudyPhase(
@@ -143,7 +147,8 @@ class StudyPlanningEngineImpl(
             taskType = StudyTaskType.REVISE,
             startDate = currentPhaseStart,
             durationDays = revisionDays,
-            dailyHours = profile.dailyStudyHours
+            dailyHours = profile.dailyStudyHours,
+            masteryRecords = masteryRecords
         )
         phases.add(
             StudyPhase(
@@ -197,23 +202,47 @@ class StudyPlanningEngineImpl(
         taskType: StudyTaskType,
         startDate: Long,
         durationDays: Int,
-        dailyHours: Float
+        dailyHours: Float,
+        masteryRecords: List<MasteryRecord> = emptyList()
     ): List<StudyTask> {
         val tasks = mutableListOf<StudyTask>()
         if (topics.isEmpty() || durationDays <= 0) return tasks
 
-        val topicsPerDay = (topics.size.toFloat() / durationDays).coerceAtLeast(1f)
-        val estimatedMinutes = (dailyHours * 60 / topicsPerDay.coerceAtLeast(1f)).toInt().coerceIn(30, 90)
+        val masteryByTopic = masteryRecords.associateBy { it.topicId }
 
-        topics.forEachIndexed { index, topic ->
+        // Prioritize topics: if diagnostic assessment found weakness (low accuracy), schedule first
+        val sortedTopics = topics.sortedWith(
+            compareBy<Topic> { topic ->
+                val record = masteryByTopic[topic.id]
+                // Lower accuracy ranks first so it's scheduled earlier in the phase
+                record?.quizAccuracy ?: 50f
+            }.thenByDescending { it.importanceWeight }
+        )
+
+        val topicsPerDay = (sortedTopics.size.toFloat() / durationDays).coerceAtLeast(1f)
+        val baseEstimatedMinutes = (dailyHours * 60 / topicsPerDay.coerceAtLeast(1f)).toInt().coerceIn(30, 90)
+
+        sortedTopics.forEachIndexed { index, topic ->
             val dayOffset = (index / topicsPerDay).toInt().coerceAtMost(durationDays - 1)
             val plannedDate = startDate + (dayOffset * 86_400_000L)
 
+            val record = masteryByTopic[topic.id]
+            val isWeakInDiagnostic = record != null && record.quizAccuracy < 50f
+            val isStrongInDiagnostic = record != null && record.quizAccuracy >= 80f
+
             val priority = when {
+                isWeakInDiagnostic -> Priority.CRITICAL
                 topic.importanceWeight >= 1.8f -> Priority.CRITICAL
                 topic.importanceWeight >= 1.4f -> Priority.HIGH
+                isStrongInDiagnostic -> Priority.LOW
                 topic.importanceWeight >= 1.0f -> Priority.MEDIUM
                 else -> Priority.LOW
+            }
+
+            val estimatedMinutes = if (isWeakInDiagnostic) {
+                (baseEstimatedMinutes * 1.25f).toInt().coerceAtMost(120)
+            } else {
+                baseEstimatedMinutes
             }
 
             tasks.add(

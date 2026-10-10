@@ -243,7 +243,21 @@ interface QuestionDao {
 
     @Query("SELECT COUNT(*) FROM question WHERE topicId = :topicId AND isActive = 1")
     suspend fun getQuestionCountForTopic(topicId: String): Int
+
+    /** Deletes all questions whose IDs begin with [prefix] — used when removing a downloaded paper. */
+    @Query("DELETE FROM question WHERE id LIKE :prefix || '%'")
+    suspend fun deleteByIdPrefix(prefix: String)
+
+    @Query("SELECT COUNT(*) FROM question WHERE examId = :examId AND isActive = 1")
+    suspend fun getQuestionCountForExam(examId: String): Int
+
+    @Query("SELECT * FROM question WHERE id LIKE :prefix || '%' AND isActive = 1 ORDER BY id")
+    suspend fun getQuestionsByPaperPrefix(prefix: String): List<QuestionEntity>
+
+    @Query("SELECT * FROM question WHERE examId = :examId AND isActive = 1")
+    suspend fun getAllQuestionsForExam(examId: String): List<QuestionEntity>
 }
+
 
 // ═══════════════════════════════════════════════════════════════════════════════
 // QUIZ DAO
@@ -337,6 +351,9 @@ interface RevisionDao {
 
     @Query("SELECT * FROM revision_record WHERE userId = :userId AND topicId = :topicId ORDER BY revisionNumber ASC")
     suspend fun getRevisionHistory(userId: String, topicId: String): List<RevisionRecordEntity>
+
+    @Query("SELECT COUNT(*) FROM revision_record WHERE userId = :userId AND isCompleted = 1")
+    fun observeCompletedRevisionsCount(userId: String): Flow<Int>
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -381,3 +398,50 @@ interface EntitlementDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertOrReplace(entitlement: EntitlementEntity)
 }
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// QUESTION PAPER DAO
+// ═══════════════════════════════════════════════════════════════════════════════
+
+@Dao
+interface QuestionPaperDao {
+
+    // ── Catalog ──────────────────────────────────────────────────────────────
+
+    @Query("SELECT * FROM question_paper_meta ORDER BY examId, paperNumber")
+    fun observeAllPapers(): Flow<List<QuestionPaperMetaEntity>>
+
+    @Query("SELECT * FROM question_paper_meta WHERE examId = :examId ORDER BY paperNumber")
+    fun observePapersForExam(examId: String): Flow<List<QuestionPaperMetaEntity>>
+
+    @Query("SELECT * FROM question_paper_meta WHERE id = :paperId")
+    suspend fun getPaperById(paperId: String): QuestionPaperMetaEntity?
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertPapers(papers: List<QuestionPaperMetaEntity>)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertPaper(paper: QuestionPaperMetaEntity)
+
+    // ── Downloads ────────────────────────────────────────────────────────────
+
+    @Query("SELECT * FROM question_paper_download")
+    fun observeAllDownloads(): Flow<List<QuestionPaperDownloadEntity>>
+
+    @Query("SELECT * FROM question_paper_download WHERE paperId = :paperId")
+    suspend fun getDownload(paperId: String): QuestionPaperDownloadEntity?
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun markDownloaded(download: QuestionPaperDownloadEntity)
+
+    @Query("DELETE FROM question_paper_download WHERE paperId = :paperId")
+    suspend fun deleteDownload(paperId: String)
+
+    @Query("SELECT COUNT(*) FROM question_paper_download")
+    suspend fun getDownloadedPaperCount(): Int
+
+    /** Returns true if the user has already downloaded this paper. */
+    @Query("SELECT COUNT(*) > 0 FROM question_paper_download WHERE paperId = :paperId")
+    suspend fun isDownloaded(paperId: String): Boolean
+}
+

@@ -1,0 +1,5502 @@
+[
+  {
+    "id": "neet_paper_4_q_001",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q1. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_001_opt_1",
+        "questionId": "neet_paper_4_q_001",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_001_opt_2",
+        "questionId": "neet_paper_4_q_001",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_001_opt_3",
+        "questionId": "neet_paper_4_q_001",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_001_opt_4",
+        "questionId": "neet_paper_4_q_001",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_001_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_002",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q2. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_002_opt_1",
+        "questionId": "neet_paper_4_q_002",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_002_opt_2",
+        "questionId": "neet_paper_4_q_002",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_002_opt_3",
+        "questionId": "neet_paper_4_q_002",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_002_opt_4",
+        "questionId": "neet_paper_4_q_002",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_002_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_003",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q3. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_003_opt_1",
+        "questionId": "neet_paper_4_q_003",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_003_opt_2",
+        "questionId": "neet_paper_4_q_003",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_003_opt_3",
+        "questionId": "neet_paper_4_q_003",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_003_opt_4",
+        "questionId": "neet_paper_4_q_003",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_003_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_004",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q4. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_004_opt_1",
+        "questionId": "neet_paper_4_q_004",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_004_opt_2",
+        "questionId": "neet_paper_4_q_004",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_004_opt_3",
+        "questionId": "neet_paper_4_q_004",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_004_opt_4",
+        "questionId": "neet_paper_4_q_004",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_004_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_005",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q5. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_005_opt_1",
+        "questionId": "neet_paper_4_q_005",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_005_opt_2",
+        "questionId": "neet_paper_4_q_005",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_005_opt_3",
+        "questionId": "neet_paper_4_q_005",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_005_opt_4",
+        "questionId": "neet_paper_4_q_005",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_005_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_006",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q6. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_006_opt_1",
+        "questionId": "neet_paper_4_q_006",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_006_opt_2",
+        "questionId": "neet_paper_4_q_006",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_006_opt_3",
+        "questionId": "neet_paper_4_q_006",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_006_opt_4",
+        "questionId": "neet_paper_4_q_006",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_006_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_007",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q7. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_007_opt_1",
+        "questionId": "neet_paper_4_q_007",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_007_opt_2",
+        "questionId": "neet_paper_4_q_007",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_007_opt_3",
+        "questionId": "neet_paper_4_q_007",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_007_opt_4",
+        "questionId": "neet_paper_4_q_007",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_007_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_008",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q8. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_008_opt_1",
+        "questionId": "neet_paper_4_q_008",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_008_opt_2",
+        "questionId": "neet_paper_4_q_008",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_008_opt_3",
+        "questionId": "neet_paper_4_q_008",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_008_opt_4",
+        "questionId": "neet_paper_4_q_008",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_008_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_009",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q9. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_009_opt_1",
+        "questionId": "neet_paper_4_q_009",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_009_opt_2",
+        "questionId": "neet_paper_4_q_009",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_009_opt_3",
+        "questionId": "neet_paper_4_q_009",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_009_opt_4",
+        "questionId": "neet_paper_4_q_009",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_009_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_010",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q10. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_010_opt_1",
+        "questionId": "neet_paper_4_q_010",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_010_opt_2",
+        "questionId": "neet_paper_4_q_010",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_010_opt_3",
+        "questionId": "neet_paper_4_q_010",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_010_opt_4",
+        "questionId": "neet_paper_4_q_010",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_010_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_011",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q11. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_011_opt_1",
+        "questionId": "neet_paper_4_q_011",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_011_opt_2",
+        "questionId": "neet_paper_4_q_011",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_011_opt_3",
+        "questionId": "neet_paper_4_q_011",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_011_opt_4",
+        "questionId": "neet_paper_4_q_011",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_011_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_012",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q12. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_012_opt_1",
+        "questionId": "neet_paper_4_q_012",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_012_opt_2",
+        "questionId": "neet_paper_4_q_012",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_012_opt_3",
+        "questionId": "neet_paper_4_q_012",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_012_opt_4",
+        "questionId": "neet_paper_4_q_012",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_012_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_013",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q13. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_013_opt_1",
+        "questionId": "neet_paper_4_q_013",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_013_opt_2",
+        "questionId": "neet_paper_4_q_013",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_013_opt_3",
+        "questionId": "neet_paper_4_q_013",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_013_opt_4",
+        "questionId": "neet_paper_4_q_013",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_013_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_014",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q14. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_014_opt_1",
+        "questionId": "neet_paper_4_q_014",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_014_opt_2",
+        "questionId": "neet_paper_4_q_014",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_014_opt_3",
+        "questionId": "neet_paper_4_q_014",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_014_opt_4",
+        "questionId": "neet_paper_4_q_014",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_014_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_015",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q15. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_015_opt_1",
+        "questionId": "neet_paper_4_q_015",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_015_opt_2",
+        "questionId": "neet_paper_4_q_015",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_015_opt_3",
+        "questionId": "neet_paper_4_q_015",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_015_opt_4",
+        "questionId": "neet_paper_4_q_015",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_015_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_016",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q16. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_016_opt_1",
+        "questionId": "neet_paper_4_q_016",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_016_opt_2",
+        "questionId": "neet_paper_4_q_016",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_016_opt_3",
+        "questionId": "neet_paper_4_q_016",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_016_opt_4",
+        "questionId": "neet_paper_4_q_016",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_016_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_017",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q17. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_017_opt_1",
+        "questionId": "neet_paper_4_q_017",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_017_opt_2",
+        "questionId": "neet_paper_4_q_017",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_017_opt_3",
+        "questionId": "neet_paper_4_q_017",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_017_opt_4",
+        "questionId": "neet_paper_4_q_017",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_017_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_018",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q18. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_018_opt_1",
+        "questionId": "neet_paper_4_q_018",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_018_opt_2",
+        "questionId": "neet_paper_4_q_018",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_018_opt_3",
+        "questionId": "neet_paper_4_q_018",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_018_opt_4",
+        "questionId": "neet_paper_4_q_018",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_018_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_019",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q19. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_019_opt_1",
+        "questionId": "neet_paper_4_q_019",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_019_opt_2",
+        "questionId": "neet_paper_4_q_019",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_019_opt_3",
+        "questionId": "neet_paper_4_q_019",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_019_opt_4",
+        "questionId": "neet_paper_4_q_019",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_019_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_020",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q20. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_020_opt_1",
+        "questionId": "neet_paper_4_q_020",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_020_opt_2",
+        "questionId": "neet_paper_4_q_020",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_020_opt_3",
+        "questionId": "neet_paper_4_q_020",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_020_opt_4",
+        "questionId": "neet_paper_4_q_020",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_020_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_021",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q21. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_021_opt_1",
+        "questionId": "neet_paper_4_q_021",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_021_opt_2",
+        "questionId": "neet_paper_4_q_021",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_021_opt_3",
+        "questionId": "neet_paper_4_q_021",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_021_opt_4",
+        "questionId": "neet_paper_4_q_021",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_021_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_022",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q22. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_022_opt_1",
+        "questionId": "neet_paper_4_q_022",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_022_opt_2",
+        "questionId": "neet_paper_4_q_022",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_022_opt_3",
+        "questionId": "neet_paper_4_q_022",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_022_opt_4",
+        "questionId": "neet_paper_4_q_022",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_022_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_023",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q23. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_023_opt_1",
+        "questionId": "neet_paper_4_q_023",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_023_opt_2",
+        "questionId": "neet_paper_4_q_023",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_023_opt_3",
+        "questionId": "neet_paper_4_q_023",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_023_opt_4",
+        "questionId": "neet_paper_4_q_023",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_023_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_024",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q24. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_024_opt_1",
+        "questionId": "neet_paper_4_q_024",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_024_opt_2",
+        "questionId": "neet_paper_4_q_024",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_024_opt_3",
+        "questionId": "neet_paper_4_q_024",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_024_opt_4",
+        "questionId": "neet_paper_4_q_024",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_024_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_025",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q25. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_025_opt_1",
+        "questionId": "neet_paper_4_q_025",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_025_opt_2",
+        "questionId": "neet_paper_4_q_025",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_025_opt_3",
+        "questionId": "neet_paper_4_q_025",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_025_opt_4",
+        "questionId": "neet_paper_4_q_025",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_025_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_026",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q26. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_026_opt_1",
+        "questionId": "neet_paper_4_q_026",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_026_opt_2",
+        "questionId": "neet_paper_4_q_026",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_026_opt_3",
+        "questionId": "neet_paper_4_q_026",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_026_opt_4",
+        "questionId": "neet_paper_4_q_026",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_026_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_027",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q27. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_027_opt_1",
+        "questionId": "neet_paper_4_q_027",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_027_opt_2",
+        "questionId": "neet_paper_4_q_027",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_027_opt_3",
+        "questionId": "neet_paper_4_q_027",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_027_opt_4",
+        "questionId": "neet_paper_4_q_027",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_027_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_028",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q28. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_028_opt_1",
+        "questionId": "neet_paper_4_q_028",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_028_opt_2",
+        "questionId": "neet_paper_4_q_028",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_028_opt_3",
+        "questionId": "neet_paper_4_q_028",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_028_opt_4",
+        "questionId": "neet_paper_4_q_028",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_028_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_029",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q29. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_029_opt_1",
+        "questionId": "neet_paper_4_q_029",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_029_opt_2",
+        "questionId": "neet_paper_4_q_029",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_029_opt_3",
+        "questionId": "neet_paper_4_q_029",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_029_opt_4",
+        "questionId": "neet_paper_4_q_029",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_029_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_030",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q30. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_030_opt_1",
+        "questionId": "neet_paper_4_q_030",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_030_opt_2",
+        "questionId": "neet_paper_4_q_030",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_030_opt_3",
+        "questionId": "neet_paper_4_q_030",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_030_opt_4",
+        "questionId": "neet_paper_4_q_030",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_030_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_031",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q31. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_031_opt_1",
+        "questionId": "neet_paper_4_q_031",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_031_opt_2",
+        "questionId": "neet_paper_4_q_031",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_031_opt_3",
+        "questionId": "neet_paper_4_q_031",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_031_opt_4",
+        "questionId": "neet_paper_4_q_031",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_031_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_032",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q32. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_032_opt_1",
+        "questionId": "neet_paper_4_q_032",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_032_opt_2",
+        "questionId": "neet_paper_4_q_032",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_032_opt_3",
+        "questionId": "neet_paper_4_q_032",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_032_opt_4",
+        "questionId": "neet_paper_4_q_032",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_032_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_033",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q33. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_033_opt_1",
+        "questionId": "neet_paper_4_q_033",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_033_opt_2",
+        "questionId": "neet_paper_4_q_033",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_033_opt_3",
+        "questionId": "neet_paper_4_q_033",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_033_opt_4",
+        "questionId": "neet_paper_4_q_033",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_033_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_034",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q34. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_034_opt_1",
+        "questionId": "neet_paper_4_q_034",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_034_opt_2",
+        "questionId": "neet_paper_4_q_034",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_034_opt_3",
+        "questionId": "neet_paper_4_q_034",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_034_opt_4",
+        "questionId": "neet_paper_4_q_034",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_034_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_035",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q35. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_035_opt_1",
+        "questionId": "neet_paper_4_q_035",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_035_opt_2",
+        "questionId": "neet_paper_4_q_035",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_035_opt_3",
+        "questionId": "neet_paper_4_q_035",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_035_opt_4",
+        "questionId": "neet_paper_4_q_035",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_035_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_036",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q36. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_036_opt_1",
+        "questionId": "neet_paper_4_q_036",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_036_opt_2",
+        "questionId": "neet_paper_4_q_036",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_036_opt_3",
+        "questionId": "neet_paper_4_q_036",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_036_opt_4",
+        "questionId": "neet_paper_4_q_036",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_036_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_037",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q37. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_037_opt_1",
+        "questionId": "neet_paper_4_q_037",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_037_opt_2",
+        "questionId": "neet_paper_4_q_037",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_037_opt_3",
+        "questionId": "neet_paper_4_q_037",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_037_opt_4",
+        "questionId": "neet_paper_4_q_037",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_037_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_038",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q38. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_038_opt_1",
+        "questionId": "neet_paper_4_q_038",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_038_opt_2",
+        "questionId": "neet_paper_4_q_038",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_038_opt_3",
+        "questionId": "neet_paper_4_q_038",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_038_opt_4",
+        "questionId": "neet_paper_4_q_038",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_038_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_039",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q39. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_039_opt_1",
+        "questionId": "neet_paper_4_q_039",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_039_opt_2",
+        "questionId": "neet_paper_4_q_039",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_039_opt_3",
+        "questionId": "neet_paper_4_q_039",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_039_opt_4",
+        "questionId": "neet_paper_4_q_039",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_039_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_040",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q40. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_040_opt_1",
+        "questionId": "neet_paper_4_q_040",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_040_opt_2",
+        "questionId": "neet_paper_4_q_040",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_040_opt_3",
+        "questionId": "neet_paper_4_q_040",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_040_opt_4",
+        "questionId": "neet_paper_4_q_040",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_040_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_041",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q41. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_041_opt_1",
+        "questionId": "neet_paper_4_q_041",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_041_opt_2",
+        "questionId": "neet_paper_4_q_041",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_041_opt_3",
+        "questionId": "neet_paper_4_q_041",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_041_opt_4",
+        "questionId": "neet_paper_4_q_041",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_041_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_042",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q42. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_042_opt_1",
+        "questionId": "neet_paper_4_q_042",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_042_opt_2",
+        "questionId": "neet_paper_4_q_042",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_042_opt_3",
+        "questionId": "neet_paper_4_q_042",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_042_opt_4",
+        "questionId": "neet_paper_4_q_042",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_042_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_043",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q43. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_043_opt_1",
+        "questionId": "neet_paper_4_q_043",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_043_opt_2",
+        "questionId": "neet_paper_4_q_043",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_043_opt_3",
+        "questionId": "neet_paper_4_q_043",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_043_opt_4",
+        "questionId": "neet_paper_4_q_043",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_043_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_044",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q44. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_044_opt_1",
+        "questionId": "neet_paper_4_q_044",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_044_opt_2",
+        "questionId": "neet_paper_4_q_044",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_044_opt_3",
+        "questionId": "neet_paper_4_q_044",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_044_opt_4",
+        "questionId": "neet_paper_4_q_044",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_044_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_045",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q45. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_045_opt_1",
+        "questionId": "neet_paper_4_q_045",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_045_opt_2",
+        "questionId": "neet_paper_4_q_045",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_045_opt_3",
+        "questionId": "neet_paper_4_q_045",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_045_opt_4",
+        "questionId": "neet_paper_4_q_045",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_045_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_046",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q46. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_046_opt_1",
+        "questionId": "neet_paper_4_q_046",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_046_opt_2",
+        "questionId": "neet_paper_4_q_046",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_046_opt_3",
+        "questionId": "neet_paper_4_q_046",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_046_opt_4",
+        "questionId": "neet_paper_4_q_046",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_046_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_047",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q47. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_047_opt_1",
+        "questionId": "neet_paper_4_q_047",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_047_opt_2",
+        "questionId": "neet_paper_4_q_047",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_047_opt_3",
+        "questionId": "neet_paper_4_q_047",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_047_opt_4",
+        "questionId": "neet_paper_4_q_047",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_047_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_048",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q48. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_048_opt_1",
+        "questionId": "neet_paper_4_q_048",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_048_opt_2",
+        "questionId": "neet_paper_4_q_048",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_048_opt_3",
+        "questionId": "neet_paper_4_q_048",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_048_opt_4",
+        "questionId": "neet_paper_4_q_048",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_048_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_049",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q49. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_049_opt_1",
+        "questionId": "neet_paper_4_q_049",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_049_opt_2",
+        "questionId": "neet_paper_4_q_049",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_049_opt_3",
+        "questionId": "neet_paper_4_q_049",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_049_opt_4",
+        "questionId": "neet_paper_4_q_049",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_049_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_050",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q50. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_050_opt_1",
+        "questionId": "neet_paper_4_q_050",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_050_opt_2",
+        "questionId": "neet_paper_4_q_050",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_050_opt_3",
+        "questionId": "neet_paper_4_q_050",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_050_opt_4",
+        "questionId": "neet_paper_4_q_050",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_050_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_051",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q51. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_051_opt_1",
+        "questionId": "neet_paper_4_q_051",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_051_opt_2",
+        "questionId": "neet_paper_4_q_051",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_051_opt_3",
+        "questionId": "neet_paper_4_q_051",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_051_opt_4",
+        "questionId": "neet_paper_4_q_051",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_051_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_052",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q52. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_052_opt_1",
+        "questionId": "neet_paper_4_q_052",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_052_opt_2",
+        "questionId": "neet_paper_4_q_052",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_052_opt_3",
+        "questionId": "neet_paper_4_q_052",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_052_opt_4",
+        "questionId": "neet_paper_4_q_052",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_052_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_053",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q53. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_053_opt_1",
+        "questionId": "neet_paper_4_q_053",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_053_opt_2",
+        "questionId": "neet_paper_4_q_053",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_053_opt_3",
+        "questionId": "neet_paper_4_q_053",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_053_opt_4",
+        "questionId": "neet_paper_4_q_053",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_053_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_054",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q54. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_054_opt_1",
+        "questionId": "neet_paper_4_q_054",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_054_opt_2",
+        "questionId": "neet_paper_4_q_054",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_054_opt_3",
+        "questionId": "neet_paper_4_q_054",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_054_opt_4",
+        "questionId": "neet_paper_4_q_054",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_054_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_055",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q55. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_055_opt_1",
+        "questionId": "neet_paper_4_q_055",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_055_opt_2",
+        "questionId": "neet_paper_4_q_055",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_055_opt_3",
+        "questionId": "neet_paper_4_q_055",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_055_opt_4",
+        "questionId": "neet_paper_4_q_055",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_055_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_056",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q56. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_056_opt_1",
+        "questionId": "neet_paper_4_q_056",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_056_opt_2",
+        "questionId": "neet_paper_4_q_056",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_056_opt_3",
+        "questionId": "neet_paper_4_q_056",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_056_opt_4",
+        "questionId": "neet_paper_4_q_056",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_056_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_057",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q57. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_057_opt_1",
+        "questionId": "neet_paper_4_q_057",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_057_opt_2",
+        "questionId": "neet_paper_4_q_057",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_057_opt_3",
+        "questionId": "neet_paper_4_q_057",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_057_opt_4",
+        "questionId": "neet_paper_4_q_057",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_057_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_058",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q58. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_058_opt_1",
+        "questionId": "neet_paper_4_q_058",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_058_opt_2",
+        "questionId": "neet_paper_4_q_058",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_058_opt_3",
+        "questionId": "neet_paper_4_q_058",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_058_opt_4",
+        "questionId": "neet_paper_4_q_058",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_058_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_059",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q59. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_059_opt_1",
+        "questionId": "neet_paper_4_q_059",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_059_opt_2",
+        "questionId": "neet_paper_4_q_059",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_059_opt_3",
+        "questionId": "neet_paper_4_q_059",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_059_opt_4",
+        "questionId": "neet_paper_4_q_059",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_059_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_060",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q60. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_060_opt_1",
+        "questionId": "neet_paper_4_q_060",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_060_opt_2",
+        "questionId": "neet_paper_4_q_060",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_060_opt_3",
+        "questionId": "neet_paper_4_q_060",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_060_opt_4",
+        "questionId": "neet_paper_4_q_060",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_060_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_061",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q61. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_061_opt_1",
+        "questionId": "neet_paper_4_q_061",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_061_opt_2",
+        "questionId": "neet_paper_4_q_061",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_061_opt_3",
+        "questionId": "neet_paper_4_q_061",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_061_opt_4",
+        "questionId": "neet_paper_4_q_061",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_061_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_062",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q62. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_062_opt_1",
+        "questionId": "neet_paper_4_q_062",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_062_opt_2",
+        "questionId": "neet_paper_4_q_062",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_062_opt_3",
+        "questionId": "neet_paper_4_q_062",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_062_opt_4",
+        "questionId": "neet_paper_4_q_062",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_062_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_063",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q63. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_063_opt_1",
+        "questionId": "neet_paper_4_q_063",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_063_opt_2",
+        "questionId": "neet_paper_4_q_063",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_063_opt_3",
+        "questionId": "neet_paper_4_q_063",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_063_opt_4",
+        "questionId": "neet_paper_4_q_063",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_063_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_064",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q64. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_064_opt_1",
+        "questionId": "neet_paper_4_q_064",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_064_opt_2",
+        "questionId": "neet_paper_4_q_064",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_064_opt_3",
+        "questionId": "neet_paper_4_q_064",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_064_opt_4",
+        "questionId": "neet_paper_4_q_064",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_064_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_065",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q65. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_065_opt_1",
+        "questionId": "neet_paper_4_q_065",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_065_opt_2",
+        "questionId": "neet_paper_4_q_065",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_065_opt_3",
+        "questionId": "neet_paper_4_q_065",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_065_opt_4",
+        "questionId": "neet_paper_4_q_065",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_065_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_066",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q66. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_066_opt_1",
+        "questionId": "neet_paper_4_q_066",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_066_opt_2",
+        "questionId": "neet_paper_4_q_066",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_066_opt_3",
+        "questionId": "neet_paper_4_q_066",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_066_opt_4",
+        "questionId": "neet_paper_4_q_066",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_066_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_067",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q67. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_067_opt_1",
+        "questionId": "neet_paper_4_q_067",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_067_opt_2",
+        "questionId": "neet_paper_4_q_067",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_067_opt_3",
+        "questionId": "neet_paper_4_q_067",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_067_opt_4",
+        "questionId": "neet_paper_4_q_067",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_067_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_068",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q68. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_068_opt_1",
+        "questionId": "neet_paper_4_q_068",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_068_opt_2",
+        "questionId": "neet_paper_4_q_068",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_068_opt_3",
+        "questionId": "neet_paper_4_q_068",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_068_opt_4",
+        "questionId": "neet_paper_4_q_068",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_068_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_069",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q69. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_069_opt_1",
+        "questionId": "neet_paper_4_q_069",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_069_opt_2",
+        "questionId": "neet_paper_4_q_069",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_069_opt_3",
+        "questionId": "neet_paper_4_q_069",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_069_opt_4",
+        "questionId": "neet_paper_4_q_069",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_069_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_070",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q70. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_070_opt_1",
+        "questionId": "neet_paper_4_q_070",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_070_opt_2",
+        "questionId": "neet_paper_4_q_070",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_070_opt_3",
+        "questionId": "neet_paper_4_q_070",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_070_opt_4",
+        "questionId": "neet_paper_4_q_070",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_070_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_071",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q71. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_071_opt_1",
+        "questionId": "neet_paper_4_q_071",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_071_opt_2",
+        "questionId": "neet_paper_4_q_071",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_071_opt_3",
+        "questionId": "neet_paper_4_q_071",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_071_opt_4",
+        "questionId": "neet_paper_4_q_071",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_071_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_072",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q72. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_072_opt_1",
+        "questionId": "neet_paper_4_q_072",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_072_opt_2",
+        "questionId": "neet_paper_4_q_072",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_072_opt_3",
+        "questionId": "neet_paper_4_q_072",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_072_opt_4",
+        "questionId": "neet_paper_4_q_072",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_072_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_073",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q73. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_073_opt_1",
+        "questionId": "neet_paper_4_q_073",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_073_opt_2",
+        "questionId": "neet_paper_4_q_073",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_073_opt_3",
+        "questionId": "neet_paper_4_q_073",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_073_opt_4",
+        "questionId": "neet_paper_4_q_073",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_073_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_074",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q74. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_074_opt_1",
+        "questionId": "neet_paper_4_q_074",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_074_opt_2",
+        "questionId": "neet_paper_4_q_074",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_074_opt_3",
+        "questionId": "neet_paper_4_q_074",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_074_opt_4",
+        "questionId": "neet_paper_4_q_074",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_074_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_075",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q75. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_075_opt_1",
+        "questionId": "neet_paper_4_q_075",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_075_opt_2",
+        "questionId": "neet_paper_4_q_075",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_075_opt_3",
+        "questionId": "neet_paper_4_q_075",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_075_opt_4",
+        "questionId": "neet_paper_4_q_075",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_075_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_076",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q76. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_076_opt_1",
+        "questionId": "neet_paper_4_q_076",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_076_opt_2",
+        "questionId": "neet_paper_4_q_076",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_076_opt_3",
+        "questionId": "neet_paper_4_q_076",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_076_opt_4",
+        "questionId": "neet_paper_4_q_076",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_076_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_077",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q77. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_077_opt_1",
+        "questionId": "neet_paper_4_q_077",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_077_opt_2",
+        "questionId": "neet_paper_4_q_077",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_077_opt_3",
+        "questionId": "neet_paper_4_q_077",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_077_opt_4",
+        "questionId": "neet_paper_4_q_077",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_077_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_078",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q78. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_078_opt_1",
+        "questionId": "neet_paper_4_q_078",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_078_opt_2",
+        "questionId": "neet_paper_4_q_078",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_078_opt_3",
+        "questionId": "neet_paper_4_q_078",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_078_opt_4",
+        "questionId": "neet_paper_4_q_078",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_078_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_079",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q79. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_079_opt_1",
+        "questionId": "neet_paper_4_q_079",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_079_opt_2",
+        "questionId": "neet_paper_4_q_079",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_079_opt_3",
+        "questionId": "neet_paper_4_q_079",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_079_opt_4",
+        "questionId": "neet_paper_4_q_079",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_079_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_080",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q80. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_080_opt_1",
+        "questionId": "neet_paper_4_q_080",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_080_opt_2",
+        "questionId": "neet_paper_4_q_080",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_080_opt_3",
+        "questionId": "neet_paper_4_q_080",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_080_opt_4",
+        "questionId": "neet_paper_4_q_080",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_080_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_081",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q81. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_081_opt_1",
+        "questionId": "neet_paper_4_q_081",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_081_opt_2",
+        "questionId": "neet_paper_4_q_081",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_081_opt_3",
+        "questionId": "neet_paper_4_q_081",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_081_opt_4",
+        "questionId": "neet_paper_4_q_081",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_081_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_082",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q82. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_082_opt_1",
+        "questionId": "neet_paper_4_q_082",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_082_opt_2",
+        "questionId": "neet_paper_4_q_082",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_082_opt_3",
+        "questionId": "neet_paper_4_q_082",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_082_opt_4",
+        "questionId": "neet_paper_4_q_082",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_082_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_083",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q83. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_083_opt_1",
+        "questionId": "neet_paper_4_q_083",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_083_opt_2",
+        "questionId": "neet_paper_4_q_083",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_083_opt_3",
+        "questionId": "neet_paper_4_q_083",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_083_opt_4",
+        "questionId": "neet_paper_4_q_083",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_083_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_084",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q84. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_084_opt_1",
+        "questionId": "neet_paper_4_q_084",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_084_opt_2",
+        "questionId": "neet_paper_4_q_084",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_084_opt_3",
+        "questionId": "neet_paper_4_q_084",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_084_opt_4",
+        "questionId": "neet_paper_4_q_084",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_084_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_085",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q85. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_085_opt_1",
+        "questionId": "neet_paper_4_q_085",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_085_opt_2",
+        "questionId": "neet_paper_4_q_085",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_085_opt_3",
+        "questionId": "neet_paper_4_q_085",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_085_opt_4",
+        "questionId": "neet_paper_4_q_085",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_085_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_086",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q86. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_086_opt_1",
+        "questionId": "neet_paper_4_q_086",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_086_opt_2",
+        "questionId": "neet_paper_4_q_086",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_086_opt_3",
+        "questionId": "neet_paper_4_q_086",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_086_opt_4",
+        "questionId": "neet_paper_4_q_086",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_086_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_087",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q87. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_087_opt_1",
+        "questionId": "neet_paper_4_q_087",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_087_opt_2",
+        "questionId": "neet_paper_4_q_087",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_087_opt_3",
+        "questionId": "neet_paper_4_q_087",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_087_opt_4",
+        "questionId": "neet_paper_4_q_087",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_087_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_088",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q88. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_088_opt_1",
+        "questionId": "neet_paper_4_q_088",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_088_opt_2",
+        "questionId": "neet_paper_4_q_088",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_088_opt_3",
+        "questionId": "neet_paper_4_q_088",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_088_opt_4",
+        "questionId": "neet_paper_4_q_088",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_088_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_089",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q89. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_089_opt_1",
+        "questionId": "neet_paper_4_q_089",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_089_opt_2",
+        "questionId": "neet_paper_4_q_089",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_089_opt_3",
+        "questionId": "neet_paper_4_q_089",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_089_opt_4",
+        "questionId": "neet_paper_4_q_089",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_089_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_090",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q90. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_090_opt_1",
+        "questionId": "neet_paper_4_q_090",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_090_opt_2",
+        "questionId": "neet_paper_4_q_090",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_090_opt_3",
+        "questionId": "neet_paper_4_q_090",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_090_opt_4",
+        "questionId": "neet_paper_4_q_090",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_090_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_091",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q91. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_091_opt_1",
+        "questionId": "neet_paper_4_q_091",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_091_opt_2",
+        "questionId": "neet_paper_4_q_091",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_091_opt_3",
+        "questionId": "neet_paper_4_q_091",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_091_opt_4",
+        "questionId": "neet_paper_4_q_091",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_091_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_092",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q92. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_092_opt_1",
+        "questionId": "neet_paper_4_q_092",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_092_opt_2",
+        "questionId": "neet_paper_4_q_092",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_092_opt_3",
+        "questionId": "neet_paper_4_q_092",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_092_opt_4",
+        "questionId": "neet_paper_4_q_092",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_092_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_093",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q93. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_093_opt_1",
+        "questionId": "neet_paper_4_q_093",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_093_opt_2",
+        "questionId": "neet_paper_4_q_093",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_093_opt_3",
+        "questionId": "neet_paper_4_q_093",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_093_opt_4",
+        "questionId": "neet_paper_4_q_093",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_093_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_094",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q94. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_094_opt_1",
+        "questionId": "neet_paper_4_q_094",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_094_opt_2",
+        "questionId": "neet_paper_4_q_094",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_094_opt_3",
+        "questionId": "neet_paper_4_q_094",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_094_opt_4",
+        "questionId": "neet_paper_4_q_094",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_094_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_095",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q95. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_095_opt_1",
+        "questionId": "neet_paper_4_q_095",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_095_opt_2",
+        "questionId": "neet_paper_4_q_095",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_095_opt_3",
+        "questionId": "neet_paper_4_q_095",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_095_opt_4",
+        "questionId": "neet_paper_4_q_095",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_095_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_096",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q96. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_096_opt_1",
+        "questionId": "neet_paper_4_q_096",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_096_opt_2",
+        "questionId": "neet_paper_4_q_096",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_096_opt_3",
+        "questionId": "neet_paper_4_q_096",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_096_opt_4",
+        "questionId": "neet_paper_4_q_096",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_096_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_097",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q97. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_097_opt_1",
+        "questionId": "neet_paper_4_q_097",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_097_opt_2",
+        "questionId": "neet_paper_4_q_097",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_097_opt_3",
+        "questionId": "neet_paper_4_q_097",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_097_opt_4",
+        "questionId": "neet_paper_4_q_097",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_097_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_098",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q98. Which amino acid contains a sulfur atom in its side chain and can form covalent disulfide bridges in proteins?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_098_opt_1",
+        "questionId": "neet_paper_4_q_098",
+        "text": "Cysteine",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_098_opt_2",
+        "questionId": "neet_paper_4_q_098",
+        "text": "Alanine",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_098_opt_3",
+        "questionId": "neet_paper_4_q_098",
+        "text": "Glycine",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_098_opt_4",
+        "questionId": "neet_paper_4_q_098",
+        "text": "Valine",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_098_opt_1",
+    "explanation": "Cysteine contains a thiol (-SH) group that undergoes oxidation with another cysteine residue to form a stable disulfide cross-link (-S-S-).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_099",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q99. A blood corpuscle flows through a capillary with resistance R. If the radius decreases by 10%, resistance increases approximately by:",
+    "options": [
+      {
+        "id": "neet_paper_4_q_099_opt_1",
+        "questionId": "neet_paper_4_q_099",
+        "text": "52%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_099_opt_2",
+        "questionId": "neet_paper_4_q_099",
+        "text": "21%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_099_opt_3",
+        "questionId": "neet_paper_4_q_099",
+        "text": "10%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_099_opt_4",
+        "questionId": "neet_paper_4_q_099",
+        "text": "40%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_099_opt_1",
+    "explanation": "According to Poiseuille's law, resistance is inversely proportional to r\u2074. R' = R / (0.9)\u2074 \u2248 R / 0.6561 \u2248 1.524 R, giving a ~52% increase.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "neet_paper_4_q_100",
+    "examId": "exam_neet_ug",
+    "subjectId": "sub_neet_bio",
+    "chapterId": "chap_neet_bio_gen",
+    "topicId": "top_neet_bio_mendel",
+    "questionText": "Q100. Which of the following phases of cell division is characterized by the alignment of bivalents at the equatorial plate during meiosis I?",
+    "options": [
+      {
+        "id": "neet_paper_4_q_100_opt_1",
+        "questionId": "neet_paper_4_q_100",
+        "text": "Metaphase I",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "neet_paper_4_q_100_opt_2",
+        "questionId": "neet_paper_4_q_100",
+        "text": "Anaphase I",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "neet_paper_4_q_100_opt_3",
+        "questionId": "neet_paper_4_q_100",
+        "text": "Prophase I",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "neet_paper_4_q_100_opt_4",
+        "questionId": "neet_paper_4_q_100",
+        "text": "Telophase I",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "neet_paper_4_q_100_opt_1",
+    "explanation": "During Metaphase I of Meiosis, the bivalent chromosomes align on the equatorial plate with spindle microtubules attached to the kinetochores of homologous chromosomes.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "NEET UG Paper 4 \u2014 Ecology & Evolution",
+    "year": 2026,
+    "estimatedSeconds": 60,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "NEET UG",
+      "Biology",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  }
+]

@@ -30,6 +30,8 @@ import androidx.navigation.compose.navigation
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.examprep.android.feature.auth.AuthScreen
+import com.examprep.android.feature.auth.AuthStore
+import com.examprep.android.feature.auth.EmailVerificationScreen
 import com.examprep.android.feature.auth.ProfileScreen
 import com.examprep.android.feature.dashboard.DashboardScreen
 import com.examprep.android.feature.flashcards.FlashcardsScreen
@@ -50,8 +52,11 @@ import com.examprep.android.feature.revision.RevisionScreen
 import com.examprep.android.feature.roadmap.RoadmapScreen
 import com.examprep.android.feature.settings.SettingsScreen
 import com.examprep.android.feature.study.FocusSessionScreen
+import com.examprep.android.feature.subscription.SubscriptionScreen
 import com.examprep.android.feature.syllabus.SyllabusScreen
 import com.examprep.android.feature.timeline.TimelineScreen
+import com.examprep.android.feature.questionlibrary.QuestionLibraryScreen
+
 
 private const val NAV_ANIM_DURATION = 300
 
@@ -59,8 +64,10 @@ private const val NAV_ANIM_DURATION = 300
  * Root navigation host for the ExamPrep OS application.
  *
  * Navigation decisions:
- * - Splash screen determines initial destination (onboarding vs main)
- * - Onboarding is a nested graph — once completed, popped off back-stack
+ * - Splash screen determines initial destination (Auth vs Onboarding vs Dashboard)
+ * - If not authenticated -> AuthScreen (Login / Sign Up)
+ * - If new account created -> OnboardingGraph -> Dashboard
+ * - If existing authenticated user -> Dashboard
  * - Main app uses bottom nav with 5 top-level destinations
  * - Feature screens are pushed on top of bottom nav tabs
  */
@@ -94,7 +101,12 @@ fun AppNavigation(
     ) {
         // ── Splash ───────────────────────────────────────────────────────────
         composable(Screen.Splash.route) {
-            SplashScreen(
+            com.examprep.android.feature.onboarding.SplashScreen(
+                onNavigateToAuth = {
+                    navController.navigate(Screen.Auth.route) {
+                        popUpTo(Screen.Splash.route) { inclusive = true }
+                    }
+                },
                 onNavigateToOnboarding = {
                     navController.navigate(Screen.OnboardingGraph.route) {
                         popUpTo(Screen.Splash.route) { inclusive = true }
@@ -327,13 +339,26 @@ fun AppNavigation(
         composable(Screen.Auth.route) {
             AuthScreen(
                 onAuthSuccess = {
-                    navController.navigate(Screen.MainGraph.route) {
-                        popUpTo(Screen.Auth.route) { inclusive = true }
+                    val user = AuthStore.get().currentUser.value
+                    if (user != null) {
+                        if (!user.isEmailVerified) {
+                            navController.navigate(Screen.EmailVerification.route) {
+                                popUpTo(Screen.Auth.route) { inclusive = false }
+                            }
+                        } else if (user.hasCompletedOnboarding) {
+                            navController.navigate(Screen.MainGraph.route) {
+                                popUpTo(Screen.Auth.route) { inclusive = true }
+                            }
+                        } else {
+                            navController.navigate(Screen.OnboardingGraph.route) {
+                                popUpTo(Screen.Auth.route) { inclusive = true }
+                            }
+                        }
                     }
                 },
                 onSignUpSuccess = {
-                    navController.navigate(Screen.StudentOnboarding.route) {
-                        popUpTo(Screen.Auth.route) { inclusive = true }
+                    navController.navigate(Screen.EmailVerification.route) {
+                        popUpTo(Screen.Auth.route) { inclusive = false }
                     }
                 },
                 onBack = {
@@ -346,9 +371,31 @@ fun AppNavigation(
                 }
             )
         }
+        composable(Screen.EmailVerification.route) {
+            EmailVerificationScreen(
+                onVerificationSuccessDirectDashboard = {
+                    navController.navigate(Screen.MainGraph.route) {
+                        popUpTo(Screen.Auth.route) { inclusive = true }
+                    }
+                },
+                onVerificationSuccessGoToOnboarding = {
+                    navController.navigate(Screen.OnboardingGraph.route) {
+                        popUpTo(Screen.Auth.route) { inclusive = true }
+                    }
+                },
+                onBackToAuth = {
+                    if (!navController.popBackStack()) {
+                        navController.navigate(Screen.Auth.route) {
+                            popUpTo(Screen.Auth.route) { inclusive = true }
+                        }
+                    }
+                }
+            )
+        }
         composable(Screen.StudentOnboarding.route) {
             StudentOnboardingScreen(
                 onOnboardingComplete = {
+                    AuthStore.get().completeOnboarding()
                     navController.navigate(Screen.MainGraph.route) {
                         popUpTo(Screen.StudentOnboarding.route) { inclusive = true }
                     }
@@ -376,7 +423,7 @@ fun AppNavigation(
                     navController.navigate(Screen.Auth.route)
                 },
                 onNavigateToHeroFeature = {
-                    navController.navigate(Screen.AIRankAccelerator.route)
+                    navController.navigate(Screen.Subscription.route)
                 },
                 onLoggedOut = {
                     navController.navigate(Screen.Auth.route) {
@@ -399,7 +446,27 @@ fun AppNavigation(
                     navController.navigate(Screen.Quiz.createRoute("surg_drill_rot_1"))
                 },
                 onUpgradeToPro = {
-                    // Refreshes in-place with Pro state unlocked
+                    navController.navigate(Screen.Subscription.route)
+                }
+            )
+        }
+        composable(Screen.Subscription.route) {
+            SubscriptionScreen(
+                onNavigateBack = {
+                    if (!navController.popBackStack()) {
+                        navController.navigate(Screen.MainGraph.route) {
+                            popUpTo(Screen.MainGraph.route) { inclusive = false }
+                            launchSingleTop = true
+                        }
+                    }
+                }
+            )
+        }
+        composable(Screen.QuestionLibrary.route) {
+            QuestionLibraryScreen(
+                onBack = { navController.popBackStack() },
+                onStartMockTest = { paperId ->
+                    navController.navigate(Screen.MockTest.createRoute(paperId))
                 }
             )
         }
@@ -502,7 +569,10 @@ private fun MainAppScreen(rootNavController: NavHostController) {
                         rootNavController.navigate(Screen.Profile.route)
                     },
                     onNavigateToHeroFeature = {
-                        rootNavController.navigate(Screen.AIRankAccelerator.route)
+                        rootNavController.navigate(Screen.Subscription.route)
+                    },
+                    onNavigateToQuestionLibrary = {
+                        rootNavController.navigate(Screen.QuestionLibrary.route)
                     }
                 )
             }
@@ -522,6 +592,7 @@ private fun MainAppScreen(rootNavController: NavHostController) {
             }
             composable(Screen.Performance.route) {
                 PerformanceScreen(
+                    showBackButton = false,
                     onNavigateBack = {
                         bottomNavController.navigate(Screen.Dashboard.route) {
                             popUpTo(bottomNavController.graph.findStartDestination().id) {
@@ -546,6 +617,12 @@ private fun MainAppScreen(rootNavController: NavHostController) {
                         rootNavController.navigate(Screen.Auth.route) {
                             popUpTo(Screen.MainGraph.route) { inclusive = true }
                         }
+                    },
+                    onNavigateToSubscription = {
+                        rootNavController.navigate(Screen.Subscription.route)
+                    },
+                    onNavigateToQuestionLibrary = {
+                        rootNavController.navigate(Screen.QuestionLibrary.route)
                     }
                 )
             }
@@ -553,17 +630,3 @@ private fun MainAppScreen(rootNavController: NavHostController) {
     }
 }
 
-/**
- * Splash screen — determines routing on launch.
- * Placeholder: will check onboarding completion from DataStore.
- */
-@Composable
-private fun SplashScreen(
-    onNavigateToOnboarding: () -> Unit,
-    onNavigateToDashboard: () -> Unit
-) {
-    com.examprep.android.feature.onboarding.SplashScreen(
-        onNavigateToOnboarding = onNavigateToOnboarding,
-        onNavigateToDashboard = onNavigateToDashboard
-    )
-}

@@ -22,8 +22,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.examprep.core.designsystem.component.StatusChip
 import com.examprep.core.designsystem.theme.ExamPrepColors
 import com.examprep.core.designsystem.theme.Spacing
+import com.examprep.core.util.capitalizeFirst
 import com.examprep.domain.model.MistakeItem
 import com.examprep.domain.model.MistakeMasteryStatus
 import com.examprep.domain.model.MistakeReason
@@ -484,16 +486,10 @@ private fun MistakeCard(
                     }
                 }
 
-                Surface(
-                    color = statusColor.copy(alpha = 0.15f),
-                    shape = RoundedCornerShape(6.dp)
-                ) {
-                    Text(
-                        mistake.masteryStatus.name,
-                        style = MaterialTheme.typography.labelSmall.copy(color = statusColor, fontWeight = FontWeight.Bold),
-                        modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
-                    )
-                }
+                StatusChip(
+                    text = mistake.masteryStatus.name,
+                    color = statusColor
+                )
             }
 
             Spacer(Modifier.height(Spacing.SM))
@@ -512,7 +508,7 @@ private fun MistakeCard(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        "Reason: ${mistake.reason.name.replace("_", " ").lowercase().replaceFirstChar { it.uppercase() }}",
+                        "Reason: ${mistake.reason.name.replace("_", " ").lowercase().capitalizeFirst()}",
                         style = MaterialTheme.typography.labelSmall.copy(color = MaterialTheme.colorScheme.onSurfaceVariant)
                     )
                     Text(

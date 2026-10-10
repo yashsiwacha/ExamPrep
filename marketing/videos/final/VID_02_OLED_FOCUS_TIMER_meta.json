@@ -1,0 +1,12 @@
+{
+  "video_id": "VID_02_OLED_FOCUS_TIMER",
+  "output_file": "/Users/yash/Yash-Workspace/projects/active/android/marketing/videos/final/VID_02_OLED_FOCUS_TIMER.mp4",
+  "thumbnail_file": "/Users/yash/Yash-Workspace/projects/active/android/marketing/videos/final/VID_02_OLED_FOCUS_TIMER_thumb.jpg",
+  "duration_seconds": 36.466667,
+  "resolution": "1080x1920",
+  "aspect_ratio": "9:16 (Vertical)",
+  "fps": 30,
+  "filesize_mb": 3.76,
+  "audio": "Voice (Rishi en_IN) + Lo-fi Ambient Pad (Loudnorm -16 LUFS)",
+  "status": "APPROVED_QA"
+}

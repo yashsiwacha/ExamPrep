@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
+    alias(libs.plugins.google.services)
 }
 
 android {
@@ -87,6 +88,7 @@ dependencies {
     implementation(libs.androidx.activity.compose)
     implementation(libs.bundles.lifecycle)
     implementation(libs.bundles.coroutines)
+    implementation(libs.androidx.work.runtime.ktx)
 
     // Compose
     implementation(platform(libs.androidx.compose.bom))
@@ -101,6 +103,17 @@ dependencies {
     implementation(libs.hilt.android)
     implementation(libs.hilt.navigation.compose)
     ksp(libs.hilt.android.compiler)
+
+    // Firebase
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
+
+    // Networking (remote question bank)
+    implementation(libs.bundles.networking)
+
+    // Google Mobile Ads (AdMob)
+    implementation(libs.google.mobile.ads)
 
     // Logging
     implementation(libs.timber)

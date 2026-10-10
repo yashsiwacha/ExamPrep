@@ -1,8 +1,10 @@
 package com.examprep.android.feature.onboarding
 
 import androidx.compose.animation.core.*
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -22,6 +24,7 @@ import kotlinx.coroutines.delay
 
 @Composable
 fun SplashScreen(
+    onNavigateToAuth: () -> Unit,
     onNavigateToOnboarding: () -> Unit,
     onNavigateToDashboard: () -> Unit,
     viewModel: SplashViewModel = androidx.hilt.navigation.compose.hiltViewModel()
@@ -39,6 +42,7 @@ fun SplashScreen(
         if (destination != SplashDestination.Deciding) {
             delay(400) // brief hold after animation for polish
             when (destination) {
+                SplashDestination.GoToAuth -> onNavigateToAuth()
                 SplashDestination.GoToDashboard -> onNavigateToDashboard()
                 SplashDestination.GoToOnboarding -> onNavigateToOnboarding()
                 else -> Unit
@@ -535,62 +539,392 @@ private fun SetupCard(label: String, value: String) {
 @Composable
 fun DiagnosticScreen(
     onAssessmentComplete: () -> Unit,
-    onSkip: () -> Unit
+    onSkip: () -> Unit,
+    viewModel: DiagnosticViewModel = hiltViewModel()
 ) {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(MaterialTheme.colorScheme.background)
-            .padding(24.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.SpaceBetween
-    ) {
-        Column(
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(12.dp)
-        ) {
-            Spacer(Modifier.height(32.dp))
-            Text(
-                text = "Ready to Begin!",
-                style = MaterialTheme.typography.headlineSmall.copy(
-                    color = MaterialTheme.colorScheme.onBackground,
-                    fontWeight = FontWeight.Bold
-                )
-            )
-            Text(
-                text = "Your personalized roadmap is ready.\nStart with today's foundation topics.",
-                style = MaterialTheme.typography.bodyMedium.copy(
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                ),
-                textAlign = androidx.compose.ui.text.style.TextAlign.Center
-            )
-            Card(
-                modifier = Modifier.fillMaxWidth(),
-                colors = CardDefaults.cardColors(
-                    containerColor = MaterialTheme.colorScheme.primaryContainer
-                ),
-                shape = MaterialTheme.shapes.medium
+    val state by viewModel.uiState.collectAsState()
+
+    when (val uiState = state) {
+        is DiagnosticUiState.Loading, is DiagnosticUiState.Submitting -> {
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(MaterialTheme.colorScheme.background),
+                contentAlignment = Alignment.Center
             ) {
-                Text(
-                    text = "🎯 Plan dynamically rebalances as you solve quizzes and complete focus sessions.",
-                    modifier = Modifier.padding(16.dp),
-                    style = MaterialTheme.typography.bodyMedium.copy(
-                        color = MaterialTheme.colorScheme.onPrimaryContainer
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.spacedBy(16.dp)
+                ) {
+                    CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
+                    Text(
+                        text = if (uiState is DiagnosticUiState.Submitting) 
+                            "Personalizing your study roadmap..." 
+                        else 
+                            "Preparing diagnostic assessment...",
+                        style = MaterialTheme.typography.bodyMedium.copy(
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
                     )
-                )
+                }
             }
         }
 
-        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            Button(
-                onClick = onAssessmentComplete,
-                modifier = Modifier.fillMaxWidth().height(56.dp),
-                shape = MaterialTheme.shapes.medium
+        is DiagnosticUiState.Intro -> {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(MaterialTheme.colorScheme.background)
+                    .padding(24.dp),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.SpaceBetween
             ) {
-                Text("Go to Dashboard", style = MaterialTheme.typography.titleMedium)
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.spacedBy(16.dp)
+                ) {
+                    Spacer(Modifier.height(32.dp))
+                    Surface(
+                        shape = RoundedCornerShape(100.dp),
+                        color = MaterialTheme.colorScheme.primaryContainer
+                    ) {
+                        Text(
+                            text = "DIAGNOSTIC ASSESSMENT",
+                            modifier = Modifier.padding(horizontal = 14.dp, vertical = 6.dp),
+                            style = MaterialTheme.typography.labelSmall.copy(
+                                color = MaterialTheme.colorScheme.onPrimaryContainer,
+                                fontWeight = FontWeight.Bold,
+                                letterSpacing = 1.sp
+                            )
+                        )
+                    }
+
+                    Text(
+                        text = "Benchmark Your Starting Point",
+                        style = MaterialTheme.typography.headlineSmall.copy(
+                            color = MaterialTheme.colorScheme.onBackground,
+                            fontWeight = FontWeight.Bold
+                        ),
+                        textAlign = androidx.compose.ui.text.style.TextAlign.Center
+                    )
+
+                    Text(
+                        text = "Take a quick ${uiState.questionCount}-question baseline quiz for ${uiState.exam.name} so ExamPrepOS can prioritize your weak topics and build a realistic timeline.",
+                        style = MaterialTheme.typography.bodyMedium.copy(
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        ),
+                        textAlign = androidx.compose.ui.text.style.TextAlign.Center
+                    )
+
+                    Card(
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = CardDefaults.cardColors(
+                            containerColor = MaterialTheme.colorScheme.surfaceVariant
+                        ),
+                        shape = MaterialTheme.shapes.medium
+                    ) {
+                        Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                Icon(
+                                    imageVector = Icons.Default.Timer,
+                                    contentDescription = null,
+                                    tint = MaterialTheme.colorScheme.primary,
+                                    modifier = Modifier.size(18.dp)
+                                )
+                                Spacer(Modifier.width(8.dp))
+                                Text(
+                                    text = "Estimated Time: ~${uiState.estimatedMinutes} minutes",
+                                    style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Medium)
+                                )
+                            }
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                Icon(
+                                    imageVector = Icons.Default.Tune,
+                                    contentDescription = null,
+                                    tint = MaterialTheme.colorScheme.primary,
+                                    modifier = Modifier.size(18.dp)
+                                )
+                                Spacer(Modifier.width(8.dp))
+                                Text(
+                                    text = "Directly calibrates task priority & study hours",
+                                    style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Medium)
+                                )
+                            }
+                        }
+                    }
+                }
+
+                Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Button(
+                        onClick = { viewModel.startAssessment() },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(56.dp),
+                        shape = MaterialTheme.shapes.medium
+                    ) {
+                        Text("Start Diagnostic Assessment", style = MaterialTheme.typography.titleMedium)
+                    }
+                    TextButton(
+                        onClick = {
+                            viewModel.skipAssessment { onSkip() }
+                        },
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Text("Skip & Use Default Plan", color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                }
             }
-            TextButton(onClick = onSkip, modifier = Modifier.fillMaxWidth()) {
-                Text("Explore Later", color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+
+        is DiagnosticUiState.QuestionActive -> {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(MaterialTheme.colorScheme.background)
+                    .padding(24.dp),
+                verticalArrangement = Arrangement.SpaceBetween
+            ) {
+                Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+                    Spacer(Modifier.height(16.dp))
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Text(
+                            text = "Question ${uiState.currentIndex + 1} of ${uiState.totalQuestions}",
+                            style = MaterialTheme.typography.labelLarge.copy(
+                                color = MaterialTheme.colorScheme.primary,
+                                fontWeight = FontWeight.SemiBold
+                            )
+                        )
+                        Text(
+                            text = uiState.exam.shortName,
+                            style = MaterialTheme.typography.labelMedium.copy(
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        )
+                    }
+
+                    LinearProgressIndicator(
+                        progress = { (uiState.currentIndex + 1).toFloat() / uiState.totalQuestions },
+                        modifier = Modifier.fillMaxWidth(),
+                        color = MaterialTheme.colorScheme.primary,
+                        trackColor = MaterialTheme.colorScheme.surfaceVariant
+                    )
+
+                    Card(
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+                        shape = MaterialTheme.shapes.medium
+                    ) {
+                        Text(
+                            text = uiState.currentQuestion.questionText,
+                            modifier = Modifier.padding(18.dp),
+                            style = MaterialTheme.typography.bodyLarge.copy(
+                                fontWeight = FontWeight.Medium,
+                                lineHeight = 24.sp
+                            )
+                        )
+                    }
+
+                    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                        uiState.currentQuestion.options.forEach { option ->
+                            val isSelected = uiState.selectedOptionId == option.id
+                            Surface(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .clickable { viewModel.selectOption(option.id) },
+                                shape = MaterialTheme.shapes.medium,
+                                color = if (isSelected) 
+                                    MaterialTheme.colorScheme.primaryContainer 
+                                else 
+                                    MaterialTheme.colorScheme.surface,
+                                border = androidx.compose.foundation.BorderStroke(
+                                    1.dp,
+                                    if (isSelected) 
+                                        MaterialTheme.colorScheme.primary 
+                                    else 
+                                        MaterialTheme.colorScheme.outlineVariant
+                                )
+                            ) {
+                                Row(
+                                    modifier = Modifier.padding(14.dp),
+                                    verticalAlignment = Alignment.CenterVertically
+                                ) {
+                                    RadioButton(
+                                        selected = isSelected,
+                                        onClick = { viewModel.selectOption(option.id) }
+                                    )
+                                    Spacer(Modifier.width(8.dp))
+                                    Text(
+                                        text = option.text,
+                                        style = MaterialTheme.typography.bodyMedium.copy(
+                                            color = if (isSelected) 
+                                                MaterialTheme.colorScheme.onPrimaryContainer 
+                                            else 
+                                                MaterialTheme.colorScheme.onSurface
+                                        )
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+
+                Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Button(
+                        onClick = { viewModel.nextQuestionOrSubmit() },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(56.dp),
+                        shape = MaterialTheme.shapes.medium
+                    ) {
+                        Text(
+                            text = if (uiState.currentIndex + 1 == uiState.totalQuestions) 
+                                "Submit Diagnostic" 
+                            else 
+                                "Next Question",
+                            style = MaterialTheme.typography.titleMedium
+                        )
+                    }
+
+                    TextButton(
+                        onClick = { viewModel.skipAssessment { onSkip() } },
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Text("Skip Remaining & Finalize Plan", color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                }
+            }
+        }
+
+        is DiagnosticUiState.Completed -> {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(MaterialTheme.colorScheme.background)
+                    .padding(24.dp),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.SpaceBetween
+            ) {
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.spacedBy(16.dp)
+                ) {
+                    Spacer(Modifier.height(32.dp))
+                    Icon(
+                        imageVector = Icons.Default.CheckCircle,
+                        contentDescription = null,
+                        tint = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.size(64.dp)
+                    )
+
+                    Text(
+                        text = "Diagnostic Complete!",
+                        style = MaterialTheme.typography.headlineSmall.copy(
+                            color = MaterialTheme.colorScheme.onBackground,
+                            fontWeight = FontWeight.Bold
+                        )
+                    )
+
+                    if (uiState.totalQuestions > 0) {
+                        Text(
+                            text = "Score: ${uiState.correctCount}/${uiState.totalQuestions} (${uiState.accuracy.toInt()}%)",
+                            style = MaterialTheme.typography.titleLarge.copy(
+                                color = MaterialTheme.colorScheme.primary,
+                                fontWeight = FontWeight.Bold
+                            )
+                        )
+                    }
+
+                    Card(
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = CardDefaults.cardColors(
+                            containerColor = MaterialTheme.colorScheme.primaryContainer
+                        ),
+                        shape = MaterialTheme.shapes.medium
+                    ) {
+                        Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Text(
+                                text = "🎯 Study Roadmap Customized",
+                                style = MaterialTheme.typography.titleSmall.copy(
+                                    color = MaterialTheme.colorScheme.onPrimaryContainer,
+                                    fontWeight = FontWeight.Bold
+                                )
+                            )
+                            Text(
+                                text = "Your daily tasks have been sequenced to strengthen weaker topics first with dedicated focus hours.",
+                                style = MaterialTheme.typography.bodyMedium.copy(
+                                    color = MaterialTheme.colorScheme.onPrimaryContainer
+                                )
+                            )
+                        }
+                    }
+
+                    if (uiState.weakTopics.isNotEmpty()) {
+                        Card(
+                            modifier = Modifier.fillMaxWidth(),
+                            colors = CardDefaults.cardColors(
+                                containerColor = MaterialTheme.colorScheme.surfaceVariant
+                            ),
+                            shape = MaterialTheme.shapes.medium
+                        ) {
+                            Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                                Text(
+                                    text = "Priority Topics for Extra Practice:",
+                                    style = MaterialTheme.typography.labelMedium.copy(
+                                        color = MaterialTheme.colorScheme.error,
+                                        fontWeight = FontWeight.SemiBold
+                                    )
+                                )
+                                Text(
+                                    text = uiState.weakTopics.joinToString(" • "),
+                                    style = MaterialTheme.typography.bodyMedium
+                                )
+                            }
+                        }
+                    }
+                }
+
+                Button(
+                    onClick = onAssessmentComplete,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(56.dp),
+                    shape = MaterialTheme.shapes.medium
+                ) {
+                    Text("Go to Dashboard", style = MaterialTheme.typography.titleMedium)
+                }
+            }
+        }
+
+        is DiagnosticUiState.Error -> {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(MaterialTheme.colorScheme.background)
+                    .padding(24.dp),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center
+            ) {
+                Text(
+                    text = "Assessment Notice",
+                    style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.Bold)
+                )
+                Spacer(Modifier.height(8.dp))
+                Text(
+                    text = uiState.message,
+                    style = MaterialTheme.typography.bodyMedium.copy(color = MaterialTheme.colorScheme.onSurfaceVariant),
+                    textAlign = androidx.compose.ui.text.style.TextAlign.Center
+                )
+                Spacer(Modifier.height(24.dp))
+                Button(
+                    onClick = onAssessmentComplete,
+                    modifier = Modifier.fillMaxWidth().height(56.dp)
+                ) {
+                    Text("Continue to Dashboard")
+                }
             }
         }
     }

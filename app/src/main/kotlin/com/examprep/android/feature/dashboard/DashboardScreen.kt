@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -18,7 +19,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.foundation.BorderStroke
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.examprep.android.ads.AdUnitIds
+import com.examprep.android.ads.BannerAdView
+import com.examprep.core.designsystem.component.ActionBannerCard
+import com.examprep.core.designsystem.component.MetricStatBox
 import com.examprep.core.designsystem.theme.ExamPrepColors
 import com.examprep.core.designsystem.theme.Spacing
 import com.examprep.domain.model.StudyTask
@@ -44,6 +50,7 @@ fun DashboardScreen(
     onNavigateToLeaderboard: () -> Unit = {},
     onNavigateToProfile: () -> Unit = {},
     onNavigateToHeroFeature: () -> Unit = {},
+    onNavigateToQuestionLibrary: () -> Unit = {},
     viewModel: DashboardViewModel = hiltViewModel()
 ) {
     val state by viewModel.uiState.collectAsState()
@@ -63,6 +70,9 @@ fun DashboardScreen(
             }
         }
         is DashboardUiState.Success -> {
+            val currentUser by com.examprep.android.feature.auth.AuthStore.get().currentUser.collectAsState()
+            val activeExamTarget = currentUser?.targetExam ?: uiState.examName
+
             Column(
                 modifier = Modifier
                     .fillMaxSize()
@@ -107,8 +117,30 @@ fun DashboardScreen(
                 Spacer(Modifier.height(Spacing.MD))
 
                 // ── Full-Length Mock Exam Banner ───────────────────────────────────────
-                MockExamBannerCard(
-                    onStartMockTest = onStartMockTest
+                val mockBanner = getMockExamBannerConfig(uiState.examId, activeExamTarget)
+                ActionBannerCard(
+                    badgeText = mockBanner.badgeText,
+                    badgeColor = ExamPrepColors.Amber70,
+                    tagText = mockBanner.tagText,
+                    title = mockBanner.title,
+                    subtitle = mockBanner.subtitle,
+                    buttonText = mockBanner.buttonText,
+                    buttonIcon = Icons.Default.Speed,
+                    onClick = onStartMockTest
+                )
+
+                Spacer(Modifier.height(Spacing.MD))
+
+                // ── Offline Question Library (500 Questions per Exam) ────────────────
+                ActionBannerCard(
+                    badgeText = "OFFLINE PRACTICE • 500 QUESTIONS",
+                    badgeColor = ExamPrepColors.Success,
+                    tagText = "5 Papers × 100 Qs",
+                    title = "Download Question Papers",
+                    subtitle = "Fetch curated 100-question papers with answer keys & explanations for 100% offline study without internet.",
+                    buttonText = "Explore Question Library",
+                    buttonIcon = Icons.Default.Download,
+                    onClick = onNavigateToQuestionLibrary
                 )
 
                 Spacer(Modifier.height(Spacing.MD))
@@ -140,6 +172,11 @@ fun DashboardScreen(
                     streakDays = uiState.studyStreakDays,
                     onClick = onNavigateToPerformance
                 )
+
+                Spacer(Modifier.height(Spacing.MD))
+
+                // ── Sponsored AdMob Banner (Non-intrusive) ───────────────────────────
+                DashboardAdBanner()
 
                 Spacer(Modifier.height(Spacing.MD))
 
@@ -591,7 +628,7 @@ private fun ExamCountdownCard(
         ) {
             Column {
                 Text(
-                    text = "TARGET COUNTDOWN",
+                    text = "${examName.uppercase()} COUNTDOWN",
                     style = MaterialTheme.typography.labelSmall.copy(
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         fontWeight = FontWeight.Bold,
@@ -696,34 +733,12 @@ private fun ProgressOverviewCard(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceAround
             ) {
-                ProgressStat("${syllabusPercent.toInt()}%", "Syllabus\nMastery")
-                ProgressStat("$streakDays", "Day\nStreak")
-                ProgressStat(if (quizAccuracy > 0f) "${quizAccuracy.toInt()}%" else "--", "Quiz\nAccuracy")
-                ProgressStat("${studyMinutes / 60}h ${studyMinutes % 60}m", "Study\nToday")
+                MetricStatBox(value = "${syllabusPercent.toInt()}%", label = "Syllabus\nMastery")
+                MetricStatBox(value = "$streakDays", label = "Day\nStreak")
+                MetricStatBox(value = if (quizAccuracy > 0f) "${quizAccuracy.toInt()}%" else "--", label = "Quiz\nAccuracy")
+                MetricStatBox(value = "${studyMinutes / 60}h ${studyMinutes % 60}m", label = "Study\nToday")
             }
         }
-    }
-}
-
-@Composable
-private fun ProgressStat(value: String, label: String) {
-    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(
-            text = value,
-            style = MaterialTheme.typography.titleLarge.copy(
-                color = MaterialTheme.colorScheme.onSurface,
-                fontWeight = FontWeight.Bold
-            )
-        )
-        Spacer(Modifier.height(2.dp))
-        Text(
-            text = label,
-            style = MaterialTheme.typography.labelSmall.copy(
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                textAlign = androidx.compose.ui.text.style.TextAlign.Center
-            ),
-            textAlign = androidx.compose.ui.text.style.TextAlign.Center
-        )
     }
 }
 
@@ -760,7 +775,7 @@ private fun QuickActionsSection(
         )
         QuickActionCard(
             modifier = Modifier.weight(1f),
-            icon = Icons.Default.MenuBook,
+            icon = Icons.AutoMirrored.Filled.MenuBook,
             label = "Syllabus",
             onClick = onSyllabus
         )
@@ -808,83 +823,96 @@ private fun QuickActionCard(
     }
 }
 
+
+
 @Composable
-private fun MockExamBannerCard(
-    onStartMockTest: () -> Unit
-) {
-    Card(
+private fun DashboardAdBanner() {
+    Column(
         modifier = Modifier
             .fillMaxWidth()
-            .border(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.35f), MaterialTheme.shapes.large),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
-        shape = MaterialTheme.shapes.large
+            .padding(vertical = Spacing.SM),
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Column(modifier = Modifier.padding(Spacing.LG)) {
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                    Surface(
-                        color = ExamPrepColors.Amber70.copy(alpha = 0.2f),
-                        shape = MaterialTheme.shapes.extraSmall
-                    ) {
-                        Text(
-                            text = "NATIONAL SIMULATOR",
-                            modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp),
-                            style = MaterialTheme.typography.labelSmall.copy(
-                                color = ExamPrepColors.Amber70,
-                                fontWeight = FontWeight.Bold,
-                                letterSpacing = 0.8.sp
-                            )
-                        )
-                    }
-                }
-                Surface(
-                    color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.6f),
-                    shape = MaterialTheme.shapes.extraSmall
-                ) {
-                    Text(
-                        text = "+4 / -1 Marking",
-                        modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp),
-                        style = MaterialTheme.typography.labelSmall.copy(
-                            color = MaterialTheme.colorScheme.primary,
-                            fontWeight = FontWeight.Bold
-                        )
-                    )
-                }
-            }
-
-            Spacer(Modifier.height(Spacing.SM))
-
-            Text(
-                text = "All-India Full-Length Mock Exam #1",
-                style = MaterialTheme.typography.titleMedium.copy(
-                    fontWeight = FontWeight.Bold,
-                    color = MaterialTheme.colorScheme.onSurface
-                )
-            )
-
-            Text(
-                text = "3-Hour Timed Simulation · Physics, Chemistry & Mathematics · 300 Marks",
-                style = MaterialTheme.typography.bodySmall.copy(
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
-            )
-
-            Spacer(Modifier.height(Spacing.MD))
-
-            Button(
-                onClick = onStartMockTest,
-                modifier = Modifier.fillMaxWidth().height(46.dp),
-                shape = MaterialTheme.shapes.medium
-            ) {
-                Icon(Icons.Default.Speed, contentDescription = null, modifier = Modifier.size(18.dp))
-                Spacer(Modifier.width(8.dp))
-                Text("Launch 3-Hour Mock Exam", style = MaterialTheme.typography.titleSmall)
+        Text(
+            text = "SPONSORED",
+            style = MaterialTheme.typography.labelSmall.copy(
+                fontSize = 9.sp,
+                color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f),
+                letterSpacing = 1.sp
+            ),
+            modifier = Modifier.padding(bottom = 2.dp)
+        )
+        Surface(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(52.dp),
+            shape = RoundedCornerShape(8.dp),
+            color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.2f),
+            border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.4f))
+        ) {
+            Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                BannerAdView(adUnitId = AdUnitIds.BANNER_DASHBOARD)
             }
         }
     }
 }
+
+private data class MockExamBannerConfig(
+    val badgeText: String,
+    val tagText: String,
+    val title: String,
+    val subtitle: String,
+    val buttonText: String
+)
+
+private fun getMockExamBannerConfig(examId: String?, examName: String): MockExamBannerConfig {
+    val id = examId?.lowercase() ?: ""
+    val name = examName.lowercase()
+    return when {
+        id == "exam_jee_main" || name.contains("jee") -> MockExamBannerConfig(
+            badgeText = "NATIONAL SIMULATOR • 75 QUESTIONS",
+            tagText = "+4 / -1 Marking · 300 Marks",
+            title = "JEE Main All-India Mock Exam #1",
+            subtitle = "180-Min Timed Simulation · 25 Physics, 25 Chemistry, 25 Mathematics · Standard NTA Pattern",
+            buttonText = "Launch 180-Min Mock Exam (75 Qs)"
+        )
+        id == "exam_neet_ug" || name.contains("neet") -> MockExamBannerConfig(
+            badgeText = "NATIONAL SIMULATOR • 180 QUESTIONS",
+            tagText = "+4 / -1 Marking · 720 Marks",
+            title = "NEET UG All-India Mock Exam #1",
+            subtitle = "200-Min Timed Simulation · 45 Physics, 45 Chemistry, 90 Biology · Standard NTA Pattern",
+            buttonText = "Launch 200-Min Mock Exam (180 Qs)"
+        )
+        id == "exam_upsc_cse" || name.contains("upsc") -> MockExamBannerConfig(
+            badgeText = "NATIONAL SIMULATOR • 100 QUESTIONS",
+            tagText = "+2 / -0.66 Marking · 200 Marks",
+            title = "UPSC CSE Prelims GS Paper I Mock #1",
+            subtitle = "120-Min Timed Simulation · General Studies · 200 Marks · Standard UPSC Pattern",
+            buttonText = "Launch 120-Min Mock Exam (100 Qs)"
+        )
+        id == "exam_cat" || name.contains("cat") -> MockExamBannerConfig(
+            badgeText = "NATIONAL SIMULATOR • 66 QUESTIONS",
+            tagText = "+3 / -1 Marking · 198 Marks",
+            title = "CAT All-India Mock Exam #1",
+            subtitle = "120-Min Timed Simulation · 24 VARC, 20 DILR, 22 QA · Standard IIM Pattern",
+            buttonText = "Launch 120-Min Mock Exam (66 Qs)"
+        )
+        id == "exam_gate_cs" || name.contains("gate") -> MockExamBannerConfig(
+            badgeText = "NATIONAL SIMULATOR • 65 QUESTIONS",
+            tagText = "+2 / -0.66 Marking · 100 Marks",
+            title = "GATE CS All-India Mock Exam #1",
+            subtitle = "180-Min Timed Simulation · 15 GA/Maths, 50 CS Core · Standard IIT Pattern",
+            buttonText = "Launch 180-Min Mock Exam (65 Qs)"
+        )
+        else -> MockExamBannerConfig(
+            badgeText = "NATIONAL SIMULATOR",
+            tagText = "Standard Marking",
+            title = "$examName All-India Mock Exam #1",
+            subtitle = "Timed Full-Length National Simulation with Standard Exam Pattern & Difficulty",
+            buttonText = "Launch Full-Length Mock Exam"
+        )
+    }
+}
+
+
 

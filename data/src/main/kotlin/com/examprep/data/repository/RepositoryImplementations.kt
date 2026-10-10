@@ -91,7 +91,8 @@ class ExamRepositoryImpl @Inject constructor(
 @Singleton
 class UserProfileRepositoryImpl @Inject constructor(
     private val userProfileDao: UserProfileDao,
-    private val entitlementDao: EntitlementDao
+    private val entitlementDao: EntitlementDao,
+    private val database: com.examprep.data.local.database.ExamPrepDatabase
 ) : UserProfileRepository {
 
     override fun getUserProfile(): Flow<UserProfile?> =
@@ -119,6 +120,27 @@ class UserProfileRepositoryImpl @Inject constructor(
 
     override suspend fun saveEntitlement(entitlement: Entitlement) =
         entitlementDao.insertOrReplace(entitlement.toEntity())
+
+    override suspend fun clearAllUserData() {
+        database.clearAllTables()
+        val exams = com.examprep.data.local.seed.DatabaseSeedData.getInitialExams()
+        val examDao = database.examDao()
+        val questionDao = database.questionDao()
+        exams.forEach { exam ->
+            examDao.insertOrReplace(exam.toEntity())
+            exam.subjects.forEach { subject ->
+                examDao.insertSubject(subject.toEntity())
+                subject.chapters.forEach { chapter ->
+                    examDao.insertChapter(chapter.toEntity())
+                    chapter.topics.forEach { topic ->
+                        examDao.insertTopic(topic.toEntity())
+                    }
+                }
+            }
+        }
+        val sampleQuestions = com.examprep.data.local.seed.DatabaseSeedData.getInitialQuestions()
+        questionDao.insertAll(sampleQuestions.map { it.toEntity() })
+    }
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -316,6 +338,22 @@ class QuestionRepositoryImpl @Inject constructor(
 
     override suspend fun getQuestionCountForTopic(topicId: String): Int =
         questionDao.getQuestionCountForTopic(topicId)
+
+    override suspend fun getQuestionsForPaper(paperId: String): List<Question> {
+        val entities = questionDao.getQuestionsByPaperPrefix(paperId)
+        return entities.map { entity ->
+            val options = questionDao.getOptionsForQuestion(entity.id)
+            entity.toDomain(options)
+        }
+    }
+
+    override suspend fun getAllQuestionsForExam(examId: String): List<Question> {
+        val entities = questionDao.getAllQuestionsForExam(examId)
+        return entities.map { entity ->
+            val options = questionDao.getOptionsForQuestion(entity.id)
+            entity.toDomain(options)
+        }
+    }
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -461,6 +499,9 @@ class RevisionRepositoryImpl @Inject constructor(
 
     override suspend fun getRevisionHistory(userId: String, topicId: String): List<RevisionRecord> =
         revisionDao.getRevisionHistory(userId, topicId).map { it.toDomain() }
+
+    override fun getCompletedRevisionsCount(userId: String): Flow<Int> =
+        revisionDao.observeCompletedRevisionsCount(userId)
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════

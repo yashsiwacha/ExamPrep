@@ -17,17 +17,25 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.examprep.core.designsystem.component.ExamPrepErrorState
+import com.examprep.core.designsystem.component.ExamPrepLoadingState
+import com.examprep.core.designsystem.component.MetricStatBox
 import com.examprep.core.designsystem.theme.ExamPrepColors
 import com.examprep.core.designsystem.theme.Spacing
+import com.examprep.core.util.capitalizeFirst
 import com.examprep.domain.model.MasteryRecord
 
 @Composable
 fun PerformanceScreen(
     onNavigateBack: () -> Unit = {},
+    showBackButton: Boolean = false,
     viewModel: PerformanceViewModel = hiltViewModel()
 ) {
-    BackHandler(enabled = true) {
-        onNavigateBack()
+    // Only intercept hardware back when a real back-stack parent exists
+    if (showBackButton) {
+        BackHandler(enabled = true) {
+            onNavigateBack()
+        }
     }
 
     val state by viewModel.uiState.collectAsState()
@@ -35,6 +43,7 @@ fun PerformanceScreen(
     Column(
         modifier = Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)
     ) {
+        // Header — only show back arrow when a valid back destination exists
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -42,15 +51,17 @@ fun PerformanceScreen(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            IconButton(
-                onClick = onNavigateBack,
-                modifier = Modifier.size(36.dp)
-            ) {
-                Icon(
-                    imageVector = Icons.Default.ArrowBack,
-                    contentDescription = "Back to Dashboard",
-                    tint = MaterialTheme.colorScheme.onBackground
-                )
+            if (showBackButton) {
+                IconButton(
+                    onClick = onNavigateBack,
+                    modifier = Modifier.size(36.dp)
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.ArrowBack,
+                        contentDescription = "Back to Dashboard",
+                        tint = MaterialTheme.colorScheme.onBackground
+                    )
+                }
             }
             Column {
                 Text(
@@ -70,16 +81,8 @@ fun PerformanceScreen(
         }
 
         when (val uiState = state) {
-            is PerformanceUiState.Loading -> {
-                Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
-                }
-            }
-            is PerformanceUiState.Error -> {
-                Box(Modifier.fillMaxSize().padding(Spacing.MD), contentAlignment = Alignment.Center) {
-                    Text("Error: ${uiState.message}", color = MaterialTheme.colorScheme.error)
-                }
-            }
+            is PerformanceUiState.Loading -> ExamPrepLoadingState()
+            is PerformanceUiState.Error -> ExamPrepErrorState(message = uiState.message)
             is PerformanceUiState.Success -> {
                 LazyColumn(
                     contentPadding = PaddingValues(horizontal = Spacing.MD),
@@ -116,25 +119,25 @@ fun PerformanceScreen(
                                     modifier = Modifier.fillMaxWidth(),
                                     horizontalArrangement = Arrangement.SpaceAround
                                 ) {
-                                    StatBox(
+                                    MetricStatBox(
                                         value = if (uiState.overallAccuracy > 0) "${uiState.overallAccuracy.toInt()}%" else "--",
                                         label = "Accuracy",
-                                        color = ExamPrepColors.Success
+                                        valueColor = ExamPrepColors.Success
                                     )
-                                    StatBox(
+                                    MetricStatBox(
                                         value = "${uiState.totalQuestionsAttempted}",
                                         label = "Questions",
-                                        color = MaterialTheme.colorScheme.primary
+                                        valueColor = MaterialTheme.colorScheme.primary
                                     )
-                                    StatBox(
+                                    MetricStatBox(
                                         value = "${uiState.totalStudyMinutes / 60}h ${uiState.totalStudyMinutes % 60}m",
                                         label = "Time Logged",
-                                        color = ExamPrepColors.Sage70
+                                        valueColor = ExamPrepColors.Sage70
                                     )
-                                    StatBox(
+                                    MetricStatBox(
                                         value = "${uiState.strongTopics.size}",
                                         label = "Mastered",
-                                        color = ExamPrepColors.Amber70
+                                        valueColor = ExamPrepColors.Amber70
                                     )
                                 }
                             }
@@ -384,7 +387,7 @@ private fun WeakTopicCard(record: MasteryRecord) {
                 ) {}
                 Column {
                     Text(
-                        text = "Topic ${record.topicId.removePrefix("top_").replace("_", " ").capitalize()}",
+                        text = "Topic ${record.topicId.removePrefix("top_").replace("_", " ").capitalizeFirst()}",
                         style = MaterialTheme.typography.bodyMedium.copy(
                             fontWeight = FontWeight.Medium,
                             color = MaterialTheme.colorScheme.onSurface
@@ -415,25 +418,3 @@ private fun WeakTopicCard(record: MasteryRecord) {
         }
     }
 }
-
-@Composable
-private fun StatBox(value: String, label: String, color: Color) {
-    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(
-            text = value,
-            style = MaterialTheme.typography.titleLarge.copy(
-                fontWeight = FontWeight.Bold,
-                color = color
-            )
-        )
-        Spacer(Modifier.height(2.dp))
-        Text(
-            text = label,
-            style = MaterialTheme.typography.labelSmall.copy(
-                color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
-        )
-    }
-}
-
-private fun String.capitalize(): String = replaceFirstChar { it.uppercase() }

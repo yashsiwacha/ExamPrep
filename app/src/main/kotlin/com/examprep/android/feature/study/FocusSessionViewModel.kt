@@ -102,6 +102,19 @@ class FocusSessionViewModel @Inject constructor(
         }
     }
 
+    fun setDuration(minutes: Int) {
+        if (_uiState.value.timerStatus != TimerStatus.RUNNING) {
+            val totalSecs = minutes * 60
+            _uiState.update {
+                it.copy(
+                    totalSeconds = totalSecs,
+                    remainingSeconds = totalSecs,
+                    timerStatus = TimerStatus.INITIAL
+                )
+            }
+        }
+    }
+
     fun completeSessionEarly() {
         finishSession(SessionOutcome.PARTIALLY_COMPLETED)
     }

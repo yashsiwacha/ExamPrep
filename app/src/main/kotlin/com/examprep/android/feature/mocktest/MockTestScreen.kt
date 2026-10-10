@@ -1,6 +1,7 @@
 package com.examprep.android.feature.mocktest
 
 import androidx.activity.compose.BackHandler
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -20,11 +21,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.examprep.core.designsystem.theme.ExamPrepColors
 import com.examprep.core.designsystem.theme.Spacing
+import com.examprep.core.util.FormatUtils
 import com.examprep.domain.model.MockQuestionStatus
 import com.examprep.domain.model.Question
 import com.examprep.domain.model.QuestionOption
@@ -38,6 +41,14 @@ fun MockTestScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     var showPaletteSheet by remember { mutableStateOf(false) }
+
+    // Reactively navigate to results when submitted (either manually or auto on time expired)
+    LaunchedEffect(uiState.submittedAttemptId) {
+        val attemptId = uiState.submittedAttemptId
+        if (attemptId != null) {
+            onTestSubmitted(attemptId)
+        }
+    }
 
     // Intercept back button to confirm before leaving active test
     BackHandler {
@@ -100,8 +111,16 @@ fun MockTestScreen(
                 }
             },
             dismissButton = {
-                OutlinedButton(onClick = { viewModel.showSubmitConfirmation(false) }) {
-                    Text("Resume Test")
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    TextButton(onClick = {
+                        viewModel.showSubmitConfirmation(false)
+                        onNavigateBack()
+                    }) {
+                        Text("Exit Test", color = MaterialTheme.colorScheme.error)
+                    }
+                    OutlinedButton(onClick = { viewModel.showSubmitConfirmation(false) }) {
+                        Text("Resume Test")
+                    }
                 }
             }
         )
@@ -169,6 +188,26 @@ fun MockTestScreen(
                     }
                 }
 
+                Spacer(Modifier.height(Spacing.MD))
+
+                Button(
+                    onClick = {
+                        showPaletteSheet = false
+                        viewModel.showSubmitConfirmation(true)
+                    },
+                    modifier = Modifier.fillMaxWidth().height(48.dp),
+                    colors = ButtonDefaults.buttonColors(containerColor = ExamPrepColors.Success),
+                    shape = MaterialTheme.shapes.medium
+                ) {
+                    Icon(Icons.Default.CheckCircle, contentDescription = null, modifier = Modifier.size(18.dp), tint = Color.White)
+                    Spacer(Modifier.width(8.dp))
+                    Text(
+                        text = "Submit Mock Test (${uiState.answeredCount}/${uiState.totalQuestionsCount} Answered)",
+                        fontWeight = FontWeight.Bold,
+                        color = Color.White
+                    )
+                }
+
                 Spacer(Modifier.height(Spacing.LG))
             }
         }
@@ -185,10 +224,16 @@ fun MockTestScreen(
             )
         },
         bottomBar = {
+            val totalSections = uiState.mockTest?.sections?.size ?: 1
+            val currentSec = uiState.currentSection
+            val isLastSection = uiState.currentSectionIndex == totalSections - 1
+            val isLastQuestion = isLastSection && (uiState.currentQuestionIndex == (currentSec?.questions?.size ?: 1) - 1)
+
             MockTestBottomBar(
                 canGoPrevious = uiState.currentQuestionIndex > 0 || uiState.currentSectionIndex > 0,
                 isMarkedForReview = uiState.currentQuestion?.id?.let { uiState.markedForReview.contains(it) } == true,
                 hasSelectedAnswer = uiState.currentQuestion?.id?.let { uiState.userAnswers.containsKey(it) } == true,
+                isLastQuestion = isLastQuestion,
                 onPrevious = { viewModel.previousQuestion() },
                 onClearResponse = {
                     uiState.currentQuestion?.id?.let { viewModel.clearResponse(it) }
@@ -196,7 +241,8 @@ fun MockTestScreen(
                 onToggleMarkReview = {
                     uiState.currentQuestion?.id?.let { viewModel.toggleMarkForReview(it) }
                 },
-                onSaveAndNext = { viewModel.nextQuestion() }
+                onSaveAndNext = { viewModel.nextQuestion() },
+                onSubmit = { viewModel.showSubmitConfirmation(true) }
             )
         }
     ) { innerPadding ->
@@ -320,10 +366,7 @@ private fun MockTestTopBar(
     onSubmitClick: () -> Unit,
     onBackClick: () -> Unit
 ) {
-    val hours = remainingSeconds / 3600
-    val minutes = (remainingSeconds % 3600) / 60
-    val seconds = remainingSeconds % 60
-    val timerText = String.format("%02d:%02d:%02d", hours, minutes, seconds)
+    val timerText = FormatUtils.formatDurationHms(remainingSeconds)
     val isTimerLow = remainingSeconds < 300 // under 5 minutes
 
     Surface(
@@ -339,15 +382,20 @@ private fun MockTestTopBar(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Row(
+                modifier = Modifier.weight(1f, fill = false),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
                 IconButton(onClick = onBackClick, modifier = Modifier.size(36.dp)) {
                     Icon(Icons.Default.Close, contentDescription = "Exit Test", tint = MaterialTheme.colorScheme.onSurface)
                 }
-                Column {
+                Column(modifier = Modifier.weight(1f, fill = false)) {
                     Text(
                         text = title,
                         style = MaterialTheme.typography.titleSmall.copy(fontWeight = FontWeight.Bold),
-                        maxLines = 1
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
                     )
                     Text(
                         text = "National Simulation Mode",
@@ -356,14 +404,14 @@ private fun MockTestTopBar(
                 }
             }
 
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                 // Countdown Timer Pill
                 Surface(
                     color = if (isTimerLow) ExamPrepColors.Error.copy(alpha = 0.2f) else MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.5f),
                     shape = MaterialTheme.shapes.small
                 ) {
                     Row(
-                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp),
+                        modifier = Modifier.padding(horizontal = 6.dp, vertical = 4.dp),
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(4.dp)
                     ) {
@@ -395,7 +443,7 @@ private fun MockTestTopBar(
                     contentPadding = PaddingValues(horizontal = 10.dp, vertical = 4.dp),
                     shape = MaterialTheme.shapes.small
                 ) {
-                    Text("Submit", style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold))
+                    Text("Submit", style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold, color = Color.White))
                 }
             }
         }
@@ -500,10 +548,12 @@ private fun MockTestBottomBar(
     canGoPrevious: Boolean,
     isMarkedForReview: Boolean,
     hasSelectedAnswer: Boolean,
+    isLastQuestion: Boolean,
     onPrevious: () -> Unit,
     onClearResponse: () -> Unit,
     onToggleMarkReview: () -> Unit,
-    onSaveAndNext: () -> Unit
+    onSaveAndNext: () -> Unit,
+    onSubmit: () -> Unit
 ) {
     Surface(
         color = MaterialTheme.colorScheme.surface,
@@ -518,14 +568,14 @@ private fun MockTestBottomBar(
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+            Row(horizontalArrangement = Arrangement.spacedBy(4.dp), verticalAlignment = Alignment.CenterVertically) {
                 if (canGoPrevious) {
                     OutlinedButton(
                         onClick = onPrevious,
                         contentPadding = PaddingValues(horizontal = 8.dp, vertical = 4.dp),
                         shape = MaterialTheme.shapes.small
                     ) {
-                        Icon(Icons.Default.ArrowBack, contentDescription = null, modifier = Modifier.size(16.dp))
+                        Icon(Icons.Default.ArrowBack, contentDescription = "Previous Question", modifier = Modifier.size(16.dp))
                     }
                 }
                 if (hasSelectedAnswer) {
@@ -546,14 +596,40 @@ private fun MockTestBottomBar(
                 }
             }
 
-            Button(
-                onClick = onSaveAndNext,
-                contentPadding = PaddingValues(horizontal = 14.dp, vertical = 6.dp),
-                shape = MaterialTheme.shapes.small
-            ) {
-                Text("Save & Next", style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold))
-                Spacer(Modifier.width(4.dp))
-                Icon(Icons.Default.ArrowForward, contentDescription = null, modifier = Modifier.size(16.dp))
+            Row(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalAlignment = Alignment.CenterVertically) {
+                // Secondary Submit Button in bottom bar
+                OutlinedButton(
+                    onClick = onSubmit,
+                    colors = ButtonDefaults.outlinedButtonColors(contentColor = ExamPrepColors.Success),
+                    border = BorderStroke(1.dp, ExamPrepColors.Success),
+                    shape = MaterialTheme.shapes.small,
+                    contentPadding = PaddingValues(horizontal = 10.dp, vertical = 6.dp)
+                ) {
+                    Text("Submit", fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelMedium)
+                }
+
+                if (isLastQuestion) {
+                    Button(
+                        onClick = onSubmit,
+                        colors = ButtonDefaults.buttonColors(containerColor = ExamPrepColors.Success),
+                        contentPadding = PaddingValues(horizontal = 12.dp, vertical = 6.dp),
+                        shape = MaterialTheme.shapes.small
+                    ) {
+                        Text("Submit Test", style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold, color = Color.White))
+                        Spacer(Modifier.width(4.dp))
+                        Icon(Icons.Default.CheckCircle, contentDescription = null, modifier = Modifier.size(16.dp), tint = Color.White)
+                    }
+                } else {
+                    Button(
+                        onClick = onSaveAndNext,
+                        contentPadding = PaddingValues(horizontal = 12.dp, vertical = 6.dp),
+                        shape = MaterialTheme.shapes.small
+                    ) {
+                        Text("Save & Next", style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold))
+                        Spacer(Modifier.width(4.dp))
+                        Icon(Icons.Default.ArrowForward, contentDescription = null, modifier = Modifier.size(16.dp))
+                    }
+                }
             }
         }
     }

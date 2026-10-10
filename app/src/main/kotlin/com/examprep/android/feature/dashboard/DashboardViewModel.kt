@@ -14,6 +14,7 @@ sealed interface DashboardUiState {
     data class Success(
         val studentName: String,
         val examName: String,
+        val examId: String? = null,
         val daysRemaining: Int,
         val todayMinutesStudied: Int,
         val targetDailyMinutes: Int,
@@ -103,6 +104,7 @@ class DashboardViewModel @Inject constructor(
                     DashboardUiState.Success(
                         studentName = profile.name ?: "Aspirant",
                         examName = exam?.name ?: "Competitive Exam",
+                        examId = profile.selectedExamId,
                         daysRemaining = daysRemaining,
                         todayMinutesStudied = todayMinutes,
                         targetDailyMinutes = (profile.dailyStudyHours * 60).toInt(),

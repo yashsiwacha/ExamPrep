@@ -1,0 +1,5502 @@
+[
+  {
+    "id": "cat_paper_5_q_001",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q1. A dishonest merchant marks his goods 21% above cost price and uses a faulty weight that measures 851 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_001_opt_1",
+        "questionId": "cat_paper_5_q_001",
+        "text": "42.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_001_opt_2",
+        "questionId": "cat_paper_5_q_001",
+        "text": "36.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_001_opt_3",
+        "questionId": "cat_paper_5_q_001",
+        "text": "46.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_001_opt_4",
+        "questionId": "cat_paper_5_q_001",
+        "text": "52.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_001_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 42.2%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_002",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q2. A dishonest merchant marks his goods 22% above cost price and uses a faulty weight that measures 852 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_002_opt_1",
+        "questionId": "cat_paper_5_q_002",
+        "text": "43.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_002_opt_2",
+        "questionId": "cat_paper_5_q_002",
+        "text": "37.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_002_opt_3",
+        "questionId": "cat_paper_5_q_002",
+        "text": "47.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_002_opt_4",
+        "questionId": "cat_paper_5_q_002",
+        "text": "53.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_002_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 43.2%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_003",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q3. A dishonest merchant marks his goods 23% above cost price and uses a faulty weight that measures 853 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_003_opt_1",
+        "questionId": "cat_paper_5_q_003",
+        "text": "44.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_003_opt_2",
+        "questionId": "cat_paper_5_q_003",
+        "text": "38.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_003_opt_3",
+        "questionId": "cat_paper_5_q_003",
+        "text": "48.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_003_opt_4",
+        "questionId": "cat_paper_5_q_003",
+        "text": "54.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_003_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 44.2%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_004",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q4. A dishonest merchant marks his goods 24% above cost price and uses a faulty weight that measures 854 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_004_opt_1",
+        "questionId": "cat_paper_5_q_004",
+        "text": "45.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_004_opt_2",
+        "questionId": "cat_paper_5_q_004",
+        "text": "39.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_004_opt_3",
+        "questionId": "cat_paper_5_q_004",
+        "text": "49.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_004_opt_4",
+        "questionId": "cat_paper_5_q_004",
+        "text": "55.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_004_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 45.2%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_005",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q5. A dishonest merchant marks his goods 25% above cost price and uses a faulty weight that measures 855 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_005_opt_1",
+        "questionId": "cat_paper_5_q_005",
+        "text": "46.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_005_opt_2",
+        "questionId": "cat_paper_5_q_005",
+        "text": "40.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_005_opt_3",
+        "questionId": "cat_paper_5_q_005",
+        "text": "50.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_005_opt_4",
+        "questionId": "cat_paper_5_q_005",
+        "text": "56.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_005_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 46.2%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_006",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q6. A dishonest merchant marks his goods 26% above cost price and uses a faulty weight that measures 856 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_006_opt_1",
+        "questionId": "cat_paper_5_q_006",
+        "text": "47.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_006_opt_2",
+        "questionId": "cat_paper_5_q_006",
+        "text": "41.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_006_opt_3",
+        "questionId": "cat_paper_5_q_006",
+        "text": "51.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_006_opt_4",
+        "questionId": "cat_paper_5_q_006",
+        "text": "57.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_006_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 47.2%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_007",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q7. A dishonest merchant marks his goods 27% above cost price and uses a faulty weight that measures 857 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_007_opt_1",
+        "questionId": "cat_paper_5_q_007",
+        "text": "48.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_007_opt_2",
+        "questionId": "cat_paper_5_q_007",
+        "text": "42.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_007_opt_3",
+        "questionId": "cat_paper_5_q_007",
+        "text": "52.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_007_opt_4",
+        "questionId": "cat_paper_5_q_007",
+        "text": "58.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_007_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 48.2%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_008",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q8. A dishonest merchant marks his goods 28% above cost price and uses a faulty weight that measures 858 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_008_opt_1",
+        "questionId": "cat_paper_5_q_008",
+        "text": "49.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_008_opt_2",
+        "questionId": "cat_paper_5_q_008",
+        "text": "43.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_008_opt_3",
+        "questionId": "cat_paper_5_q_008",
+        "text": "53.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_008_opt_4",
+        "questionId": "cat_paper_5_q_008",
+        "text": "59.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_008_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 49.2%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_009",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q9. A dishonest merchant marks his goods 29% above cost price and uses a faulty weight that measures 859 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_009_opt_1",
+        "questionId": "cat_paper_5_q_009",
+        "text": "50.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_009_opt_2",
+        "questionId": "cat_paper_5_q_009",
+        "text": "44.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_009_opt_3",
+        "questionId": "cat_paper_5_q_009",
+        "text": "54.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_009_opt_4",
+        "questionId": "cat_paper_5_q_009",
+        "text": "60.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_009_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 50.2%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_010",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q10. A dishonest merchant marks his goods 30% above cost price and uses a faulty weight that measures 860 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_010_opt_1",
+        "questionId": "cat_paper_5_q_010",
+        "text": "51.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_010_opt_2",
+        "questionId": "cat_paper_5_q_010",
+        "text": "45.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_010_opt_3",
+        "questionId": "cat_paper_5_q_010",
+        "text": "55.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_010_opt_4",
+        "questionId": "cat_paper_5_q_010",
+        "text": "61.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_010_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 51.2%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_011",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q11. A dishonest merchant marks his goods 31% above cost price and uses a faulty weight that measures 861 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_011_opt_1",
+        "questionId": "cat_paper_5_q_011",
+        "text": "52.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_011_opt_2",
+        "questionId": "cat_paper_5_q_011",
+        "text": "46.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_011_opt_3",
+        "questionId": "cat_paper_5_q_011",
+        "text": "56.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_011_opt_4",
+        "questionId": "cat_paper_5_q_011",
+        "text": "62.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_011_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 52.1%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_012",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q12. A dishonest merchant marks his goods 32% above cost price and uses a faulty weight that measures 862 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_012_opt_1",
+        "questionId": "cat_paper_5_q_012",
+        "text": "53.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_012_opt_2",
+        "questionId": "cat_paper_5_q_012",
+        "text": "47.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_012_opt_3",
+        "questionId": "cat_paper_5_q_012",
+        "text": "57.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_012_opt_4",
+        "questionId": "cat_paper_5_q_012",
+        "text": "63.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_012_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 53.1%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_013",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q13. A dishonest merchant marks his goods 33% above cost price and uses a faulty weight that measures 863 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_013_opt_1",
+        "questionId": "cat_paper_5_q_013",
+        "text": "54.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_013_opt_2",
+        "questionId": "cat_paper_5_q_013",
+        "text": "48.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_013_opt_3",
+        "questionId": "cat_paper_5_q_013",
+        "text": "58.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_013_opt_4",
+        "questionId": "cat_paper_5_q_013",
+        "text": "64.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_013_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 54.1%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_014",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q14. A dishonest merchant marks his goods 34% above cost price and uses a faulty weight that measures 864 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_014_opt_1",
+        "questionId": "cat_paper_5_q_014",
+        "text": "55.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_014_opt_2",
+        "questionId": "cat_paper_5_q_014",
+        "text": "49.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_014_opt_3",
+        "questionId": "cat_paper_5_q_014",
+        "text": "59.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_014_opt_4",
+        "questionId": "cat_paper_5_q_014",
+        "text": "65.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_014_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 55.1%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_015",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q15. A dishonest merchant marks his goods 35% above cost price and uses a faulty weight that measures 865 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_015_opt_1",
+        "questionId": "cat_paper_5_q_015",
+        "text": "56.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_015_opt_2",
+        "questionId": "cat_paper_5_q_015",
+        "text": "50.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_015_opt_3",
+        "questionId": "cat_paper_5_q_015",
+        "text": "60.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_015_opt_4",
+        "questionId": "cat_paper_5_q_015",
+        "text": "66.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_015_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 56.1%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_016",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q16. A dishonest merchant marks his goods 36% above cost price and uses a faulty weight that measures 866 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_016_opt_1",
+        "questionId": "cat_paper_5_q_016",
+        "text": "57.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_016_opt_2",
+        "questionId": "cat_paper_5_q_016",
+        "text": "51.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_016_opt_3",
+        "questionId": "cat_paper_5_q_016",
+        "text": "61.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_016_opt_4",
+        "questionId": "cat_paper_5_q_016",
+        "text": "67.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_016_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 57.0%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_017",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q17. A dishonest merchant marks his goods 37% above cost price and uses a faulty weight that measures 867 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_017_opt_1",
+        "questionId": "cat_paper_5_q_017",
+        "text": "58.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_017_opt_2",
+        "questionId": "cat_paper_5_q_017",
+        "text": "52.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_017_opt_3",
+        "questionId": "cat_paper_5_q_017",
+        "text": "62.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_017_opt_4",
+        "questionId": "cat_paper_5_q_017",
+        "text": "68.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_017_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 58.0%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_018",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q18. A dishonest merchant marks his goods 38% above cost price and uses a faulty weight that measures 868 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_018_opt_1",
+        "questionId": "cat_paper_5_q_018",
+        "text": "59.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_018_opt_2",
+        "questionId": "cat_paper_5_q_018",
+        "text": "53.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_018_opt_3",
+        "questionId": "cat_paper_5_q_018",
+        "text": "63.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_018_opt_4",
+        "questionId": "cat_paper_5_q_018",
+        "text": "69.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_018_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 59.0%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_019",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q19. A dishonest merchant marks his goods 39% above cost price and uses a faulty weight that measures 869 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_019_opt_1",
+        "questionId": "cat_paper_5_q_019",
+        "text": "60.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_019_opt_2",
+        "questionId": "cat_paper_5_q_019",
+        "text": "54.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_019_opt_3",
+        "questionId": "cat_paper_5_q_019",
+        "text": "64.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_019_opt_4",
+        "questionId": "cat_paper_5_q_019",
+        "text": "70.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_019_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 60.0%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_020",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q20. A dishonest merchant marks his goods 40% above cost price and uses a faulty weight that measures 870 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_020_opt_1",
+        "questionId": "cat_paper_5_q_020",
+        "text": "60.9%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_020_opt_2",
+        "questionId": "cat_paper_5_q_020",
+        "text": "55.4%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_020_opt_3",
+        "questionId": "cat_paper_5_q_020",
+        "text": "65.1%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_020_opt_4",
+        "questionId": "cat_paper_5_q_020",
+        "text": "70.9%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_020_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 60.9%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_021",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q21. A dishonest merchant marks his goods 41% above cost price and uses a faulty weight that measures 871 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_021_opt_1",
+        "questionId": "cat_paper_5_q_021",
+        "text": "61.9%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_021_opt_2",
+        "questionId": "cat_paper_5_q_021",
+        "text": "56.4%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_021_opt_3",
+        "questionId": "cat_paper_5_q_021",
+        "text": "66.1%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_021_opt_4",
+        "questionId": "cat_paper_5_q_021",
+        "text": "71.9%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_021_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 61.9%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_022",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q22. A dishonest merchant marks his goods 42% above cost price and uses a faulty weight that measures 872 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_022_opt_1",
+        "questionId": "cat_paper_5_q_022",
+        "text": "62.8%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_022_opt_2",
+        "questionId": "cat_paper_5_q_022",
+        "text": "57.3%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_022_opt_3",
+        "questionId": "cat_paper_5_q_022",
+        "text": "67.0%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_022_opt_4",
+        "questionId": "cat_paper_5_q_022",
+        "text": "72.8%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_022_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 62.8%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_023",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q23. A dishonest merchant marks his goods 43% above cost price and uses a faulty weight that measures 873 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_023_opt_1",
+        "questionId": "cat_paper_5_q_023",
+        "text": "63.8%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_023_opt_2",
+        "questionId": "cat_paper_5_q_023",
+        "text": "58.3%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_023_opt_3",
+        "questionId": "cat_paper_5_q_023",
+        "text": "68.0%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_023_opt_4",
+        "questionId": "cat_paper_5_q_023",
+        "text": "73.8%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_023_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 63.8%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_024",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q24. A dishonest merchant marks his goods 44% above cost price and uses a faulty weight that measures 874 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_024_opt_1",
+        "questionId": "cat_paper_5_q_024",
+        "text": "64.8%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_024_opt_2",
+        "questionId": "cat_paper_5_q_024",
+        "text": "59.3%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_024_opt_3",
+        "questionId": "cat_paper_5_q_024",
+        "text": "69.0%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_024_opt_4",
+        "questionId": "cat_paper_5_q_024",
+        "text": "74.8%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_024_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 64.8%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_025",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q25. A dishonest merchant marks his goods 20% above cost price and uses a faulty weight that measures 875 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_025_opt_1",
+        "questionId": "cat_paper_5_q_025",
+        "text": "37.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_025_opt_2",
+        "questionId": "cat_paper_5_q_025",
+        "text": "31.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_025_opt_3",
+        "questionId": "cat_paper_5_q_025",
+        "text": "41.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_025_opt_4",
+        "questionId": "cat_paper_5_q_025",
+        "text": "47.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_025_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 37.1%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_026",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q26. A dishonest merchant marks his goods 21% above cost price and uses a faulty weight that measures 876 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_026_opt_1",
+        "questionId": "cat_paper_5_q_026",
+        "text": "38.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_026_opt_2",
+        "questionId": "cat_paper_5_q_026",
+        "text": "32.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_026_opt_3",
+        "questionId": "cat_paper_5_q_026",
+        "text": "42.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_026_opt_4",
+        "questionId": "cat_paper_5_q_026",
+        "text": "48.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_026_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 38.1%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_027",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q27. A dishonest merchant marks his goods 22% above cost price and uses a faulty weight that measures 877 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_027_opt_1",
+        "questionId": "cat_paper_5_q_027",
+        "text": "39.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_027_opt_2",
+        "questionId": "cat_paper_5_q_027",
+        "text": "33.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_027_opt_3",
+        "questionId": "cat_paper_5_q_027",
+        "text": "43.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_027_opt_4",
+        "questionId": "cat_paper_5_q_027",
+        "text": "49.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_027_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 39.1%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_028",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q28. A dishonest merchant marks his goods 23% above cost price and uses a faulty weight that measures 878 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_028_opt_1",
+        "questionId": "cat_paper_5_q_028",
+        "text": "40.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_028_opt_2",
+        "questionId": "cat_paper_5_q_028",
+        "text": "34.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_028_opt_3",
+        "questionId": "cat_paper_5_q_028",
+        "text": "44.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_028_opt_4",
+        "questionId": "cat_paper_5_q_028",
+        "text": "50.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_028_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 40.1%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_029",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q29. A dishonest merchant marks his goods 24% above cost price and uses a faulty weight that measures 879 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_029_opt_1",
+        "questionId": "cat_paper_5_q_029",
+        "text": "41.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_029_opt_2",
+        "questionId": "cat_paper_5_q_029",
+        "text": "35.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_029_opt_3",
+        "questionId": "cat_paper_5_q_029",
+        "text": "45.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_029_opt_4",
+        "questionId": "cat_paper_5_q_029",
+        "text": "51.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_029_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 41.1%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_030",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q30. A dishonest merchant marks his goods 25% above cost price and uses a faulty weight that measures 880 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_030_opt_1",
+        "questionId": "cat_paper_5_q_030",
+        "text": "42.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_030_opt_2",
+        "questionId": "cat_paper_5_q_030",
+        "text": "36.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_030_opt_3",
+        "questionId": "cat_paper_5_q_030",
+        "text": "46.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_030_opt_4",
+        "questionId": "cat_paper_5_q_030",
+        "text": "52.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_030_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 42.0%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_031",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q31. A dishonest merchant marks his goods 26% above cost price and uses a faulty weight that measures 881 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_031_opt_1",
+        "questionId": "cat_paper_5_q_031",
+        "text": "43.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_031_opt_2",
+        "questionId": "cat_paper_5_q_031",
+        "text": "37.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_031_opt_3",
+        "questionId": "cat_paper_5_q_031",
+        "text": "47.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_031_opt_4",
+        "questionId": "cat_paper_5_q_031",
+        "text": "53.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_031_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 43.0%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_032",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q32. A dishonest merchant marks his goods 27% above cost price and uses a faulty weight that measures 882 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_032_opt_1",
+        "questionId": "cat_paper_5_q_032",
+        "text": "44.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_032_opt_2",
+        "questionId": "cat_paper_5_q_032",
+        "text": "38.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_032_opt_3",
+        "questionId": "cat_paper_5_q_032",
+        "text": "48.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_032_opt_4",
+        "questionId": "cat_paper_5_q_032",
+        "text": "54.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_032_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 44.0%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_033",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q33. A dishonest merchant marks his goods 28% above cost price and uses a faulty weight that measures 883 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_033_opt_1",
+        "questionId": "cat_paper_5_q_033",
+        "text": "45.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_033_opt_2",
+        "questionId": "cat_paper_5_q_033",
+        "text": "39.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_033_opt_3",
+        "questionId": "cat_paper_5_q_033",
+        "text": "49.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_033_opt_4",
+        "questionId": "cat_paper_5_q_033",
+        "text": "55.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_033_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 45.0%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_034",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q34. A dishonest merchant marks his goods 29% above cost price and uses a faulty weight that measures 884 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_034_opt_1",
+        "questionId": "cat_paper_5_q_034",
+        "text": "45.9%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_034_opt_2",
+        "questionId": "cat_paper_5_q_034",
+        "text": "40.4%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_034_opt_3",
+        "questionId": "cat_paper_5_q_034",
+        "text": "50.1%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_034_opt_4",
+        "questionId": "cat_paper_5_q_034",
+        "text": "55.9%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_034_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 45.9%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_035",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q35. A dishonest merchant marks his goods 30% above cost price and uses a faulty weight that measures 885 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_035_opt_1",
+        "questionId": "cat_paper_5_q_035",
+        "text": "46.9%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_035_opt_2",
+        "questionId": "cat_paper_5_q_035",
+        "text": "41.4%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_035_opt_3",
+        "questionId": "cat_paper_5_q_035",
+        "text": "51.1%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_035_opt_4",
+        "questionId": "cat_paper_5_q_035",
+        "text": "56.9%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_035_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 46.9%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_036",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q36. A dishonest merchant marks his goods 31% above cost price and uses a faulty weight that measures 886 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_036_opt_1",
+        "questionId": "cat_paper_5_q_036",
+        "text": "47.9%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_036_opt_2",
+        "questionId": "cat_paper_5_q_036",
+        "text": "42.4%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_036_opt_3",
+        "questionId": "cat_paper_5_q_036",
+        "text": "52.1%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_036_opt_4",
+        "questionId": "cat_paper_5_q_036",
+        "text": "57.9%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_036_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 47.9%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_037",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q37. A dishonest merchant marks his goods 32% above cost price and uses a faulty weight that measures 887 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_037_opt_1",
+        "questionId": "cat_paper_5_q_037",
+        "text": "48.8%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_037_opt_2",
+        "questionId": "cat_paper_5_q_037",
+        "text": "43.3%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_037_opt_3",
+        "questionId": "cat_paper_5_q_037",
+        "text": "53.0%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_037_opt_4",
+        "questionId": "cat_paper_5_q_037",
+        "text": "58.8%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_037_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 48.8%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_038",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q38. A dishonest merchant marks his goods 33% above cost price and uses a faulty weight that measures 888 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_038_opt_1",
+        "questionId": "cat_paper_5_q_038",
+        "text": "49.8%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_038_opt_2",
+        "questionId": "cat_paper_5_q_038",
+        "text": "44.3%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_038_opt_3",
+        "questionId": "cat_paper_5_q_038",
+        "text": "54.0%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_038_opt_4",
+        "questionId": "cat_paper_5_q_038",
+        "text": "59.8%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_038_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 49.8%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_039",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q39. A dishonest merchant marks his goods 34% above cost price and uses a faulty weight that measures 889 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_039_opt_1",
+        "questionId": "cat_paper_5_q_039",
+        "text": "50.7%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_039_opt_2",
+        "questionId": "cat_paper_5_q_039",
+        "text": "45.2%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_039_opt_3",
+        "questionId": "cat_paper_5_q_039",
+        "text": "54.900000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_039_opt_4",
+        "questionId": "cat_paper_5_q_039",
+        "text": "60.7%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_039_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 50.7%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_040",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q40. A dishonest merchant marks his goods 35% above cost price and uses a faulty weight that measures 890 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_040_opt_1",
+        "questionId": "cat_paper_5_q_040",
+        "text": "51.7%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_040_opt_2",
+        "questionId": "cat_paper_5_q_040",
+        "text": "46.2%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_040_opt_3",
+        "questionId": "cat_paper_5_q_040",
+        "text": "55.900000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_040_opt_4",
+        "questionId": "cat_paper_5_q_040",
+        "text": "61.7%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_040_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 51.7%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_041",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q41. A dishonest merchant marks his goods 36% above cost price and uses a faulty weight that measures 891 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_041_opt_1",
+        "questionId": "cat_paper_5_q_041",
+        "text": "52.6%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_041_opt_2",
+        "questionId": "cat_paper_5_q_041",
+        "text": "47.1%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_041_opt_3",
+        "questionId": "cat_paper_5_q_041",
+        "text": "56.800000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_041_opt_4",
+        "questionId": "cat_paper_5_q_041",
+        "text": "62.6%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_041_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 52.6%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_042",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q42. A dishonest merchant marks his goods 37% above cost price and uses a faulty weight that measures 892 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_042_opt_1",
+        "questionId": "cat_paper_5_q_042",
+        "text": "53.6%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_042_opt_2",
+        "questionId": "cat_paper_5_q_042",
+        "text": "48.1%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_042_opt_3",
+        "questionId": "cat_paper_5_q_042",
+        "text": "57.800000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_042_opt_4",
+        "questionId": "cat_paper_5_q_042",
+        "text": "63.6%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_042_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 53.6%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_043",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q43. A dishonest merchant marks his goods 38% above cost price and uses a faulty weight that measures 893 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_043_opt_1",
+        "questionId": "cat_paper_5_q_043",
+        "text": "54.5%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_043_opt_2",
+        "questionId": "cat_paper_5_q_043",
+        "text": "49.0%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_043_opt_3",
+        "questionId": "cat_paper_5_q_043",
+        "text": "58.7%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_043_opt_4",
+        "questionId": "cat_paper_5_q_043",
+        "text": "64.5%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_043_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 54.5%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_044",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q44. A dishonest merchant marks his goods 39% above cost price and uses a faulty weight that measures 894 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_044_opt_1",
+        "questionId": "cat_paper_5_q_044",
+        "text": "55.5%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_044_opt_2",
+        "questionId": "cat_paper_5_q_044",
+        "text": "50.0%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_044_opt_3",
+        "questionId": "cat_paper_5_q_044",
+        "text": "59.7%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_044_opt_4",
+        "questionId": "cat_paper_5_q_044",
+        "text": "65.5%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_044_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 55.5%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_045",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q45. A dishonest merchant marks his goods 40% above cost price and uses a faulty weight that measures 895 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_045_opt_1",
+        "questionId": "cat_paper_5_q_045",
+        "text": "56.4%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_045_opt_2",
+        "questionId": "cat_paper_5_q_045",
+        "text": "50.9%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_045_opt_3",
+        "questionId": "cat_paper_5_q_045",
+        "text": "60.6%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_045_opt_4",
+        "questionId": "cat_paper_5_q_045",
+        "text": "66.4%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_045_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 56.4%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_046",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q46. A dishonest merchant marks his goods 41% above cost price and uses a faulty weight that measures 896 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_046_opt_1",
+        "questionId": "cat_paper_5_q_046",
+        "text": "57.4%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_046_opt_2",
+        "questionId": "cat_paper_5_q_046",
+        "text": "51.9%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_046_opt_3",
+        "questionId": "cat_paper_5_q_046",
+        "text": "61.6%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_046_opt_4",
+        "questionId": "cat_paper_5_q_046",
+        "text": "67.4%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_046_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 57.4%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_047",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q47. A dishonest merchant marks his goods 42% above cost price and uses a faulty weight that measures 897 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_047_opt_1",
+        "questionId": "cat_paper_5_q_047",
+        "text": "58.3%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_047_opt_2",
+        "questionId": "cat_paper_5_q_047",
+        "text": "52.8%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_047_opt_3",
+        "questionId": "cat_paper_5_q_047",
+        "text": "62.5%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_047_opt_4",
+        "questionId": "cat_paper_5_q_047",
+        "text": "68.3%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_047_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 58.3%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_048",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q48. A dishonest merchant marks his goods 43% above cost price and uses a faulty weight that measures 898 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_048_opt_1",
+        "questionId": "cat_paper_5_q_048",
+        "text": "59.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_048_opt_2",
+        "questionId": "cat_paper_5_q_048",
+        "text": "53.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_048_opt_3",
+        "questionId": "cat_paper_5_q_048",
+        "text": "63.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_048_opt_4",
+        "questionId": "cat_paper_5_q_048",
+        "text": "69.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_048_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 59.2%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_049",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q49. A dishonest merchant marks his goods 44% above cost price and uses a faulty weight that measures 899 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_049_opt_1",
+        "questionId": "cat_paper_5_q_049",
+        "text": "60.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_049_opt_2",
+        "questionId": "cat_paper_5_q_049",
+        "text": "54.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_049_opt_3",
+        "questionId": "cat_paper_5_q_049",
+        "text": "64.4%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_049_opt_4",
+        "questionId": "cat_paper_5_q_049",
+        "text": "70.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_049_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 60.2%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_050",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q50. A dishonest merchant marks his goods 20% above cost price and uses a faulty weight that measures 850 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_050_opt_1",
+        "questionId": "cat_paper_5_q_050",
+        "text": "41.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_050_opt_2",
+        "questionId": "cat_paper_5_q_050",
+        "text": "35.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_050_opt_3",
+        "questionId": "cat_paper_5_q_050",
+        "text": "45.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_050_opt_4",
+        "questionId": "cat_paper_5_q_050",
+        "text": "51.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_050_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 41.2%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_051",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q51. A dishonest merchant marks his goods 21% above cost price and uses a faulty weight that measures 851 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_051_opt_1",
+        "questionId": "cat_paper_5_q_051",
+        "text": "42.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_051_opt_2",
+        "questionId": "cat_paper_5_q_051",
+        "text": "36.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_051_opt_3",
+        "questionId": "cat_paper_5_q_051",
+        "text": "46.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_051_opt_4",
+        "questionId": "cat_paper_5_q_051",
+        "text": "52.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_051_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 42.2%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_052",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q52. A dishonest merchant marks his goods 22% above cost price and uses a faulty weight that measures 852 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_052_opt_1",
+        "questionId": "cat_paper_5_q_052",
+        "text": "43.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_052_opt_2",
+        "questionId": "cat_paper_5_q_052",
+        "text": "37.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_052_opt_3",
+        "questionId": "cat_paper_5_q_052",
+        "text": "47.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_052_opt_4",
+        "questionId": "cat_paper_5_q_052",
+        "text": "53.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_052_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 43.2%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_053",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q53. A dishonest merchant marks his goods 23% above cost price and uses a faulty weight that measures 853 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_053_opt_1",
+        "questionId": "cat_paper_5_q_053",
+        "text": "44.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_053_opt_2",
+        "questionId": "cat_paper_5_q_053",
+        "text": "38.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_053_opt_3",
+        "questionId": "cat_paper_5_q_053",
+        "text": "48.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_053_opt_4",
+        "questionId": "cat_paper_5_q_053",
+        "text": "54.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_053_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 44.2%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_054",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q54. A dishonest merchant marks his goods 24% above cost price and uses a faulty weight that measures 854 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_054_opt_1",
+        "questionId": "cat_paper_5_q_054",
+        "text": "45.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_054_opt_2",
+        "questionId": "cat_paper_5_q_054",
+        "text": "39.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_054_opt_3",
+        "questionId": "cat_paper_5_q_054",
+        "text": "49.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_054_opt_4",
+        "questionId": "cat_paper_5_q_054",
+        "text": "55.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_054_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 45.2%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_055",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q55. A dishonest merchant marks his goods 25% above cost price and uses a faulty weight that measures 855 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_055_opt_1",
+        "questionId": "cat_paper_5_q_055",
+        "text": "46.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_055_opt_2",
+        "questionId": "cat_paper_5_q_055",
+        "text": "40.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_055_opt_3",
+        "questionId": "cat_paper_5_q_055",
+        "text": "50.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_055_opt_4",
+        "questionId": "cat_paper_5_q_055",
+        "text": "56.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_055_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 46.2%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_056",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q56. A dishonest merchant marks his goods 26% above cost price and uses a faulty weight that measures 856 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_056_opt_1",
+        "questionId": "cat_paper_5_q_056",
+        "text": "47.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_056_opt_2",
+        "questionId": "cat_paper_5_q_056",
+        "text": "41.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_056_opt_3",
+        "questionId": "cat_paper_5_q_056",
+        "text": "51.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_056_opt_4",
+        "questionId": "cat_paper_5_q_056",
+        "text": "57.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_056_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 47.2%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_057",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q57. A dishonest merchant marks his goods 27% above cost price and uses a faulty weight that measures 857 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_057_opt_1",
+        "questionId": "cat_paper_5_q_057",
+        "text": "48.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_057_opt_2",
+        "questionId": "cat_paper_5_q_057",
+        "text": "42.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_057_opt_3",
+        "questionId": "cat_paper_5_q_057",
+        "text": "52.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_057_opt_4",
+        "questionId": "cat_paper_5_q_057",
+        "text": "58.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_057_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 48.2%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_058",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q58. A dishonest merchant marks his goods 28% above cost price and uses a faulty weight that measures 858 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_058_opt_1",
+        "questionId": "cat_paper_5_q_058",
+        "text": "49.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_058_opt_2",
+        "questionId": "cat_paper_5_q_058",
+        "text": "43.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_058_opt_3",
+        "questionId": "cat_paper_5_q_058",
+        "text": "53.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_058_opt_4",
+        "questionId": "cat_paper_5_q_058",
+        "text": "59.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_058_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 49.2%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_059",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q59. A dishonest merchant marks his goods 29% above cost price and uses a faulty weight that measures 859 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_059_opt_1",
+        "questionId": "cat_paper_5_q_059",
+        "text": "50.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_059_opt_2",
+        "questionId": "cat_paper_5_q_059",
+        "text": "44.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_059_opt_3",
+        "questionId": "cat_paper_5_q_059",
+        "text": "54.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_059_opt_4",
+        "questionId": "cat_paper_5_q_059",
+        "text": "60.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_059_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 50.2%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_060",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q60. A dishonest merchant marks his goods 30% above cost price and uses a faulty weight that measures 860 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_060_opt_1",
+        "questionId": "cat_paper_5_q_060",
+        "text": "51.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_060_opt_2",
+        "questionId": "cat_paper_5_q_060",
+        "text": "45.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_060_opt_3",
+        "questionId": "cat_paper_5_q_060",
+        "text": "55.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_060_opt_4",
+        "questionId": "cat_paper_5_q_060",
+        "text": "61.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_060_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 51.2%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_061",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q61. A dishonest merchant marks his goods 31% above cost price and uses a faulty weight that measures 861 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_061_opt_1",
+        "questionId": "cat_paper_5_q_061",
+        "text": "52.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_061_opt_2",
+        "questionId": "cat_paper_5_q_061",
+        "text": "46.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_061_opt_3",
+        "questionId": "cat_paper_5_q_061",
+        "text": "56.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_061_opt_4",
+        "questionId": "cat_paper_5_q_061",
+        "text": "62.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_061_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 52.1%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_062",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q62. A dishonest merchant marks his goods 32% above cost price and uses a faulty weight that measures 862 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_062_opt_1",
+        "questionId": "cat_paper_5_q_062",
+        "text": "53.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_062_opt_2",
+        "questionId": "cat_paper_5_q_062",
+        "text": "47.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_062_opt_3",
+        "questionId": "cat_paper_5_q_062",
+        "text": "57.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_062_opt_4",
+        "questionId": "cat_paper_5_q_062",
+        "text": "63.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_062_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 53.1%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_063",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q63. A dishonest merchant marks his goods 33% above cost price and uses a faulty weight that measures 863 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_063_opt_1",
+        "questionId": "cat_paper_5_q_063",
+        "text": "54.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_063_opt_2",
+        "questionId": "cat_paper_5_q_063",
+        "text": "48.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_063_opt_3",
+        "questionId": "cat_paper_5_q_063",
+        "text": "58.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_063_opt_4",
+        "questionId": "cat_paper_5_q_063",
+        "text": "64.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_063_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 54.1%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_064",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q64. A dishonest merchant marks his goods 34% above cost price and uses a faulty weight that measures 864 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_064_opt_1",
+        "questionId": "cat_paper_5_q_064",
+        "text": "55.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_064_opt_2",
+        "questionId": "cat_paper_5_q_064",
+        "text": "49.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_064_opt_3",
+        "questionId": "cat_paper_5_q_064",
+        "text": "59.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_064_opt_4",
+        "questionId": "cat_paper_5_q_064",
+        "text": "65.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_064_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 55.1%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_065",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q65. A dishonest merchant marks his goods 35% above cost price and uses a faulty weight that measures 865 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_065_opt_1",
+        "questionId": "cat_paper_5_q_065",
+        "text": "56.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_065_opt_2",
+        "questionId": "cat_paper_5_q_065",
+        "text": "50.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_065_opt_3",
+        "questionId": "cat_paper_5_q_065",
+        "text": "60.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_065_opt_4",
+        "questionId": "cat_paper_5_q_065",
+        "text": "66.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_065_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 56.1%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_066",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q66. A dishonest merchant marks his goods 36% above cost price and uses a faulty weight that measures 866 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_066_opt_1",
+        "questionId": "cat_paper_5_q_066",
+        "text": "57.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_066_opt_2",
+        "questionId": "cat_paper_5_q_066",
+        "text": "51.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_066_opt_3",
+        "questionId": "cat_paper_5_q_066",
+        "text": "61.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_066_opt_4",
+        "questionId": "cat_paper_5_q_066",
+        "text": "67.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_066_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 57.0%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_067",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q67. A dishonest merchant marks his goods 37% above cost price and uses a faulty weight that measures 867 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_067_opt_1",
+        "questionId": "cat_paper_5_q_067",
+        "text": "58.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_067_opt_2",
+        "questionId": "cat_paper_5_q_067",
+        "text": "52.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_067_opt_3",
+        "questionId": "cat_paper_5_q_067",
+        "text": "62.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_067_opt_4",
+        "questionId": "cat_paper_5_q_067",
+        "text": "68.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_067_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 58.0%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_068",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q68. A dishonest merchant marks his goods 38% above cost price and uses a faulty weight that measures 868 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_068_opt_1",
+        "questionId": "cat_paper_5_q_068",
+        "text": "59.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_068_opt_2",
+        "questionId": "cat_paper_5_q_068",
+        "text": "53.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_068_opt_3",
+        "questionId": "cat_paper_5_q_068",
+        "text": "63.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_068_opt_4",
+        "questionId": "cat_paper_5_q_068",
+        "text": "69.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_068_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 59.0%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_069",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q69. A dishonest merchant marks his goods 39% above cost price and uses a faulty weight that measures 869 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_069_opt_1",
+        "questionId": "cat_paper_5_q_069",
+        "text": "60.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_069_opt_2",
+        "questionId": "cat_paper_5_q_069",
+        "text": "54.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_069_opt_3",
+        "questionId": "cat_paper_5_q_069",
+        "text": "64.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_069_opt_4",
+        "questionId": "cat_paper_5_q_069",
+        "text": "70.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_069_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 60.0%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_070",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q70. A dishonest merchant marks his goods 40% above cost price and uses a faulty weight that measures 870 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_070_opt_1",
+        "questionId": "cat_paper_5_q_070",
+        "text": "60.9%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_070_opt_2",
+        "questionId": "cat_paper_5_q_070",
+        "text": "55.4%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_070_opt_3",
+        "questionId": "cat_paper_5_q_070",
+        "text": "65.1%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_070_opt_4",
+        "questionId": "cat_paper_5_q_070",
+        "text": "70.9%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_070_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 60.9%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_071",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q71. A dishonest merchant marks his goods 41% above cost price and uses a faulty weight that measures 871 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_071_opt_1",
+        "questionId": "cat_paper_5_q_071",
+        "text": "61.9%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_071_opt_2",
+        "questionId": "cat_paper_5_q_071",
+        "text": "56.4%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_071_opt_3",
+        "questionId": "cat_paper_5_q_071",
+        "text": "66.1%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_071_opt_4",
+        "questionId": "cat_paper_5_q_071",
+        "text": "71.9%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_071_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 61.9%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_072",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q72. A dishonest merchant marks his goods 42% above cost price and uses a faulty weight that measures 872 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_072_opt_1",
+        "questionId": "cat_paper_5_q_072",
+        "text": "62.8%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_072_opt_2",
+        "questionId": "cat_paper_5_q_072",
+        "text": "57.3%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_072_opt_3",
+        "questionId": "cat_paper_5_q_072",
+        "text": "67.0%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_072_opt_4",
+        "questionId": "cat_paper_5_q_072",
+        "text": "72.8%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_072_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 62.8%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_073",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q73. A dishonest merchant marks his goods 43% above cost price and uses a faulty weight that measures 873 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_073_opt_1",
+        "questionId": "cat_paper_5_q_073",
+        "text": "63.8%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_073_opt_2",
+        "questionId": "cat_paper_5_q_073",
+        "text": "58.3%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_073_opt_3",
+        "questionId": "cat_paper_5_q_073",
+        "text": "68.0%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_073_opt_4",
+        "questionId": "cat_paper_5_q_073",
+        "text": "73.8%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_073_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 63.8%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_074",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q74. A dishonest merchant marks his goods 44% above cost price and uses a faulty weight that measures 874 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_074_opt_1",
+        "questionId": "cat_paper_5_q_074",
+        "text": "64.8%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_074_opt_2",
+        "questionId": "cat_paper_5_q_074",
+        "text": "59.3%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_074_opt_3",
+        "questionId": "cat_paper_5_q_074",
+        "text": "69.0%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_074_opt_4",
+        "questionId": "cat_paper_5_q_074",
+        "text": "74.8%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_074_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 64.8%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_075",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q75. A dishonest merchant marks his goods 20% above cost price and uses a faulty weight that measures 875 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_075_opt_1",
+        "questionId": "cat_paper_5_q_075",
+        "text": "37.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_075_opt_2",
+        "questionId": "cat_paper_5_q_075",
+        "text": "31.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_075_opt_3",
+        "questionId": "cat_paper_5_q_075",
+        "text": "41.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_075_opt_4",
+        "questionId": "cat_paper_5_q_075",
+        "text": "47.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_075_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 37.1%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_076",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q76. A dishonest merchant marks his goods 21% above cost price and uses a faulty weight that measures 876 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_076_opt_1",
+        "questionId": "cat_paper_5_q_076",
+        "text": "38.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_076_opt_2",
+        "questionId": "cat_paper_5_q_076",
+        "text": "32.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_076_opt_3",
+        "questionId": "cat_paper_5_q_076",
+        "text": "42.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_076_opt_4",
+        "questionId": "cat_paper_5_q_076",
+        "text": "48.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_076_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 38.1%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_077",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q77. A dishonest merchant marks his goods 22% above cost price and uses a faulty weight that measures 877 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_077_opt_1",
+        "questionId": "cat_paper_5_q_077",
+        "text": "39.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_077_opt_2",
+        "questionId": "cat_paper_5_q_077",
+        "text": "33.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_077_opt_3",
+        "questionId": "cat_paper_5_q_077",
+        "text": "43.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_077_opt_4",
+        "questionId": "cat_paper_5_q_077",
+        "text": "49.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_077_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 39.1%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_078",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q78. A dishonest merchant marks his goods 23% above cost price and uses a faulty weight that measures 878 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_078_opt_1",
+        "questionId": "cat_paper_5_q_078",
+        "text": "40.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_078_opt_2",
+        "questionId": "cat_paper_5_q_078",
+        "text": "34.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_078_opt_3",
+        "questionId": "cat_paper_5_q_078",
+        "text": "44.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_078_opt_4",
+        "questionId": "cat_paper_5_q_078",
+        "text": "50.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_078_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 40.1%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_079",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q79. A dishonest merchant marks his goods 24% above cost price and uses a faulty weight that measures 879 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_079_opt_1",
+        "questionId": "cat_paper_5_q_079",
+        "text": "41.1%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_079_opt_2",
+        "questionId": "cat_paper_5_q_079",
+        "text": "35.6%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_079_opt_3",
+        "questionId": "cat_paper_5_q_079",
+        "text": "45.300000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_079_opt_4",
+        "questionId": "cat_paper_5_q_079",
+        "text": "51.1%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_079_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 41.1%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_080",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q80. A dishonest merchant marks his goods 25% above cost price and uses a faulty weight that measures 880 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_080_opt_1",
+        "questionId": "cat_paper_5_q_080",
+        "text": "42.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_080_opt_2",
+        "questionId": "cat_paper_5_q_080",
+        "text": "36.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_080_opt_3",
+        "questionId": "cat_paper_5_q_080",
+        "text": "46.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_080_opt_4",
+        "questionId": "cat_paper_5_q_080",
+        "text": "52.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_080_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 42.0%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_081",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q81. A dishonest merchant marks his goods 26% above cost price and uses a faulty weight that measures 881 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_081_opt_1",
+        "questionId": "cat_paper_5_q_081",
+        "text": "43.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_081_opt_2",
+        "questionId": "cat_paper_5_q_081",
+        "text": "37.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_081_opt_3",
+        "questionId": "cat_paper_5_q_081",
+        "text": "47.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_081_opt_4",
+        "questionId": "cat_paper_5_q_081",
+        "text": "53.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_081_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 43.0%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_082",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q82. A dishonest merchant marks his goods 27% above cost price and uses a faulty weight that measures 882 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_082_opt_1",
+        "questionId": "cat_paper_5_q_082",
+        "text": "44.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_082_opt_2",
+        "questionId": "cat_paper_5_q_082",
+        "text": "38.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_082_opt_3",
+        "questionId": "cat_paper_5_q_082",
+        "text": "48.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_082_opt_4",
+        "questionId": "cat_paper_5_q_082",
+        "text": "54.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_082_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 44.0%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_083",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q83. A dishonest merchant marks his goods 28% above cost price and uses a faulty weight that measures 883 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_083_opt_1",
+        "questionId": "cat_paper_5_q_083",
+        "text": "45.0%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_083_opt_2",
+        "questionId": "cat_paper_5_q_083",
+        "text": "39.5%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_083_opt_3",
+        "questionId": "cat_paper_5_q_083",
+        "text": "49.2%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_083_opt_4",
+        "questionId": "cat_paper_5_q_083",
+        "text": "55.0%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_083_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 45.0%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_084",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q84. A dishonest merchant marks his goods 29% above cost price and uses a faulty weight that measures 884 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_084_opt_1",
+        "questionId": "cat_paper_5_q_084",
+        "text": "45.9%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_084_opt_2",
+        "questionId": "cat_paper_5_q_084",
+        "text": "40.4%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_084_opt_3",
+        "questionId": "cat_paper_5_q_084",
+        "text": "50.1%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_084_opt_4",
+        "questionId": "cat_paper_5_q_084",
+        "text": "55.9%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_084_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 45.9%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_085",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q85. A dishonest merchant marks his goods 30% above cost price and uses a faulty weight that measures 885 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_085_opt_1",
+        "questionId": "cat_paper_5_q_085",
+        "text": "46.9%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_085_opt_2",
+        "questionId": "cat_paper_5_q_085",
+        "text": "41.4%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_085_opt_3",
+        "questionId": "cat_paper_5_q_085",
+        "text": "51.1%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_085_opt_4",
+        "questionId": "cat_paper_5_q_085",
+        "text": "56.9%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_085_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 46.9%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_086",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q86. A dishonest merchant marks his goods 31% above cost price and uses a faulty weight that measures 886 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_086_opt_1",
+        "questionId": "cat_paper_5_q_086",
+        "text": "47.9%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_086_opt_2",
+        "questionId": "cat_paper_5_q_086",
+        "text": "42.4%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_086_opt_3",
+        "questionId": "cat_paper_5_q_086",
+        "text": "52.1%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_086_opt_4",
+        "questionId": "cat_paper_5_q_086",
+        "text": "57.9%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_086_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 47.9%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_087",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q87. A dishonest merchant marks his goods 32% above cost price and uses a faulty weight that measures 887 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_087_opt_1",
+        "questionId": "cat_paper_5_q_087",
+        "text": "48.8%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_087_opt_2",
+        "questionId": "cat_paper_5_q_087",
+        "text": "43.3%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_087_opt_3",
+        "questionId": "cat_paper_5_q_087",
+        "text": "53.0%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_087_opt_4",
+        "questionId": "cat_paper_5_q_087",
+        "text": "58.8%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_087_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 48.8%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_088",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q88. A dishonest merchant marks his goods 33% above cost price and uses a faulty weight that measures 888 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_088_opt_1",
+        "questionId": "cat_paper_5_q_088",
+        "text": "49.8%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_088_opt_2",
+        "questionId": "cat_paper_5_q_088",
+        "text": "44.3%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_088_opt_3",
+        "questionId": "cat_paper_5_q_088",
+        "text": "54.0%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_088_opt_4",
+        "questionId": "cat_paper_5_q_088",
+        "text": "59.8%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_088_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 49.8%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_089",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q89. A dishonest merchant marks his goods 34% above cost price and uses a faulty weight that measures 889 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_089_opt_1",
+        "questionId": "cat_paper_5_q_089",
+        "text": "50.7%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_089_opt_2",
+        "questionId": "cat_paper_5_q_089",
+        "text": "45.2%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_089_opt_3",
+        "questionId": "cat_paper_5_q_089",
+        "text": "54.900000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_089_opt_4",
+        "questionId": "cat_paper_5_q_089",
+        "text": "60.7%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_089_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 50.7%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_090",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q90. A dishonest merchant marks his goods 35% above cost price and uses a faulty weight that measures 890 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_090_opt_1",
+        "questionId": "cat_paper_5_q_090",
+        "text": "51.7%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_090_opt_2",
+        "questionId": "cat_paper_5_q_090",
+        "text": "46.2%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_090_opt_3",
+        "questionId": "cat_paper_5_q_090",
+        "text": "55.900000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_090_opt_4",
+        "questionId": "cat_paper_5_q_090",
+        "text": "61.7%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_090_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 51.7%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_091",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q91. A dishonest merchant marks his goods 36% above cost price and uses a faulty weight that measures 891 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_091_opt_1",
+        "questionId": "cat_paper_5_q_091",
+        "text": "52.6%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_091_opt_2",
+        "questionId": "cat_paper_5_q_091",
+        "text": "47.1%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_091_opt_3",
+        "questionId": "cat_paper_5_q_091",
+        "text": "56.800000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_091_opt_4",
+        "questionId": "cat_paper_5_q_091",
+        "text": "62.6%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_091_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 52.6%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_092",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q92. A dishonest merchant marks his goods 37% above cost price and uses a faulty weight that measures 892 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_092_opt_1",
+        "questionId": "cat_paper_5_q_092",
+        "text": "53.6%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_092_opt_2",
+        "questionId": "cat_paper_5_q_092",
+        "text": "48.1%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_092_opt_3",
+        "questionId": "cat_paper_5_q_092",
+        "text": "57.800000000000004%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_092_opt_4",
+        "questionId": "cat_paper_5_q_092",
+        "text": "63.6%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_092_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 53.6%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_093",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q93. A dishonest merchant marks his goods 38% above cost price and uses a faulty weight that measures 893 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_093_opt_1",
+        "questionId": "cat_paper_5_q_093",
+        "text": "54.5%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_093_opt_2",
+        "questionId": "cat_paper_5_q_093",
+        "text": "49.0%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_093_opt_3",
+        "questionId": "cat_paper_5_q_093",
+        "text": "58.7%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_093_opt_4",
+        "questionId": "cat_paper_5_q_093",
+        "text": "64.5%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_093_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 54.5%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_094",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q94. A dishonest merchant marks his goods 39% above cost price and uses a faulty weight that measures 894 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_094_opt_1",
+        "questionId": "cat_paper_5_q_094",
+        "text": "55.5%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_094_opt_2",
+        "questionId": "cat_paper_5_q_094",
+        "text": "50.0%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_094_opt_3",
+        "questionId": "cat_paper_5_q_094",
+        "text": "59.7%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_094_opt_4",
+        "questionId": "cat_paper_5_q_094",
+        "text": "65.5%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_094_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 55.5%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_095",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q95. A dishonest merchant marks his goods 40% above cost price and uses a faulty weight that measures 895 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_095_opt_1",
+        "questionId": "cat_paper_5_q_095",
+        "text": "56.4%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_095_opt_2",
+        "questionId": "cat_paper_5_q_095",
+        "text": "50.9%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_095_opt_3",
+        "questionId": "cat_paper_5_q_095",
+        "text": "60.6%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_095_opt_4",
+        "questionId": "cat_paper_5_q_095",
+        "text": "66.4%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_095_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 56.4%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_096",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q96. A dishonest merchant marks his goods 41% above cost price and uses a faulty weight that measures 896 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_096_opt_1",
+        "questionId": "cat_paper_5_q_096",
+        "text": "57.4%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_096_opt_2",
+        "questionId": "cat_paper_5_q_096",
+        "text": "51.9%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_096_opt_3",
+        "questionId": "cat_paper_5_q_096",
+        "text": "61.6%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_096_opt_4",
+        "questionId": "cat_paper_5_q_096",
+        "text": "67.4%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_096_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 57.4%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_097",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q97. A dishonest merchant marks his goods 42% above cost price and uses a faulty weight that measures 897 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_097_opt_1",
+        "questionId": "cat_paper_5_q_097",
+        "text": "58.3%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_097_opt_2",
+        "questionId": "cat_paper_5_q_097",
+        "text": "52.8%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_097_opt_3",
+        "questionId": "cat_paper_5_q_097",
+        "text": "62.5%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_097_opt_4",
+        "questionId": "cat_paper_5_q_097",
+        "text": "68.3%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_097_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 58.3%.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_098",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_tsd",
+    "questionText": "Q98. A dishonest merchant marks his goods 43% above cost price and uses a faulty weight that measures 898 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_098_opt_1",
+        "questionId": "cat_paper_5_q_098",
+        "text": "59.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_098_opt_2",
+        "questionId": "cat_paper_5_q_098",
+        "text": "53.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_098_opt_3",
+        "questionId": "cat_paper_5_q_098",
+        "text": "63.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_098_opt_4",
+        "questionId": "cat_paper_5_q_098",
+        "text": "69.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_098_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 59.2%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Time Speed & Distance",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_099",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q99. A dishonest merchant marks his goods 44% above cost price and uses a faulty weight that measures 899 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_099_opt_1",
+        "questionId": "cat_paper_5_q_099",
+        "text": "60.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_099_opt_2",
+        "questionId": "cat_paper_5_q_099",
+        "text": "54.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_099_opt_3",
+        "questionId": "cat_paper_5_q_099",
+        "text": "64.4%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_099_opt_4",
+        "questionId": "cat_paper_5_q_099",
+        "text": "70.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_099_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 60.2%.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Data Interpretation & VARC",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "cat_paper_5_q_100",
+    "examId": "exam_cat_mba",
+    "subjectId": "sub_cat_qa",
+    "chapterId": "chap_cat_arithmetic",
+    "topicId": "top_cat_percentages",
+    "questionText": "Q100. A dishonest merchant marks his goods 20% above cost price and uses a faulty weight that measures 850 grams for a kilogram. What is his net profit percentage?",
+    "options": [
+      {
+        "id": "cat_paper_5_q_100_opt_1",
+        "questionId": "cat_paper_5_q_100",
+        "text": "41.2%",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "cat_paper_5_q_100_opt_2",
+        "questionId": "cat_paper_5_q_100",
+        "text": "35.7%",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "cat_paper_5_q_100_opt_3",
+        "questionId": "cat_paper_5_q_100",
+        "text": "45.400000000000006%",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "cat_paper_5_q_100_opt_4",
+        "questionId": "cat_paper_5_q_100",
+        "text": "51.2%",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "cat_paper_5_q_100_opt_1",
+    "explanation": "Effective multiplier = (Marked Factor) / (Weight Factor) = (1 + markup%) * (1000 / actual_grams) => Net profit = 41.2%.",
+    "type": "MCQ",
+    "difficulty": "VERY_HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "CAT Paper 5 \u2014 Full CAT Mock",
+    "year": 2026,
+    "estimatedSeconds": 100,
+    "marks": 3.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "CAT",
+      "Quantitative Aptitude",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  }
+]

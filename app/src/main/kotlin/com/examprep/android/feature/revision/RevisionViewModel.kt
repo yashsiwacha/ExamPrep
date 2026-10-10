@@ -34,12 +34,13 @@ class RevisionViewModel @Inject constructor(
             val userId = profile?.id ?: "user_default"
             combine(
                 revisionRepository.getDueRevisions(userId),
-                revisionRepository.getUpcomingRevisions(userId, daysAhead = 14)
-            ) { due, upcoming ->
+                revisionRepository.getUpcomingRevisions(userId, daysAhead = 14),
+                revisionRepository.getCompletedRevisionsCount(userId)
+            ) { due, upcoming, completedCount ->
                 RevisionUiState.Success(
                     dueRevisions = due,
                     upcomingRevisions = upcoming,
-                    totalCompletedRevisions = 12
+                    totalCompletedRevisions = completedCount
                 )
             }
         }.stateIn(

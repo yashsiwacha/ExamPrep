@@ -63,7 +63,7 @@ class PerformanceViewModel @Inject constructor(
                     val avgAccuracy = if (topicMastery.isNotEmpty()) {
                         topicMastery.map { it.quizAccuracy }.average().toFloat()
                     } else {
-                        75f
+                        0f
                     }
                     SubjectMetric(
                         subjectName = subject.name,
@@ -73,6 +73,8 @@ class PerformanceViewModel @Inject constructor(
                     )
                 }
 
+                val streakDays = computeStreak(recentSessions)
+
                 val weak = mastery.filter { it.quizAccuracy in 1f..49f || it.masteryState == MasteryState.REVISION_DUE }
                 val strong = mastery.filter { it.quizAccuracy >= 80f || it.masteryState == MasteryState.MASTERED }
 
@@ -80,7 +82,7 @@ class PerformanceViewModel @Inject constructor(
                     overallAccuracy = overallAcc,
                     totalQuestionsAttempted = totalAttempted,
                     totalStudyMinutes = totalMinutes,
-                    studyStreakDays = if (recentSessions.isNotEmpty()) 1 else 0,
+                    studyStreakDays = streakDays,
                     subjectMetrics = subjectMetrics,
                     weakTopics = weak,
                     strongTopics = strong
@@ -91,4 +93,25 @@ class PerformanceViewModel @Inject constructor(
             started = SharingStarted.WhileSubscribed(5000),
             initialValue = PerformanceUiState.Loading
         )
+
+    /**
+     * Computes consecutive daily study streak from actual session history.
+     */
+    private fun computeStreak(sessions: List<StudySession>): Int {
+        if (sessions.isEmpty()) return 0
+        val msPerDay = 86_400_000L
+        val today = System.currentTimeMillis() / msPerDay
+        val daysWithSessions = sessions
+            .filter { it.outcome == SessionOutcome.COMPLETED }
+            .map { it.startTimeEpoch / msPerDay }
+            .toSortedSet()
+
+        var streak = 0
+        var checkDay = today
+        while (daysWithSessions.contains(checkDay)) {
+            streak++
+            checkDay--
+        }
+        return streak
+    }
 }

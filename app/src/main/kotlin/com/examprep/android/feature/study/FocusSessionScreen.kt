@@ -3,6 +3,7 @@ package com.examprep.android.feature.study
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.*
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
@@ -348,7 +349,44 @@ fun FocusSessionScreen(
                     }
                 }
 
-                Spacer(Modifier.height(32.dp))
+                if (uiState.timerStatus == TimerStatus.INITIAL) {
+                    Spacer(Modifier.height(16.dp))
+                    Row(
+                        horizontalArrangement = Arrangement.spacedBy(8.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        listOf(25 to "25m Pomodoro", 50 to "50m Deep Work", 90 to "90m Flow").forEach { (mins, label) ->
+                            val isSelected = uiState.totalSeconds == mins * 60
+                            Box(
+                                modifier = Modifier
+                                    .clip(RoundedCornerShape(100.dp))
+                                    .background(
+                                        if (isSelected) ExamPrepColors.Sage70.copy(alpha = 0.2f)
+                                        else Color(0xFF131720)
+                                    )
+                                    .border(
+                                        1.dp,
+                                        if (isSelected) ExamPrepColors.Sage70.copy(alpha = 0.7f)
+                                        else Color(0x22FFFFFF),
+                                        RoundedCornerShape(100.dp)
+                                    )
+                                    .clickable { viewModel.setDuration(mins) }
+                                    .padding(horizontal = 12.dp, vertical = 6.dp)
+                            ) {
+                                Text(
+                                    text = label,
+                                    style = MaterialTheme.typography.labelSmall.copy(
+                                        color = if (isSelected) Color(0xFFF1F5F9) else Color(0xFF94A3B8),
+                                        fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal,
+                                        fontSize = 11.sp
+                                    )
+                                )
+                            }
+                        }
+                    }
+                }
+
+                Spacer(Modifier.height(24.dp))
 
                 // ── AOD Minimalist Glowing Controls ─────────────────────────
                 Row(

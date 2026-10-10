@@ -1,0 +1,12 @@
+{
+  "video_id": "VID_01_DECISION_FATIGUE",
+  "output_file": "/Users/yash/Yash-Workspace/projects/active/android/marketing/videos/final/VID_01_DECISION_FATIGUE.mp4",
+  "thumbnail_file": "/Users/yash/Yash-Workspace/projects/active/android/marketing/videos/final/VID_01_DECISION_FATIGUE_thumb.jpg",
+  "duration_seconds": 37.533333,
+  "resolution": "1080x1920",
+  "aspect_ratio": "9:16 (Vertical)",
+  "fps": 30,
+  "filesize_mb": 6.67,
+  "audio": "Voice (Rishi en_IN) + Lo-fi Ambient Pad (Loudnorm -16 LUFS)",
+  "status": "APPROVED_QA"
+}

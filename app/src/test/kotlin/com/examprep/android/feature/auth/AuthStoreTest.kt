@@ -20,12 +20,22 @@ class AuthStoreTest {
     }
 
     @Test
-    fun testDefaultSeedUserLoaded() {
+    fun testDefaultFreshStartIsUnauthenticated() {
+        val user = store.currentUser.value
+        // Fresh start should be null (unauthenticated) until user signs in or signs up
+        assertTrue(user == null)
+    }
+
+    @Test
+    fun testDemoUserSignInDirect() {
+        val result = store.signInAsDemo()
+        assertTrue(result.isSuccess)
         val user = store.currentUser.value
         assertNotNull(user)
         assertEquals("aspirant.yash@examprep.io", user?.email)
         assertEquals(SubscriptionTier.FREE, user?.tier)
-        assertFalse(user?.isPro ?: true)
+        assertTrue(user?.hasCompletedOnboarding == true)
+        assertTrue(user?.isEmailVerified == true)
     }
 
     @Test
@@ -86,6 +96,7 @@ class AuthStoreTest {
 
     @Test
     fun testProUpgradeAndDowngradeLifecycle() {
+        store.signInAsDemo()
         val initialUser = store.currentUser.value
         assertNotNull(initialUser)
         assertFalse(initialUser!!.isPro)

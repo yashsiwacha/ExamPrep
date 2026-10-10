@@ -17,6 +17,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.examprep.core.designsystem.component.MetricStatBox
 import com.examprep.core.designsystem.theme.ExamPrepColors
 import com.examprep.core.designsystem.theme.Spacing
 import com.examprep.domain.model.MockSectionResult
@@ -182,25 +183,25 @@ fun MockTestResultScreen(
                                 modifier = Modifier.fillMaxWidth(),
                                 horizontalArrangement = Arrangement.SpaceAround
                             ) {
-                                ResultMetricItem(
-                                    label = "Correct (+4)",
+                                MetricStatBox(
                                     value = "${result.correctAnswers}",
-                                    color = ExamPrepColors.Success
+                                    label = "Correct (+4)",
+                                    valueColor = ExamPrepColors.Success
                                 )
-                                ResultMetricItem(
-                                    label = "Incorrect (-1)",
+                                MetricStatBox(
                                     value = "${result.incorrectAnswers}",
-                                    color = ExamPrepColors.Error
+                                    label = "Incorrect (-1)",
+                                    valueColor = ExamPrepColors.Error
                                 )
-                                ResultMetricItem(
-                                    label = "Unattempted",
+                                MetricStatBox(
                                     value = "${result.unattemptedQuestions}",
-                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                    label = "Unattempted",
+                                    valueColor = MaterialTheme.colorScheme.onSurfaceVariant
                                 )
-                                ResultMetricItem(
-                                    label = "Accuracy",
+                                MetricStatBox(
                                     value = "${result.overallAccuracy.toInt()}%",
-                                    color = MaterialTheme.colorScheme.primary
+                                    label = "Accuracy",
+                                    valueColor = MaterialTheme.colorScheme.primary
                                 )
                             }
                         }
@@ -306,6 +307,13 @@ fun MockTestResultScreen(
                 }
 
                 item {
+                    Button(
+                        onClick = onNavigateToNewTest,
+                        modifier = Modifier.fillMaxWidth().height(48.dp),
+                        shape = MaterialTheme.shapes.medium
+                    ) {
+                        Text("Retake Or Launch New Mock Exam", style = MaterialTheme.typography.titleSmall)
+                    }
                     Spacer(Modifier.height(Spacing.XL))
                 }
             }
@@ -313,25 +321,6 @@ fun MockTestResultScreen(
     }
 }
 
-@Composable
-private fun ResultMetricItem(label: String, value: String, color: Color) {
-    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(
-            text = value,
-            style = MaterialTheme.typography.titleLarge.copy(
-                fontWeight = FontWeight.Bold,
-                color = color
-            )
-        )
-        Spacer(Modifier.height(2.dp))
-        Text(
-            text = label,
-            style = MaterialTheme.typography.labelSmall.copy(
-                color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
-        )
-    }
-}
 
 @Composable
 private fun SectionResultRow(section: MockSectionResult) {

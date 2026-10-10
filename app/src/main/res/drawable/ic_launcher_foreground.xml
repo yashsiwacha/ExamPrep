@@ -5,17 +5,57 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- Background filled by adaptive icon background color -->
-
-    <!-- "EP" text as geometric shapes — ExamPrep monogram -->
-    <!-- E shape -->
+    <!-- Glowing Open Exam Syllabus Book (Emerald Sage) -->
+    <!-- Left Page -->
     <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M28,30 L28,78 L48,78 L48,70 L36,70 L36,58 L46,58 L46,50 L36,50 L36,38 L48,38 L48,30 Z" />
+        android:fillColor="#76E0A6"
+        android:pathData="M52,56 C44,53 34,53 24,56 L24,82 C34,79 44,79 52,82 Z" />
 
-    <!-- P shape -->
+    <!-- Right Page -->
     <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M52,30 L52,78 L60,78 L60,58 L68,58 C76,58 82,52 82,44 C82,36 76,30 68,30 Z
-                         M60,38 L67,38 C71,38 74,41 74,44 C74,47 71,50 67,50 L60,50 Z" />
+        android:fillColor="#76E0A6"
+        android:pathData="M56,56 C64,53 74,53 84,56 L84,82 C74,79 64,79 56,82 Z" />
+
+    <!-- Book Spine & Glow Accent -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M52,56 L56,56 L56,84 L52,84 Z" />
+
+    <!-- Inner Syllabus Lines (Left Page) -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M30,62 L46,62 L46,64 L30,64 Z
+                         M30,68 L44,68 L44,70 L30,70 Z
+                         M30,74 L40,74 L40,76 L30,76 Z" />
+
+    <!-- Inner Syllabus Lines (Right Page) -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M62,62 L78,62 L78,64 L62,64 Z
+                         M62,68 L76,68 L76,70 L62,70 Z
+                         M62,74 L72,74 L72,76 L62,76 Z" />
+
+    <!-- Floating 3D Graduation Cap (Mortarboard Top Diamond) -->
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M54,20 L84,32 L54,44 L24,32 Z" />
+
+    <!-- Graduation Cap Skull Cap Base -->
+    <path
+        android:fillColor="#4F46E5"
+        android:pathData="M36,37 L36,46 C36,52 72,52 72,46 L72,37 L54,44 Z" />
+
+    <!-- Golden Tassel Ribbon & Ball -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M54,32 L30,38 L28,48 L32,48 L31,38 Z" />
+
+    <path
+        android:fillColor="#FCD34D"
+        android:pathData="M30,49 A2,2 0 1,0 30,53 A2,2 0 1,0 30,49 Z" />
+
+    <!-- Achievement Star Spark -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M80,24 L82,28 L86,30 L82,32 L80,36 L78,32 L74,30 L78,28 Z" />
 </vector>

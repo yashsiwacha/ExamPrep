@@ -71,6 +71,7 @@ enum class QuizMode {
 }
 
 /** Question format. */
+@Serializable
 enum class QuestionType {
     MCQ,            // Single-correct multiple choice
     MULTI_SELECT,   // Multiple correct answers
@@ -79,6 +80,7 @@ enum class QuestionType {
 }
 
 /** Question difficulty tiers. */
+@Serializable
 enum class Difficulty {
     EASY,
     MEDIUM,
@@ -99,6 +101,7 @@ enum class Difficulty {
  * IMPORTANT: Never assume publicly visible exam questions can be
  * commercially republished without verification.
  */
+@Serializable
 enum class ContentSource {
     OFFICIAL,               // Officially released by exam authority
     LICENSED,               // Explicitly licensed from a rights holder
@@ -797,7 +800,52 @@ data class PeerBenchmarkReport(
 
 enum class SubscriptionTier {
     FREE,
+    AD_FREE,
     PRO
+}
+
+enum class SubscriptionPlan(
+    val id: String,
+    val title: String,
+    val priceRupees: Int,
+    val durationMonths: Int,
+    val billingCycleText: String,
+    val tier: SubscriptionTier,
+    val badge: String?,
+    val highlights: List<String>
+) {
+    AD_FREE_2_MONTHS(
+        id = "plan_ad_free_2m",
+        title = "Ad-Free Lite Pass",
+        priceRupees = 30,
+        durationMonths = 2,
+        billingCycleText = "₹30 for 2 Months (₹15/mo)",
+        tier = SubscriptionTier.AD_FREE,
+        badge = "Budget Saver",
+        highlights = listOf(
+            "100% Ad-Free Experience",
+            "Uninterrupted Pomodoro Focus Sessions",
+            "Offline Question & Note Caching",
+            "2 Full Months of Distraction-Free Study"
+        )
+    ),
+    PRO_MONTHLY(
+        id = "plan_pro_1m",
+        title = "Pro Rank Accelerator",
+        priceRupees = 50,
+        durationMonths = 1,
+        billingCycleText = "₹50 / Month",
+        tier = SubscriptionTier.PRO,
+        badge = "Most Popular • Top Rankers",
+        highlights = listOf(
+            "Everything in Ad-Free Lite",
+            "AI Weakness Surgery & Blindspot Diagnosis",
+            "Unlimited All-India Full-Length Mock Exams",
+            "Live AIR Predictive Ranking & Percentile Radar",
+            "Unlimited Mistake Vault with 5-Min Recovery Sprints",
+            "Step-by-Step AI Solutions & Video Hints"
+        )
+    )
 }
 
 @Serializable
@@ -811,12 +859,20 @@ data class AuthUser(
     val targetYear: Int = 2026,
     val dailyStudyTargetHours: Float = 4.5f,
     val tier: SubscriptionTier = SubscriptionTier.FREE,
+    val subscriptionPlanId: String? = null,
     val proExpiryTimestamp: Long? = null,
+    val hasCompletedOnboarding: Boolean = true,
+    val isEmailVerified: Boolean = true,
     val createdAt: Long = System.currentTimeMillis(),
     val lastLoginAt: Long = System.currentTimeMillis()
 ) {
+    val isAdFree: Boolean
+        get() = (tier == SubscriptionTier.AD_FREE || tier == SubscriptionTier.PRO) &&
+                (proExpiryTimestamp == null || proExpiryTimestamp > System.currentTimeMillis())
+
     val isPro: Boolean
-        get() = tier == SubscriptionTier.PRO && (proExpiryTimestamp == null || proExpiryTimestamp > System.currentTimeMillis())
+        get() = tier == SubscriptionTier.PRO &&
+                (proExpiryTimestamp == null || proExpiryTimestamp > System.currentTimeMillis())
 }
 
 enum class PremiumFeature(

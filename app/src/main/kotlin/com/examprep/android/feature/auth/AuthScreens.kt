@@ -27,6 +27,7 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.examprep.core.designsystem.component.StatusChip
 import com.examprep.core.designsystem.theme.ExamPrepColors
 import com.examprep.core.designsystem.theme.Spacing
 import com.examprep.domain.model.AuthUser
@@ -49,6 +50,11 @@ fun AuthScreen(
     var passwordVisible by remember { mutableStateOf(false) }
 
     val uiState by viewModel.uiState.collectAsState()
+    val verificationNotice by viewModel.verificationNotice.collectAsState()
+    var showResetDialog by remember { mutableStateOf(false) }
+    var showPrivacyDialog by remember { mutableStateOf(false) }
+    var showTermsDialog by remember { mutableStateOf(false) }
+    var resetEmail by remember { mutableStateOf("") }
 
     LaunchedEffect(uiState) {
         if (uiState is AuthUiState.Success) {
@@ -144,43 +150,26 @@ fun AuthScreen(
                 color = MaterialTheme.colorScheme.surfaceVariant
             ) {
                 Row(modifier = Modifier.fillMaxSize().padding(4.dp)) {
-                    Surface(
-                        onClick = {
-                            isSignUp = false
-                            viewModel.clearError()
-                        },
-                        modifier = Modifier.weight(1f).fillMaxHeight(),
-                        shape = RoundedCornerShape(8.dp),
-                        color = if (!isSignUp) MaterialTheme.colorScheme.surface else Color.Transparent
-                    ) {
-                        Box(contentAlignment = Alignment.Center) {
-                            Text(
-                                text = "Sign In",
-                                style = MaterialTheme.typography.labelMedium.copy(
-                                    fontWeight = if (!isSignUp) FontWeight.Bold else FontWeight.Medium,
-                                    color = if (!isSignUp) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.onSurfaceVariant
+                    listOf(false to "Sign In", true to "Create Account").forEach { (tabIsSignUp, label) ->
+                        val isSelected = isSignUp == tabIsSignUp
+                        Surface(
+                            onClick = {
+                                isSignUp = tabIsSignUp
+                                viewModel.clearError()
+                            },
+                            modifier = Modifier.weight(1f).fillMaxHeight(),
+                            shape = RoundedCornerShape(8.dp),
+                            color = if (isSelected) MaterialTheme.colorScheme.surface else Color.Transparent
+                        ) {
+                            Box(contentAlignment = Alignment.Center) {
+                                Text(
+                                    text = label,
+                                    style = MaterialTheme.typography.labelMedium.copy(
+                                        fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Medium,
+                                        color = if (isSelected) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.onSurfaceVariant
+                                    )
                                 )
-                            )
-                        }
-                    }
-
-                    Surface(
-                        onClick = {
-                            isSignUp = true
-                            viewModel.clearError()
-                        },
-                        modifier = Modifier.weight(1f).fillMaxHeight(),
-                        shape = RoundedCornerShape(8.dp),
-                        color = if (isSignUp) MaterialTheme.colorScheme.surface else Color.Transparent
-                    ) {
-                        Box(contentAlignment = Alignment.Center) {
-                            Text(
-                                text = "Create Account",
-                                style = MaterialTheme.typography.labelMedium.copy(
-                                    fontWeight = if (isSignUp) FontWeight.Bold else FontWeight.Medium,
-                                    color = if (isSignUp) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.onSurfaceVariant
-                                )
-                            )
+                            }
                         }
                     }
                 }
@@ -205,6 +194,37 @@ fun AuthScreen(
                             text = (uiState as AuthUiState.Error).message,
                             style = MaterialTheme.typography.bodySmall.copy(color = ExamPrepColors.Error)
                         )
+                    }
+                }
+            }
+
+            // Verification Notice Banner
+            if (verificationNotice != null) {
+                Surface(
+                    color = ExamPrepColors.Sage70.copy(alpha = 0.15f),
+                    border = androidx.compose.foundation.BorderStroke(1.dp, ExamPrepColors.Sage70.copy(alpha = 0.4f)),
+                    shape = MaterialTheme.shapes.medium,
+                    modifier = Modifier.fillMaxWidth().padding(bottom = Spacing.MD)
+                ) {
+                    Row(
+                        modifier = Modifier.padding(Spacing.MD),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.SpaceBetween
+                    ) {
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            modifier = Modifier.weight(1f)
+                        ) {
+                            Icon(Icons.Default.MarkEmailRead, contentDescription = null, tint = ExamPrepColors.Sage70, modifier = Modifier.size(20.dp))
+                            Spacer(Modifier.width(8.dp))
+                            Text(
+                                text = verificationNotice ?: "",
+                                style = MaterialTheme.typography.bodySmall.copy(color = MaterialTheme.colorScheme.onSurface)
+                            )
+                        }
+                        IconButton(onClick = { viewModel.clearNotice() }, modifier = Modifier.size(24.dp)) {
+                            Icon(Icons.Default.Close, contentDescription = "Dismiss", tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(16.dp))
+                        }
                     }
                 }
             }
@@ -256,6 +276,25 @@ fun AuthScreen(
                 shape = MaterialTheme.shapes.medium
             )
 
+            if (!isSignUp) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.End
+                ) {
+                    TextButton(
+                        onClick = {
+                            resetEmail = email
+                            showResetDialog = true
+                        }
+                    ) {
+                        Text(
+                            "Forgot Password?",
+                            style = MaterialTheme.typography.labelMedium.copy(color = ExamPrepColors.Sage70)
+                        )
+                    }
+                }
+            }
+
             // Password Strength Indicator for Sign Up
             if (isSignUp && password.isNotEmpty()) {
                 Spacer(Modifier.height(6.dp))
@@ -301,6 +340,41 @@ fun AuthScreen(
                 )
             }
 
+            if (showResetDialog) {
+                AlertDialog(
+                    onDismissRequest = { showResetDialog = false },
+                    title = { Text("Reset Password") },
+                    text = {
+                        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Text("Enter your account email to receive a secure password reset link via Firebase.")
+                            OutlinedTextField(
+                                value = resetEmail,
+                                onValueChange = { resetEmail = it },
+                                label = { Text("Email Address") },
+                                singleLine = true,
+                                modifier = Modifier.fillMaxWidth()
+                            )
+                        }
+                    },
+                    confirmButton = {
+                        Button(
+                            onClick = {
+                                viewModel.sendPasswordReset(resetEmail)
+                                showResetDialog = false
+                            },
+                            colors = ButtonDefaults.buttonColors(containerColor = ExamPrepColors.Sage70, contentColor = Color(0xFF090B0E))
+                        ) {
+                            Text("Send Reset Link", fontWeight = FontWeight.Bold)
+                        }
+                    },
+                    dismissButton = {
+                        TextButton(onClick = { showResetDialog = false }) {
+                            Text("Cancel")
+                        }
+                    }
+                )
+            }
+
             Spacer(Modifier.height(Spacing.LG))
 
             Button(
@@ -339,19 +413,97 @@ fun AuthScreen(
                 }
             }
 
+            if (showPrivacyDialog) {
+                AlertDialog(
+                    onDismissRequest = { showPrivacyDialog = false },
+                    title = { Text("Privacy Policy Summary", fontWeight = FontWeight.Bold) },
+                    text = {
+                        Text(
+                            "ExamPrepOS stores your study progress, quiz history, and notes securely in your local encrypted device storage. " +
+                            "Firebase Auth is used for account credentials. We never collect precise GPS location, contacts, or biometric data. " +
+                            "You can export or permanently delete your account & data at any time from Settings."
+                        )
+                    },
+                    confirmButton = {
+                        Button(onClick = { showPrivacyDialog = false }) {
+                            Text("I Understand")
+                        }
+                    }
+                )
+            }
+
+            if (showTermsDialog) {
+                AlertDialog(
+                    onDismissRequest = { showTermsDialog = false },
+                    title = { Text("Terms of Service Summary", fontWeight = FontWeight.Bold) },
+                    text = {
+                        Text(
+                            "ExamPrepOS is an independent educational productivity tool. " +
+                            "ExamPrepOS is NOT affiliated with, sponsored by, or endorsed by NTA, UPSC, IITs, IIMs, or CBSE. " +
+                            "Content and practice tests are designed for preparation and do not guarantee marks, cutoff clearance, or selection."
+                        )
+                    },
+                    confirmButton = {
+                        Button(onClick = { showTermsDialog = false }) {
+                            Text("Close")
+                        }
+                    }
+                )
+            }
+
             Spacer(Modifier.height(Spacing.MD))
 
-            // ── 1-Tap Demo / Guest Login ────────────────────────────────────
-            OutlinedButton(
-                onClick = {
-                    viewModel.signIn("aspirant.yash@examprep.io", "Aspirant2026!")
-                },
-                modifier = Modifier.fillMaxWidth().height(46.dp),
-                shape = MaterialTheme.shapes.medium
-            ) {
-                Icon(Icons.Default.FlashOn, contentDescription = null, modifier = Modifier.size(18.dp), tint = ExamPrepColors.Warning)
-                Spacer(Modifier.width(8.dp))
-                Text("1-Tap Demo Aspirant Sign-In")
+            if (isSignUp) {
+                Text(
+                    text = "By creating an account, you agree to our Terms of Service and acknowledge our Privacy Policy. ExamPrepOS is an independent preparation platform.",
+                    style = MaterialTheme.typography.bodySmall.copy(
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        textAlign = androidx.compose.ui.text.style.TextAlign.Center
+                    ),
+                    modifier = Modifier.padding(horizontal = 8.dp)
+                )
+                Row(
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    TextButton(onClick = { showTermsDialog = true }) {
+                        Text("Terms of Service", style = MaterialTheme.typography.labelSmall)
+                    }
+                    Text("•", color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    TextButton(onClick = { showPrivacyDialog = true }) {
+                        Text("Privacy Policy", style = MaterialTheme.typography.labelSmall)
+                    }
+                }
+                Spacer(Modifier.height(Spacing.SM))
+            }
+
+            // ── 1-Tap Demo Access ───────────────────────────────────────────────
+            if (!isSignUp) {
+                OutlinedButton(
+                    onClick = { viewModel.signInAsDemo() },
+                    modifier = Modifier.fillMaxWidth().height(46.dp),
+                    shape = MaterialTheme.shapes.medium
+                ) {
+                    Icon(Icons.Default.FlashOn, contentDescription = null, modifier = Modifier.size(18.dp), tint = ExamPrepColors.Warning)
+                    Spacer(Modifier.width(8.dp))
+                    Text("1-Tap Demo Aspirant Sign-In (Existing User)")
+                }
+            } else {
+                OutlinedButton(
+                    onClick = {
+                        name = "Rohan Varma"
+                        email = "rohan.varma@examprep.io"
+                        password = "Password123!"
+                        confirmPassword = "Password123!"
+                    },
+                    modifier = Modifier.fillMaxWidth().height(46.dp),
+                    shape = MaterialTheme.shapes.medium
+                ) {
+                    Icon(Icons.Default.FlashOn, contentDescription = null, modifier = Modifier.size(18.dp), tint = ExamPrepColors.Sage70)
+                    Spacer(Modifier.width(8.dp))
+                    Text("⚡ Auto-Fill New Student Profile")
+                }
             }
 
             Spacer(Modifier.height(Spacing.XL))
@@ -502,20 +654,11 @@ fun ProfileScreen(
 
                         // Membership Badge
                         val isPro = currentUser?.isPro == true
-                        Surface(
-                            color = if (isPro) ExamPrepColors.Warning.copy(alpha = 0.15f) else MaterialTheme.colorScheme.surfaceVariant,
-                            shape = RoundedCornerShape(8.dp)
-                        ) {
-                            Text(
-                                text = if (isPro) "👑 PRO" else "FREE",
-                                modifier = Modifier.padding(horizontal = 10.dp, vertical = 4.dp),
-                                style = MaterialTheme.typography.labelSmall.copy(
-                                    color = if (isPro) ExamPrepColors.Warning else MaterialTheme.colorScheme.onSurfaceVariant,
-                                    fontWeight = FontWeight.ExtraBold,
-                                    fontSize = 11.sp
-                                )
-                            )
-                        }
+                        StatusChip(
+                            text = if (isPro) "👑 PRO" else "FREE",
+                            color = if (isPro) ExamPrepColors.Warning else MaterialTheme.colorScheme.onSurfaceVariant,
+                            backgroundColor = if (isPro) ExamPrepColors.Warning.copy(alpha = 0.15f) else MaterialTheme.colorScheme.surfaceVariant
+                        )
                     }
 
                     Spacer(Modifier.height(Spacing.MD))
@@ -534,6 +677,91 @@ fun ProfileScreen(
                             Text("Daily Goal", style = MaterialTheme.typography.labelSmall.copy(color = MaterialTheme.colorScheme.onSurfaceVariant))
                             Text("${currentUser?.dailyStudyTargetHours ?: 4.5f} Hours/Day", style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.SemiBold))
                         }
+                    }
+                }
+            }
+
+            Spacer(Modifier.height(Spacing.MD))
+
+            // ── EMAIL VERIFICATION STATUS CARD ──────────────────────────────
+            val isEmailVerified by viewModel.isEmailVerified.collectAsState()
+            val verificationNotice by viewModel.verificationNotice.collectAsState()
+
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .border(
+                        1.dp,
+                        if (isEmailVerified) ExamPrepColors.Success.copy(alpha = 0.3f) else ExamPrepColors.Warning.copy(alpha = 0.3f),
+                        MaterialTheme.shapes.large
+                    ),
+                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+                shape = MaterialTheme.shapes.large
+            ) {
+                Column(modifier = Modifier.padding(Spacing.MD)) {
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(10.dp)
+                        ) {
+                            Icon(
+                                if (isEmailVerified) Icons.Default.MarkEmailRead else Icons.Default.MarkEmailUnread,
+                                contentDescription = null,
+                                tint = if (isEmailVerified) ExamPrepColors.Success else ExamPrepColors.Warning,
+                                modifier = Modifier.size(24.dp)
+                            )
+                            Column {
+                                Text(
+                                    text = if (isEmailVerified) "Email Verified" else "Email Verification Pending",
+                                    style = MaterialTheme.typography.titleSmall.copy(fontWeight = FontWeight.Bold)
+                                )
+                                Text(
+                                    text = if (isEmailVerified) "Account verified via Firebase" else "Verify email to protect progress",
+                                    style = MaterialTheme.typography.bodySmall.copy(color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                )
+                            }
+                        }
+
+                        StatusChip(
+                            text = if (isEmailVerified) "✓ VERIFIED" else "UNVERIFIED",
+                            color = if (isEmailVerified) ExamPrepColors.Success else ExamPrepColors.Warning
+                        )
+                    }
+
+                    if (!isEmailVerified) {
+                        Spacer(Modifier.height(Spacing.SM))
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.spacedBy(8.dp)
+                        ) {
+                            OutlinedButton(
+                                onClick = { viewModel.sendVerificationEmail() },
+                                modifier = Modifier.weight(1f).height(36.dp),
+                                shape = MaterialTheme.shapes.small
+                            ) {
+                                Text("Resend Email", style = MaterialTheme.typography.labelSmall)
+                            }
+                            Button(
+                                onClick = { viewModel.checkEmailVerificationStatus() },
+                                modifier = Modifier.weight(1f).height(36.dp),
+                                shape = MaterialTheme.shapes.small,
+                                colors = ButtonDefaults.buttonColors(containerColor = ExamPrepColors.Sage70, contentColor = Color(0xFF090B0E))
+                            ) {
+                                Text("Check Status", style = MaterialTheme.typography.labelSmall.copy(fontWeight = FontWeight.Bold))
+                            }
+                        }
+                    }
+
+                    if (verificationNotice != null) {
+                        Spacer(Modifier.height(6.dp))
+                        Text(
+                            text = verificationNotice ?: "",
+                            style = MaterialTheme.typography.bodySmall.copy(color = ExamPrepColors.Sage70)
+                        )
                     }
                 }
             }

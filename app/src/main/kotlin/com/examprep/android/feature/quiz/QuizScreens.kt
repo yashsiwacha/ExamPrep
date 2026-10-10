@@ -22,8 +22,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.examprep.core.designsystem.component.MetricStatBox
+import com.examprep.core.designsystem.component.StatusChip
 import com.examprep.core.designsystem.theme.ExamPrepColors
 import com.examprep.core.designsystem.theme.Spacing
+import com.examprep.core.util.FormatUtils
 import com.examprep.domain.model.Question
 
 @Composable
@@ -482,7 +485,7 @@ private fun QuizNavigationFooter(
     }
 }
 
-private fun formatTime(seconds: Int) = "%02d:%02d".format(seconds / 60, seconds % 60)
+private fun formatTime(seconds: Int) = FormatUtils.formatTimeSeconds(seconds)
 
 // ════════════════════════════════════════════════════════════════════════════════
 // QUIZ RESULT SCREEN
@@ -591,9 +594,9 @@ fun QuizResultScreen(
                                     modifier = Modifier.fillMaxWidth(),
                                     horizontalArrangement = Arrangement.SpaceEvenly
                                 ) {
-                                    ResultStat("${uiState.attempt.accuracy.toInt()}%", "Accuracy")
-                                    ResultStat("${uiState.totalTimeSecs}s", "Time Spent")
-                                    ResultStat("${uiState.correctCount}", "Correct")
+                                    MetricStatBox("${uiState.attempt.accuracy.toInt()}%", "Accuracy", valueColor = MaterialTheme.colorScheme.primary)
+                                    MetricStatBox("${uiState.totalTimeSecs}s", "Time Spent", valueColor = MaterialTheme.colorScheme.primary)
+                                    MetricStatBox("${uiState.correctCount}", "Correct", valueColor = MaterialTheme.colorScheme.primary)
                                 }
                             }
                         }
@@ -611,9 +614,9 @@ fun QuizResultScreen(
                     }
                     item {
                         Row(horizontalArrangement = Arrangement.spacedBy(Spacing.SM)) {
-                            BreakdownChip("✓ ${uiState.correctCount} Correct", ExamPrepColors.Success)
-                            BreakdownChip("✗ ${uiState.incorrectCount} Wrong", ExamPrepColors.Error)
-                            BreakdownChip("– ${uiState.skippedCount} Skipped", MaterialTheme.colorScheme.onSurfaceVariant)
+                            StatusChip("✓ ${uiState.correctCount} Correct", ExamPrepColors.Success)
+                            StatusChip("✗ ${uiState.incorrectCount} Wrong", ExamPrepColors.Error)
+                            StatusChip("– ${uiState.skippedCount} Skipped", MaterialTheme.colorScheme.onSurfaceVariant)
                         }
                     }
 
@@ -643,8 +646,6 @@ fun QuizResultScreen(
 
 @Composable
 private fun QuestionReviewCard(index: Int, item: QuestionResultItem) {
-    var isExpanded by remember { mutableStateOf(false) }
-
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -765,33 +766,4 @@ private fun QuestionReviewCard(index: Int, item: QuestionResultItem) {
     }
 }
 
-@Composable
-private fun ResultStat(value: String, label: String) {
-    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-        Text(
-            value,
-            style = MaterialTheme.typography.titleLarge.copy(
-                color = MaterialTheme.colorScheme.primary,
-                fontWeight = FontWeight.Bold
-            )
-        )
-        Text(
-            label,
-            style = MaterialTheme.typography.labelSmall.copy(
-                color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
-        )
-    }
-}
-
-@Composable
-private fun BreakdownChip(label: String, color: Color) {
-    Surface(color = color.copy(alpha = 0.15f), shape = MaterialTheme.shapes.small) {
-        Text(
-            text = label,
-            modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp),
-            style = MaterialTheme.typography.labelMedium.copy(color = color, fontWeight = FontWeight.SemiBold)
-        )
-    }
-}
 

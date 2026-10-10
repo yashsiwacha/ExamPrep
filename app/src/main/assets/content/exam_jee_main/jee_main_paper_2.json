@@ -1,0 +1,5502 @@
+[
+  {
+    "id": "jee_main_paper_2_q_001",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q1. A body of mass 3 kg is accelerated from rest by a force F = 11t N. Determine the velocity attained after t = 3 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_001_opt_1",
+        "questionId": "jee_main_paper_2_q_001",
+        "text": "16 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_001_opt_2",
+        "questionId": "jee_main_paper_2_q_001",
+        "text": "20 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_001_opt_3",
+        "questionId": "jee_main_paper_2_q_001",
+        "text": "13 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_001_opt_4",
+        "questionId": "jee_main_paper_2_q_001",
+        "text": "32 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_001_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (11 / 6) * t\u00b2 = 16 m/s.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_002",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q2. In the reaction mechanism step 2, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_002_opt_1",
+        "questionId": "jee_main_paper_2_q_002",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_002_opt_2",
+        "questionId": "jee_main_paper_2_q_002",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_002_opt_3",
+        "questionId": "jee_main_paper_2_q_002",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_002_opt_4",
+        "questionId": "jee_main_paper_2_q_002",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_002_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_003",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q3. What is the value of the integral \u222b x^4 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_003_opt_1",
+        "questionId": "jee_main_paper_2_q_003",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_003_opt_2",
+        "questionId": "jee_main_paper_2_q_003",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_003_opt_3",
+        "questionId": "jee_main_paper_2_q_003",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_003_opt_4",
+        "questionId": "jee_main_paper_2_q_003",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_003_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_004",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q4. A body of mass 6 kg is accelerated from rest by a force F = 14t N. Determine the velocity attained after t = 2 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_004_opt_1",
+        "questionId": "jee_main_paper_2_q_004",
+        "text": "4 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_004_opt_2",
+        "questionId": "jee_main_paper_2_q_004",
+        "text": "8 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_004_opt_3",
+        "questionId": "jee_main_paper_2_q_004",
+        "text": "1 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_004_opt_4",
+        "questionId": "jee_main_paper_2_q_004",
+        "text": "8 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_004_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (14 / 12) * t\u00b2 = 4 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_005",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q5. In the reaction mechanism step 5, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_005_opt_1",
+        "questionId": "jee_main_paper_2_q_005",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_005_opt_2",
+        "questionId": "jee_main_paper_2_q_005",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_005_opt_3",
+        "questionId": "jee_main_paper_2_q_005",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_005_opt_4",
+        "questionId": "jee_main_paper_2_q_005",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_005_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_006",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q6. What is the value of the integral \u222b x^3 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_006_opt_1",
+        "questionId": "jee_main_paper_2_q_006",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_006_opt_2",
+        "questionId": "jee_main_paper_2_q_006",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_006_opt_3",
+        "questionId": "jee_main_paper_2_q_006",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_006_opt_4",
+        "questionId": "jee_main_paper_2_q_006",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_006_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_007",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q7. A body of mass 4 kg is accelerated from rest by a force F = 17t N. Determine the velocity attained after t = 5 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_007_opt_1",
+        "questionId": "jee_main_paper_2_q_007",
+        "text": "53 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_007_opt_2",
+        "questionId": "jee_main_paper_2_q_007",
+        "text": "57 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_007_opt_3",
+        "questionId": "jee_main_paper_2_q_007",
+        "text": "50 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_007_opt_4",
+        "questionId": "jee_main_paper_2_q_007",
+        "text": "106 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_007_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (17 / 8) * t\u00b2 = 53 m/s.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_008",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q8. In the reaction mechanism step 8, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_008_opt_1",
+        "questionId": "jee_main_paper_2_q_008",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_008_opt_2",
+        "questionId": "jee_main_paper_2_q_008",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_008_opt_3",
+        "questionId": "jee_main_paper_2_q_008",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_008_opt_4",
+        "questionId": "jee_main_paper_2_q_008",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_008_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_009",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q9. What is the value of the integral \u222b x^2 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_009_opt_1",
+        "questionId": "jee_main_paper_2_q_009",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_009_opt_2",
+        "questionId": "jee_main_paper_2_q_009",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_009_opt_3",
+        "questionId": "jee_main_paper_2_q_009",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_009_opt_4",
+        "questionId": "jee_main_paper_2_q_009",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_009_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_010",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q10. A body of mass 2 kg is accelerated from rest by a force F = 20t N. Determine the velocity attained after t = 4 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_010_opt_1",
+        "questionId": "jee_main_paper_2_q_010",
+        "text": "80 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_010_opt_2",
+        "questionId": "jee_main_paper_2_q_010",
+        "text": "84 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_010_opt_3",
+        "questionId": "jee_main_paper_2_q_010",
+        "text": "77 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_010_opt_4",
+        "questionId": "jee_main_paper_2_q_010",
+        "text": "160 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_010_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (20 / 4) * t\u00b2 = 80 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_011",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q11. In the reaction mechanism step 11, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_011_opt_1",
+        "questionId": "jee_main_paper_2_q_011",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_011_opt_2",
+        "questionId": "jee_main_paper_2_q_011",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_011_opt_3",
+        "questionId": "jee_main_paper_2_q_011",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_011_opt_4",
+        "questionId": "jee_main_paper_2_q_011",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_011_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_012",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q12. What is the value of the integral \u222b x^1 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_012_opt_1",
+        "questionId": "jee_main_paper_2_q_012",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_012_opt_2",
+        "questionId": "jee_main_paper_2_q_012",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_012_opt_3",
+        "questionId": "jee_main_paper_2_q_012",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_012_opt_4",
+        "questionId": "jee_main_paper_2_q_012",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_012_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_013",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q13. A body of mass 5 kg is accelerated from rest by a force F = 11t N. Determine the velocity attained after t = 3 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_013_opt_1",
+        "questionId": "jee_main_paper_2_q_013",
+        "text": "9 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_013_opt_2",
+        "questionId": "jee_main_paper_2_q_013",
+        "text": "13 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_013_opt_3",
+        "questionId": "jee_main_paper_2_q_013",
+        "text": "6 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_013_opt_4",
+        "questionId": "jee_main_paper_2_q_013",
+        "text": "18 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_013_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (11 / 10) * t\u00b2 = 9 m/s.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_014",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q14. In the reaction mechanism step 14, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_014_opt_1",
+        "questionId": "jee_main_paper_2_q_014",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_014_opt_2",
+        "questionId": "jee_main_paper_2_q_014",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_014_opt_3",
+        "questionId": "jee_main_paper_2_q_014",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_014_opt_4",
+        "questionId": "jee_main_paper_2_q_014",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_014_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_015",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q15. What is the value of the integral \u222b x^4 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_015_opt_1",
+        "questionId": "jee_main_paper_2_q_015",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_015_opt_2",
+        "questionId": "jee_main_paper_2_q_015",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_015_opt_3",
+        "questionId": "jee_main_paper_2_q_015",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_015_opt_4",
+        "questionId": "jee_main_paper_2_q_015",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_015_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_016",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q16. A body of mass 3 kg is accelerated from rest by a force F = 14t N. Determine the velocity attained after t = 2 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_016_opt_1",
+        "questionId": "jee_main_paper_2_q_016",
+        "text": "9 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_016_opt_2",
+        "questionId": "jee_main_paper_2_q_016",
+        "text": "13 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_016_opt_3",
+        "questionId": "jee_main_paper_2_q_016",
+        "text": "6 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_016_opt_4",
+        "questionId": "jee_main_paper_2_q_016",
+        "text": "18 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_016_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (14 / 6) * t\u00b2 = 9 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_017",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q17. In the reaction mechanism step 17, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_017_opt_1",
+        "questionId": "jee_main_paper_2_q_017",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_017_opt_2",
+        "questionId": "jee_main_paper_2_q_017",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_017_opt_3",
+        "questionId": "jee_main_paper_2_q_017",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_017_opt_4",
+        "questionId": "jee_main_paper_2_q_017",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_017_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_018",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q18. What is the value of the integral \u222b x^3 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_018_opt_1",
+        "questionId": "jee_main_paper_2_q_018",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_018_opt_2",
+        "questionId": "jee_main_paper_2_q_018",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_018_opt_3",
+        "questionId": "jee_main_paper_2_q_018",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_018_opt_4",
+        "questionId": "jee_main_paper_2_q_018",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_018_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_019",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q19. A body of mass 6 kg is accelerated from rest by a force F = 17t N. Determine the velocity attained after t = 5 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_019_opt_1",
+        "questionId": "jee_main_paper_2_q_019",
+        "text": "35 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_019_opt_2",
+        "questionId": "jee_main_paper_2_q_019",
+        "text": "39 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_019_opt_3",
+        "questionId": "jee_main_paper_2_q_019",
+        "text": "32 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_019_opt_4",
+        "questionId": "jee_main_paper_2_q_019",
+        "text": "70 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_019_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (17 / 12) * t\u00b2 = 35 m/s.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_020",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q20. In the reaction mechanism step 20, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_020_opt_1",
+        "questionId": "jee_main_paper_2_q_020",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_020_opt_2",
+        "questionId": "jee_main_paper_2_q_020",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_020_opt_3",
+        "questionId": "jee_main_paper_2_q_020",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_020_opt_4",
+        "questionId": "jee_main_paper_2_q_020",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_020_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_021",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q21. What is the value of the integral \u222b x^2 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_021_opt_1",
+        "questionId": "jee_main_paper_2_q_021",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_021_opt_2",
+        "questionId": "jee_main_paper_2_q_021",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_021_opt_3",
+        "questionId": "jee_main_paper_2_q_021",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_021_opt_4",
+        "questionId": "jee_main_paper_2_q_021",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_021_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_022",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q22. A body of mass 4 kg is accelerated from rest by a force F = 20t N. Determine the velocity attained after t = 4 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_022_opt_1",
+        "questionId": "jee_main_paper_2_q_022",
+        "text": "40 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_022_opt_2",
+        "questionId": "jee_main_paper_2_q_022",
+        "text": "44 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_022_opt_3",
+        "questionId": "jee_main_paper_2_q_022",
+        "text": "37 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_022_opt_4",
+        "questionId": "jee_main_paper_2_q_022",
+        "text": "80 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_022_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (20 / 8) * t\u00b2 = 40 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_023",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q23. In the reaction mechanism step 23, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_023_opt_1",
+        "questionId": "jee_main_paper_2_q_023",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_023_opt_2",
+        "questionId": "jee_main_paper_2_q_023",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_023_opt_3",
+        "questionId": "jee_main_paper_2_q_023",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_023_opt_4",
+        "questionId": "jee_main_paper_2_q_023",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_023_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_024",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q24. What is the value of the integral \u222b x^1 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_024_opt_1",
+        "questionId": "jee_main_paper_2_q_024",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_024_opt_2",
+        "questionId": "jee_main_paper_2_q_024",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_024_opt_3",
+        "questionId": "jee_main_paper_2_q_024",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_024_opt_4",
+        "questionId": "jee_main_paper_2_q_024",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_024_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_025",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q25. A body of mass 2 kg is accelerated from rest by a force F = 11t N. Determine the velocity attained after t = 3 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_025_opt_1",
+        "questionId": "jee_main_paper_2_q_025",
+        "text": "24 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_025_opt_2",
+        "questionId": "jee_main_paper_2_q_025",
+        "text": "28 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_025_opt_3",
+        "questionId": "jee_main_paper_2_q_025",
+        "text": "21 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_025_opt_4",
+        "questionId": "jee_main_paper_2_q_025",
+        "text": "48 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_025_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (11 / 4) * t\u00b2 = 24 m/s.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_026",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q26. In the reaction mechanism step 26, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_026_opt_1",
+        "questionId": "jee_main_paper_2_q_026",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_026_opt_2",
+        "questionId": "jee_main_paper_2_q_026",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_026_opt_3",
+        "questionId": "jee_main_paper_2_q_026",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_026_opt_4",
+        "questionId": "jee_main_paper_2_q_026",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_026_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_027",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q27. What is the value of the integral \u222b x^4 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_027_opt_1",
+        "questionId": "jee_main_paper_2_q_027",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_027_opt_2",
+        "questionId": "jee_main_paper_2_q_027",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_027_opt_3",
+        "questionId": "jee_main_paper_2_q_027",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_027_opt_4",
+        "questionId": "jee_main_paper_2_q_027",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_027_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_028",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q28. A body of mass 5 kg is accelerated from rest by a force F = 14t N. Determine the velocity attained after t = 2 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_028_opt_1",
+        "questionId": "jee_main_paper_2_q_028",
+        "text": "5 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_028_opt_2",
+        "questionId": "jee_main_paper_2_q_028",
+        "text": "9 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_028_opt_3",
+        "questionId": "jee_main_paper_2_q_028",
+        "text": "2 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_028_opt_4",
+        "questionId": "jee_main_paper_2_q_028",
+        "text": "10 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_028_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (14 / 10) * t\u00b2 = 5 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_029",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q29. In the reaction mechanism step 29, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_029_opt_1",
+        "questionId": "jee_main_paper_2_q_029",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_029_opt_2",
+        "questionId": "jee_main_paper_2_q_029",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_029_opt_3",
+        "questionId": "jee_main_paper_2_q_029",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_029_opt_4",
+        "questionId": "jee_main_paper_2_q_029",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_029_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_030",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q30. What is the value of the integral \u222b x^3 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_030_opt_1",
+        "questionId": "jee_main_paper_2_q_030",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_030_opt_2",
+        "questionId": "jee_main_paper_2_q_030",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_030_opt_3",
+        "questionId": "jee_main_paper_2_q_030",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_030_opt_4",
+        "questionId": "jee_main_paper_2_q_030",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_030_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_031",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q31. A body of mass 3 kg is accelerated from rest by a force F = 17t N. Determine the velocity attained after t = 5 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_031_opt_1",
+        "questionId": "jee_main_paper_2_q_031",
+        "text": "70 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_031_opt_2",
+        "questionId": "jee_main_paper_2_q_031",
+        "text": "74 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_031_opt_3",
+        "questionId": "jee_main_paper_2_q_031",
+        "text": "67 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_031_opt_4",
+        "questionId": "jee_main_paper_2_q_031",
+        "text": "140 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_031_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (17 / 6) * t\u00b2 = 70 m/s.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_032",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q32. In the reaction mechanism step 32, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_032_opt_1",
+        "questionId": "jee_main_paper_2_q_032",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_032_opt_2",
+        "questionId": "jee_main_paper_2_q_032",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_032_opt_3",
+        "questionId": "jee_main_paper_2_q_032",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_032_opt_4",
+        "questionId": "jee_main_paper_2_q_032",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_032_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_033",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q33. What is the value of the integral \u222b x^2 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_033_opt_1",
+        "questionId": "jee_main_paper_2_q_033",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_033_opt_2",
+        "questionId": "jee_main_paper_2_q_033",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_033_opt_3",
+        "questionId": "jee_main_paper_2_q_033",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_033_opt_4",
+        "questionId": "jee_main_paper_2_q_033",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_033_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_034",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q34. A body of mass 6 kg is accelerated from rest by a force F = 20t N. Determine the velocity attained after t = 4 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_034_opt_1",
+        "questionId": "jee_main_paper_2_q_034",
+        "text": "26 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_034_opt_2",
+        "questionId": "jee_main_paper_2_q_034",
+        "text": "30 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_034_opt_3",
+        "questionId": "jee_main_paper_2_q_034",
+        "text": "23 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_034_opt_4",
+        "questionId": "jee_main_paper_2_q_034",
+        "text": "52 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_034_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (20 / 12) * t\u00b2 = 26 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_035",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q35. In the reaction mechanism step 35, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_035_opt_1",
+        "questionId": "jee_main_paper_2_q_035",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_035_opt_2",
+        "questionId": "jee_main_paper_2_q_035",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_035_opt_3",
+        "questionId": "jee_main_paper_2_q_035",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_035_opt_4",
+        "questionId": "jee_main_paper_2_q_035",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_035_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_036",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q36. What is the value of the integral \u222b x^1 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_036_opt_1",
+        "questionId": "jee_main_paper_2_q_036",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_036_opt_2",
+        "questionId": "jee_main_paper_2_q_036",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_036_opt_3",
+        "questionId": "jee_main_paper_2_q_036",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_036_opt_4",
+        "questionId": "jee_main_paper_2_q_036",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_036_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_037",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q37. A body of mass 4 kg is accelerated from rest by a force F = 11t N. Determine the velocity attained after t = 3 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_037_opt_1",
+        "questionId": "jee_main_paper_2_q_037",
+        "text": "12 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_037_opt_2",
+        "questionId": "jee_main_paper_2_q_037",
+        "text": "16 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_037_opt_3",
+        "questionId": "jee_main_paper_2_q_037",
+        "text": "9 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_037_opt_4",
+        "questionId": "jee_main_paper_2_q_037",
+        "text": "24 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_037_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (11 / 8) * t\u00b2 = 12 m/s.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_038",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q38. In the reaction mechanism step 38, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_038_opt_1",
+        "questionId": "jee_main_paper_2_q_038",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_038_opt_2",
+        "questionId": "jee_main_paper_2_q_038",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_038_opt_3",
+        "questionId": "jee_main_paper_2_q_038",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_038_opt_4",
+        "questionId": "jee_main_paper_2_q_038",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_038_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_039",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q39. What is the value of the integral \u222b x^4 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_039_opt_1",
+        "questionId": "jee_main_paper_2_q_039",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_039_opt_2",
+        "questionId": "jee_main_paper_2_q_039",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_039_opt_3",
+        "questionId": "jee_main_paper_2_q_039",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_039_opt_4",
+        "questionId": "jee_main_paper_2_q_039",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_039_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_040",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q40. A body of mass 2 kg is accelerated from rest by a force F = 14t N. Determine the velocity attained after t = 2 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_040_opt_1",
+        "questionId": "jee_main_paper_2_q_040",
+        "text": "14 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_040_opt_2",
+        "questionId": "jee_main_paper_2_q_040",
+        "text": "18 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_040_opt_3",
+        "questionId": "jee_main_paper_2_q_040",
+        "text": "11 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_040_opt_4",
+        "questionId": "jee_main_paper_2_q_040",
+        "text": "28 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_040_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (14 / 4) * t\u00b2 = 14 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_041",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q41. In the reaction mechanism step 41, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_041_opt_1",
+        "questionId": "jee_main_paper_2_q_041",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_041_opt_2",
+        "questionId": "jee_main_paper_2_q_041",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_041_opt_3",
+        "questionId": "jee_main_paper_2_q_041",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_041_opt_4",
+        "questionId": "jee_main_paper_2_q_041",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_041_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_042",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q42. What is the value of the integral \u222b x^3 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_042_opt_1",
+        "questionId": "jee_main_paper_2_q_042",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_042_opt_2",
+        "questionId": "jee_main_paper_2_q_042",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_042_opt_3",
+        "questionId": "jee_main_paper_2_q_042",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_042_opt_4",
+        "questionId": "jee_main_paper_2_q_042",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_042_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_043",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q43. A body of mass 5 kg is accelerated from rest by a force F = 17t N. Determine the velocity attained after t = 5 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_043_opt_1",
+        "questionId": "jee_main_paper_2_q_043",
+        "text": "42 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_043_opt_2",
+        "questionId": "jee_main_paper_2_q_043",
+        "text": "46 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_043_opt_3",
+        "questionId": "jee_main_paper_2_q_043",
+        "text": "39 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_043_opt_4",
+        "questionId": "jee_main_paper_2_q_043",
+        "text": "84 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_043_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (17 / 10) * t\u00b2 = 42 m/s.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_044",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q44. In the reaction mechanism step 44, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_044_opt_1",
+        "questionId": "jee_main_paper_2_q_044",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_044_opt_2",
+        "questionId": "jee_main_paper_2_q_044",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_044_opt_3",
+        "questionId": "jee_main_paper_2_q_044",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_044_opt_4",
+        "questionId": "jee_main_paper_2_q_044",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_044_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_045",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q45. What is the value of the integral \u222b x^2 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_045_opt_1",
+        "questionId": "jee_main_paper_2_q_045",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_045_opt_2",
+        "questionId": "jee_main_paper_2_q_045",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_045_opt_3",
+        "questionId": "jee_main_paper_2_q_045",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_045_opt_4",
+        "questionId": "jee_main_paper_2_q_045",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_045_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_046",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q46. A body of mass 3 kg is accelerated from rest by a force F = 20t N. Determine the velocity attained after t = 4 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_046_opt_1",
+        "questionId": "jee_main_paper_2_q_046",
+        "text": "53 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_046_opt_2",
+        "questionId": "jee_main_paper_2_q_046",
+        "text": "57 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_046_opt_3",
+        "questionId": "jee_main_paper_2_q_046",
+        "text": "50 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_046_opt_4",
+        "questionId": "jee_main_paper_2_q_046",
+        "text": "106 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_046_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (20 / 6) * t\u00b2 = 53 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_047",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q47. In the reaction mechanism step 47, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_047_opt_1",
+        "questionId": "jee_main_paper_2_q_047",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_047_opt_2",
+        "questionId": "jee_main_paper_2_q_047",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_047_opt_3",
+        "questionId": "jee_main_paper_2_q_047",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_047_opt_4",
+        "questionId": "jee_main_paper_2_q_047",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_047_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_048",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q48. What is the value of the integral \u222b x^1 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_048_opt_1",
+        "questionId": "jee_main_paper_2_q_048",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_048_opt_2",
+        "questionId": "jee_main_paper_2_q_048",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_048_opt_3",
+        "questionId": "jee_main_paper_2_q_048",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_048_opt_4",
+        "questionId": "jee_main_paper_2_q_048",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_048_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_049",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q49. A body of mass 6 kg is accelerated from rest by a force F = 11t N. Determine the velocity attained after t = 3 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_049_opt_1",
+        "questionId": "jee_main_paper_2_q_049",
+        "text": "8 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_049_opt_2",
+        "questionId": "jee_main_paper_2_q_049",
+        "text": "12 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_049_opt_3",
+        "questionId": "jee_main_paper_2_q_049",
+        "text": "5 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_049_opt_4",
+        "questionId": "jee_main_paper_2_q_049",
+        "text": "16 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_049_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (11 / 12) * t\u00b2 = 8 m/s.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_050",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q50. In the reaction mechanism step 50, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_050_opt_1",
+        "questionId": "jee_main_paper_2_q_050",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_050_opt_2",
+        "questionId": "jee_main_paper_2_q_050",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_050_opt_3",
+        "questionId": "jee_main_paper_2_q_050",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_050_opt_4",
+        "questionId": "jee_main_paper_2_q_050",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_050_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_051",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q51. What is the value of the integral \u222b x^4 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_051_opt_1",
+        "questionId": "jee_main_paper_2_q_051",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_051_opt_2",
+        "questionId": "jee_main_paper_2_q_051",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_051_opt_3",
+        "questionId": "jee_main_paper_2_q_051",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_051_opt_4",
+        "questionId": "jee_main_paper_2_q_051",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_051_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_052",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q52. A body of mass 4 kg is accelerated from rest by a force F = 14t N. Determine the velocity attained after t = 2 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_052_opt_1",
+        "questionId": "jee_main_paper_2_q_052",
+        "text": "7 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_052_opt_2",
+        "questionId": "jee_main_paper_2_q_052",
+        "text": "11 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_052_opt_3",
+        "questionId": "jee_main_paper_2_q_052",
+        "text": "4 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_052_opt_4",
+        "questionId": "jee_main_paper_2_q_052",
+        "text": "14 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_052_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (14 / 8) * t\u00b2 = 7 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_053",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q53. In the reaction mechanism step 53, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_053_opt_1",
+        "questionId": "jee_main_paper_2_q_053",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_053_opt_2",
+        "questionId": "jee_main_paper_2_q_053",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_053_opt_3",
+        "questionId": "jee_main_paper_2_q_053",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_053_opt_4",
+        "questionId": "jee_main_paper_2_q_053",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_053_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_054",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q54. What is the value of the integral \u222b x^3 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_054_opt_1",
+        "questionId": "jee_main_paper_2_q_054",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_054_opt_2",
+        "questionId": "jee_main_paper_2_q_054",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_054_opt_3",
+        "questionId": "jee_main_paper_2_q_054",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_054_opt_4",
+        "questionId": "jee_main_paper_2_q_054",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_054_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_055",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q55. A body of mass 2 kg is accelerated from rest by a force F = 17t N. Determine the velocity attained after t = 5 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_055_opt_1",
+        "questionId": "jee_main_paper_2_q_055",
+        "text": "106 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_055_opt_2",
+        "questionId": "jee_main_paper_2_q_055",
+        "text": "110 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_055_opt_3",
+        "questionId": "jee_main_paper_2_q_055",
+        "text": "103 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_055_opt_4",
+        "questionId": "jee_main_paper_2_q_055",
+        "text": "212 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_055_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (17 / 4) * t\u00b2 = 106 m/s.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_056",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q56. In the reaction mechanism step 56, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_056_opt_1",
+        "questionId": "jee_main_paper_2_q_056",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_056_opt_2",
+        "questionId": "jee_main_paper_2_q_056",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_056_opt_3",
+        "questionId": "jee_main_paper_2_q_056",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_056_opt_4",
+        "questionId": "jee_main_paper_2_q_056",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_056_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_057",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q57. What is the value of the integral \u222b x^2 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_057_opt_1",
+        "questionId": "jee_main_paper_2_q_057",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_057_opt_2",
+        "questionId": "jee_main_paper_2_q_057",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_057_opt_3",
+        "questionId": "jee_main_paper_2_q_057",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_057_opt_4",
+        "questionId": "jee_main_paper_2_q_057",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_057_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_058",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q58. A body of mass 5 kg is accelerated from rest by a force F = 20t N. Determine the velocity attained after t = 4 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_058_opt_1",
+        "questionId": "jee_main_paper_2_q_058",
+        "text": "32 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_058_opt_2",
+        "questionId": "jee_main_paper_2_q_058",
+        "text": "36 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_058_opt_3",
+        "questionId": "jee_main_paper_2_q_058",
+        "text": "29 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_058_opt_4",
+        "questionId": "jee_main_paper_2_q_058",
+        "text": "64 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_058_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (20 / 10) * t\u00b2 = 32 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_059",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q59. In the reaction mechanism step 59, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_059_opt_1",
+        "questionId": "jee_main_paper_2_q_059",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_059_opt_2",
+        "questionId": "jee_main_paper_2_q_059",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_059_opt_3",
+        "questionId": "jee_main_paper_2_q_059",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_059_opt_4",
+        "questionId": "jee_main_paper_2_q_059",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_059_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_060",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q60. What is the value of the integral \u222b x^1 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_060_opt_1",
+        "questionId": "jee_main_paper_2_q_060",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_060_opt_2",
+        "questionId": "jee_main_paper_2_q_060",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_060_opt_3",
+        "questionId": "jee_main_paper_2_q_060",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_060_opt_4",
+        "questionId": "jee_main_paper_2_q_060",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_060_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_061",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q61. A body of mass 3 kg is accelerated from rest by a force F = 11t N. Determine the velocity attained after t = 3 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_061_opt_1",
+        "questionId": "jee_main_paper_2_q_061",
+        "text": "16 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_061_opt_2",
+        "questionId": "jee_main_paper_2_q_061",
+        "text": "20 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_061_opt_3",
+        "questionId": "jee_main_paper_2_q_061",
+        "text": "13 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_061_opt_4",
+        "questionId": "jee_main_paper_2_q_061",
+        "text": "32 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_061_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (11 / 6) * t\u00b2 = 16 m/s.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_062",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q62. In the reaction mechanism step 62, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_062_opt_1",
+        "questionId": "jee_main_paper_2_q_062",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_062_opt_2",
+        "questionId": "jee_main_paper_2_q_062",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_062_opt_3",
+        "questionId": "jee_main_paper_2_q_062",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_062_opt_4",
+        "questionId": "jee_main_paper_2_q_062",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_062_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_063",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q63. What is the value of the integral \u222b x^4 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_063_opt_1",
+        "questionId": "jee_main_paper_2_q_063",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_063_opt_2",
+        "questionId": "jee_main_paper_2_q_063",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_063_opt_3",
+        "questionId": "jee_main_paper_2_q_063",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_063_opt_4",
+        "questionId": "jee_main_paper_2_q_063",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_063_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_064",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q64. A body of mass 6 kg is accelerated from rest by a force F = 14t N. Determine the velocity attained after t = 2 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_064_opt_1",
+        "questionId": "jee_main_paper_2_q_064",
+        "text": "4 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_064_opt_2",
+        "questionId": "jee_main_paper_2_q_064",
+        "text": "8 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_064_opt_3",
+        "questionId": "jee_main_paper_2_q_064",
+        "text": "1 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_064_opt_4",
+        "questionId": "jee_main_paper_2_q_064",
+        "text": "8 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_064_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (14 / 12) * t\u00b2 = 4 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_065",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q65. In the reaction mechanism step 65, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_065_opt_1",
+        "questionId": "jee_main_paper_2_q_065",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_065_opt_2",
+        "questionId": "jee_main_paper_2_q_065",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_065_opt_3",
+        "questionId": "jee_main_paper_2_q_065",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_065_opt_4",
+        "questionId": "jee_main_paper_2_q_065",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_065_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_066",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q66. What is the value of the integral \u222b x^3 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_066_opt_1",
+        "questionId": "jee_main_paper_2_q_066",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_066_opt_2",
+        "questionId": "jee_main_paper_2_q_066",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_066_opt_3",
+        "questionId": "jee_main_paper_2_q_066",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_066_opt_4",
+        "questionId": "jee_main_paper_2_q_066",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_066_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_067",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q67. A body of mass 4 kg is accelerated from rest by a force F = 17t N. Determine the velocity attained after t = 5 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_067_opt_1",
+        "questionId": "jee_main_paper_2_q_067",
+        "text": "53 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_067_opt_2",
+        "questionId": "jee_main_paper_2_q_067",
+        "text": "57 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_067_opt_3",
+        "questionId": "jee_main_paper_2_q_067",
+        "text": "50 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_067_opt_4",
+        "questionId": "jee_main_paper_2_q_067",
+        "text": "106 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_067_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (17 / 8) * t\u00b2 = 53 m/s.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_068",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q68. In the reaction mechanism step 68, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_068_opt_1",
+        "questionId": "jee_main_paper_2_q_068",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_068_opt_2",
+        "questionId": "jee_main_paper_2_q_068",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_068_opt_3",
+        "questionId": "jee_main_paper_2_q_068",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_068_opt_4",
+        "questionId": "jee_main_paper_2_q_068",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_068_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_069",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q69. What is the value of the integral \u222b x^2 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_069_opt_1",
+        "questionId": "jee_main_paper_2_q_069",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_069_opt_2",
+        "questionId": "jee_main_paper_2_q_069",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_069_opt_3",
+        "questionId": "jee_main_paper_2_q_069",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_069_opt_4",
+        "questionId": "jee_main_paper_2_q_069",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_069_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_070",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q70. A body of mass 2 kg is accelerated from rest by a force F = 20t N. Determine the velocity attained after t = 4 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_070_opt_1",
+        "questionId": "jee_main_paper_2_q_070",
+        "text": "80 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_070_opt_2",
+        "questionId": "jee_main_paper_2_q_070",
+        "text": "84 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_070_opt_3",
+        "questionId": "jee_main_paper_2_q_070",
+        "text": "77 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_070_opt_4",
+        "questionId": "jee_main_paper_2_q_070",
+        "text": "160 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_070_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (20 / 4) * t\u00b2 = 80 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_071",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q71. In the reaction mechanism step 71, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_071_opt_1",
+        "questionId": "jee_main_paper_2_q_071",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_071_opt_2",
+        "questionId": "jee_main_paper_2_q_071",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_071_opt_3",
+        "questionId": "jee_main_paper_2_q_071",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_071_opt_4",
+        "questionId": "jee_main_paper_2_q_071",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_071_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_072",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q72. What is the value of the integral \u222b x^1 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_072_opt_1",
+        "questionId": "jee_main_paper_2_q_072",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_072_opt_2",
+        "questionId": "jee_main_paper_2_q_072",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_072_opt_3",
+        "questionId": "jee_main_paper_2_q_072",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_072_opt_4",
+        "questionId": "jee_main_paper_2_q_072",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_072_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_073",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q73. A body of mass 5 kg is accelerated from rest by a force F = 11t N. Determine the velocity attained after t = 3 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_073_opt_1",
+        "questionId": "jee_main_paper_2_q_073",
+        "text": "9 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_073_opt_2",
+        "questionId": "jee_main_paper_2_q_073",
+        "text": "13 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_073_opt_3",
+        "questionId": "jee_main_paper_2_q_073",
+        "text": "6 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_073_opt_4",
+        "questionId": "jee_main_paper_2_q_073",
+        "text": "18 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_073_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (11 / 10) * t\u00b2 = 9 m/s.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_074",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q74. In the reaction mechanism step 74, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_074_opt_1",
+        "questionId": "jee_main_paper_2_q_074",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_074_opt_2",
+        "questionId": "jee_main_paper_2_q_074",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_074_opt_3",
+        "questionId": "jee_main_paper_2_q_074",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_074_opt_4",
+        "questionId": "jee_main_paper_2_q_074",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_074_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_075",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q75. What is the value of the integral \u222b x^4 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_075_opt_1",
+        "questionId": "jee_main_paper_2_q_075",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_075_opt_2",
+        "questionId": "jee_main_paper_2_q_075",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_075_opt_3",
+        "questionId": "jee_main_paper_2_q_075",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_075_opt_4",
+        "questionId": "jee_main_paper_2_q_075",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_075_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_076",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q76. A body of mass 3 kg is accelerated from rest by a force F = 14t N. Determine the velocity attained after t = 2 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_076_opt_1",
+        "questionId": "jee_main_paper_2_q_076",
+        "text": "9 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_076_opt_2",
+        "questionId": "jee_main_paper_2_q_076",
+        "text": "13 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_076_opt_3",
+        "questionId": "jee_main_paper_2_q_076",
+        "text": "6 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_076_opt_4",
+        "questionId": "jee_main_paper_2_q_076",
+        "text": "18 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_076_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (14 / 6) * t\u00b2 = 9 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_077",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q77. In the reaction mechanism step 77, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_077_opt_1",
+        "questionId": "jee_main_paper_2_q_077",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_077_opt_2",
+        "questionId": "jee_main_paper_2_q_077",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_077_opt_3",
+        "questionId": "jee_main_paper_2_q_077",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_077_opt_4",
+        "questionId": "jee_main_paper_2_q_077",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_077_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_078",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q78. What is the value of the integral \u222b x^3 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_078_opt_1",
+        "questionId": "jee_main_paper_2_q_078",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_078_opt_2",
+        "questionId": "jee_main_paper_2_q_078",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_078_opt_3",
+        "questionId": "jee_main_paper_2_q_078",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_078_opt_4",
+        "questionId": "jee_main_paper_2_q_078",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_078_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_079",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q79. A body of mass 6 kg is accelerated from rest by a force F = 17t N. Determine the velocity attained after t = 5 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_079_opt_1",
+        "questionId": "jee_main_paper_2_q_079",
+        "text": "35 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_079_opt_2",
+        "questionId": "jee_main_paper_2_q_079",
+        "text": "39 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_079_opt_3",
+        "questionId": "jee_main_paper_2_q_079",
+        "text": "32 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_079_opt_4",
+        "questionId": "jee_main_paper_2_q_079",
+        "text": "70 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_079_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (17 / 12) * t\u00b2 = 35 m/s.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_080",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q80. In the reaction mechanism step 80, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_080_opt_1",
+        "questionId": "jee_main_paper_2_q_080",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_080_opt_2",
+        "questionId": "jee_main_paper_2_q_080",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_080_opt_3",
+        "questionId": "jee_main_paper_2_q_080",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_080_opt_4",
+        "questionId": "jee_main_paper_2_q_080",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_080_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_081",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q81. What is the value of the integral \u222b x^2 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_081_opt_1",
+        "questionId": "jee_main_paper_2_q_081",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_081_opt_2",
+        "questionId": "jee_main_paper_2_q_081",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_081_opt_3",
+        "questionId": "jee_main_paper_2_q_081",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_081_opt_4",
+        "questionId": "jee_main_paper_2_q_081",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_081_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_082",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q82. A body of mass 4 kg is accelerated from rest by a force F = 20t N. Determine the velocity attained after t = 4 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_082_opt_1",
+        "questionId": "jee_main_paper_2_q_082",
+        "text": "40 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_082_opt_2",
+        "questionId": "jee_main_paper_2_q_082",
+        "text": "44 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_082_opt_3",
+        "questionId": "jee_main_paper_2_q_082",
+        "text": "37 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_082_opt_4",
+        "questionId": "jee_main_paper_2_q_082",
+        "text": "80 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_082_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (20 / 8) * t\u00b2 = 40 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_083",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q83. In the reaction mechanism step 83, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_083_opt_1",
+        "questionId": "jee_main_paper_2_q_083",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_083_opt_2",
+        "questionId": "jee_main_paper_2_q_083",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_083_opt_3",
+        "questionId": "jee_main_paper_2_q_083",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_083_opt_4",
+        "questionId": "jee_main_paper_2_q_083",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_083_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_084",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q84. What is the value of the integral \u222b x^1 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_084_opt_1",
+        "questionId": "jee_main_paper_2_q_084",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_084_opt_2",
+        "questionId": "jee_main_paper_2_q_084",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_084_opt_3",
+        "questionId": "jee_main_paper_2_q_084",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_084_opt_4",
+        "questionId": "jee_main_paper_2_q_084",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_084_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_085",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q85. A body of mass 2 kg is accelerated from rest by a force F = 11t N. Determine the velocity attained after t = 3 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_085_opt_1",
+        "questionId": "jee_main_paper_2_q_085",
+        "text": "24 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_085_opt_2",
+        "questionId": "jee_main_paper_2_q_085",
+        "text": "28 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_085_opt_3",
+        "questionId": "jee_main_paper_2_q_085",
+        "text": "21 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_085_opt_4",
+        "questionId": "jee_main_paper_2_q_085",
+        "text": "48 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_085_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (11 / 4) * t\u00b2 = 24 m/s.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_086",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q86. In the reaction mechanism step 86, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_086_opt_1",
+        "questionId": "jee_main_paper_2_q_086",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_086_opt_2",
+        "questionId": "jee_main_paper_2_q_086",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_086_opt_3",
+        "questionId": "jee_main_paper_2_q_086",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_086_opt_4",
+        "questionId": "jee_main_paper_2_q_086",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_086_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_087",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q87. What is the value of the integral \u222b x^4 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_087_opt_1",
+        "questionId": "jee_main_paper_2_q_087",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_087_opt_2",
+        "questionId": "jee_main_paper_2_q_087",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_087_opt_3",
+        "questionId": "jee_main_paper_2_q_087",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_087_opt_4",
+        "questionId": "jee_main_paper_2_q_087",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_087_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_088",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q88. A body of mass 5 kg is accelerated from rest by a force F = 14t N. Determine the velocity attained after t = 2 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_088_opt_1",
+        "questionId": "jee_main_paper_2_q_088",
+        "text": "5 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_088_opt_2",
+        "questionId": "jee_main_paper_2_q_088",
+        "text": "9 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_088_opt_3",
+        "questionId": "jee_main_paper_2_q_088",
+        "text": "2 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_088_opt_4",
+        "questionId": "jee_main_paper_2_q_088",
+        "text": "10 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_088_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (14 / 10) * t\u00b2 = 5 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_089",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q89. In the reaction mechanism step 89, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_089_opt_1",
+        "questionId": "jee_main_paper_2_q_089",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_089_opt_2",
+        "questionId": "jee_main_paper_2_q_089",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_089_opt_3",
+        "questionId": "jee_main_paper_2_q_089",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_089_opt_4",
+        "questionId": "jee_main_paper_2_q_089",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_089_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_090",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q90. What is the value of the integral \u222b x^3 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_090_opt_1",
+        "questionId": "jee_main_paper_2_q_090",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_090_opt_2",
+        "questionId": "jee_main_paper_2_q_090",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_090_opt_3",
+        "questionId": "jee_main_paper_2_q_090",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_090_opt_4",
+        "questionId": "jee_main_paper_2_q_090",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_090_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_091",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q91. A body of mass 3 kg is accelerated from rest by a force F = 17t N. Determine the velocity attained after t = 5 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_091_opt_1",
+        "questionId": "jee_main_paper_2_q_091",
+        "text": "70 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_091_opt_2",
+        "questionId": "jee_main_paper_2_q_091",
+        "text": "74 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_091_opt_3",
+        "questionId": "jee_main_paper_2_q_091",
+        "text": "67 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_091_opt_4",
+        "questionId": "jee_main_paper_2_q_091",
+        "text": "140 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_091_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (17 / 6) * t\u00b2 = 70 m/s.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_092",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q92. In the reaction mechanism step 92, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_092_opt_1",
+        "questionId": "jee_main_paper_2_q_092",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_092_opt_2",
+        "questionId": "jee_main_paper_2_q_092",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_092_opt_3",
+        "questionId": "jee_main_paper_2_q_092",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_092_opt_4",
+        "questionId": "jee_main_paper_2_q_092",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_092_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_093",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q93. What is the value of the integral \u222b x^2 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_093_opt_1",
+        "questionId": "jee_main_paper_2_q_093",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_093_opt_2",
+        "questionId": "jee_main_paper_2_q_093",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_093_opt_3",
+        "questionId": "jee_main_paper_2_q_093",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_093_opt_4",
+        "questionId": "jee_main_paper_2_q_093",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_093_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_094",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q94. A body of mass 6 kg is accelerated from rest by a force F = 20t N. Determine the velocity attained after t = 4 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_094_opt_1",
+        "questionId": "jee_main_paper_2_q_094",
+        "text": "26 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_094_opt_2",
+        "questionId": "jee_main_paper_2_q_094",
+        "text": "30 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_094_opt_3",
+        "questionId": "jee_main_paper_2_q_094",
+        "text": "23 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_094_opt_4",
+        "questionId": "jee_main_paper_2_q_094",
+        "text": "52 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_094_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (20 / 12) * t\u00b2 = 26 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_095",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q95. In the reaction mechanism step 95, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_1]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_095_opt_1",
+        "questionId": "jee_main_paper_2_q_095",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_095_opt_2",
+        "questionId": "jee_main_paper_2_q_095",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_095_opt_3",
+        "questionId": "jee_main_paper_2_q_095",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_095_opt_4",
+        "questionId": "jee_main_paper_2_q_095",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_095_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_096",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q96. What is the value of the integral \u222b x^1 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_096_opt_1",
+        "questionId": "jee_main_paper_2_q_096",
+        "text": "e\u00b2/2 - 1/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_096_opt_2",
+        "questionId": "jee_main_paper_2_q_096",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_096_opt_3",
+        "questionId": "jee_main_paper_2_q_096",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_096_opt_4",
+        "questionId": "jee_main_paper_2_q_096",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_096_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_097",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q97. A body of mass 4 kg is accelerated from rest by a force F = 11t N. Determine the velocity attained after t = 3 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_097_opt_1",
+        "questionId": "jee_main_paper_2_q_097",
+        "text": "12 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_097_opt_2",
+        "questionId": "jee_main_paper_2_q_097",
+        "text": "16 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_097_opt_3",
+        "questionId": "jee_main_paper_2_q_097",
+        "text": "9 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_097_opt_4",
+        "questionId": "jee_main_paper_2_q_097",
+        "text": "24 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_097_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (11 / 8) * t\u00b2 = 12 m/s.",
+    "type": "MCQ",
+    "difficulty": "EASY",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_098",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_chem",
+    "chapterId": "chap_jee_chem_struct",
+    "topicId": "top_jee_chem_bond",
+    "questionText": "Q98. In the reaction mechanism step 98, what is the oxidation state of the central transition metal atom in [Co(NH\u2083)_6Cl_2]\u207a?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_098_opt_1",
+        "questionId": "jee_main_paper_2_q_098",
+        "text": "+3",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_098_opt_2",
+        "questionId": "jee_main_paper_2_q_098",
+        "text": "+2",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_098_opt_3",
+        "questionId": "jee_main_paper_2_q_098",
+        "text": "+1",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_098_opt_4",
+        "questionId": "jee_main_paper_2_q_098",
+        "text": "+4",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_098_opt_1",
+    "explanation": "NH\u2083 is a neutral ligand (charge 0), Cl carries -1 charge each. Total complex charge is +1. Therefore, Co charge = +1 - (sum of ligand charges) = +3.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Chemistry",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_099",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_math",
+    "chapterId": "chap_jee_math_diff",
+    "topicId": "top_jee_math_limits",
+    "questionText": "Q99. What is the value of the integral \u222b x^4 e^(2x) dx evaluated at the upper boundary x = 1 (constant C omitted)?",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_099_opt_1",
+        "questionId": "jee_main_paper_2_q_099",
+        "text": "(e\u00b2 + 1)/4",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_099_opt_2",
+        "questionId": "jee_main_paper_2_q_099",
+        "text": "e\u00b2/4",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_099_opt_3",
+        "questionId": "jee_main_paper_2_q_099",
+        "text": "(e\u00b2 - 1)/2",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_099_opt_4",
+        "questionId": "jee_main_paper_2_q_099",
+        "text": "2e\u00b2",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_099_opt_1",
+    "explanation": "Applying integration by parts: \u222b u v' dx = u v - \u222b u' v dx with u = x and v' = e^(2x).",
+    "type": "MCQ",
+    "difficulty": "HARD",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Mathematics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  },
+  {
+    "id": "jee_main_paper_2_q_100",
+    "examId": "exam_jee_main",
+    "subjectId": "sub_jee_phy",
+    "chapterId": "chap_jee_phy_kin",
+    "topicId": "top_jee_phy_1d",
+    "questionText": "Q100. A body of mass 2 kg is accelerated from rest by a force F = 14t N. Determine the velocity attained after t = 2 s.",
+    "options": [
+      {
+        "id": "jee_main_paper_2_q_100_opt_1",
+        "questionId": "jee_main_paper_2_q_100",
+        "text": "14 m/s",
+        "isCorrect": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "jee_main_paper_2_q_100_opt_2",
+        "questionId": "jee_main_paper_2_q_100",
+        "text": "18 m/s",
+        "isCorrect": false,
+        "orderIndex": 1
+      },
+      {
+        "id": "jee_main_paper_2_q_100_opt_3",
+        "questionId": "jee_main_paper_2_q_100",
+        "text": "11 m/s",
+        "isCorrect": false,
+        "orderIndex": 2
+      },
+      {
+        "id": "jee_main_paper_2_q_100_opt_4",
+        "questionId": "jee_main_paper_2_q_100",
+        "text": "28 m/s",
+        "isCorrect": false,
+        "orderIndex": 3
+      }
+    ],
+    "correctOptionId": "jee_main_paper_2_q_100_opt_1",
+    "explanation": "Using Newton's Second Law: F = m(dv/dt) => dv = (F/m)dt. Integrating from 0 to t gives v = (14 / 4) * t\u00b2 = 14 m/s.",
+    "type": "MCQ",
+    "difficulty": "MEDIUM",
+    "source": "ORIGINAL",
+    "sourceReference": "JEE Main Paper 2 \u2014 Electrostatics & Waves",
+    "year": 2026,
+    "estimatedSeconds": 90,
+    "marks": 4.0,
+    "negativeMarks": -1.0,
+    "tags": [
+      "JEE Main",
+      "Physics",
+      "100-Question Paper"
+    ],
+    "isVerified": true,
+    "isActive": true
+  }
+]

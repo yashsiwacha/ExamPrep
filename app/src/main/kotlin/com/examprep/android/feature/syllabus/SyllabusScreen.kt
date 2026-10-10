@@ -20,6 +20,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.examprep.core.designsystem.component.ExamPrepErrorState
+import com.examprep.core.designsystem.component.ExamPrepLoadingState
 import com.examprep.core.designsystem.theme.ExamPrepColors
 import com.examprep.core.designsystem.theme.Spacing
 import com.examprep.domain.model.*
@@ -37,25 +39,8 @@ fun SyllabusScreen(
             .background(MaterialTheme.colorScheme.background)
     ) {
         when (val uiState = state) {
-            is SyllabusUiState.Loading -> {
-                Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    Column(
-                        horizontalAlignment = Alignment.CenterHorizontally,
-                        verticalArrangement = Arrangement.spacedBy(12.dp)
-                    ) {
-                        CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
-                        Text(
-                            "Loading syllabus syllabus & mastery...",
-                            style = MaterialTheme.typography.bodyMedium.copy(color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        )
-                    }
-                }
-            }
-            is SyllabusUiState.Error -> {
-                Box(Modifier.fillMaxSize().padding(Spacing.MD), contentAlignment = Alignment.Center) {
-                    Text("Error: ${uiState.message}", color = MaterialTheme.colorScheme.error)
-                }
-            }
+            is SyllabusUiState.Loading -> ExamPrepLoadingState()
+            is SyllabusUiState.Error -> ExamPrepErrorState(message = uiState.message)
             is SyllabusUiState.Success -> {
                 var selectedSubjectIndex by remember { mutableIntStateOf(0) }
                 val subjects = uiState.exam.subjects
@@ -237,10 +222,6 @@ private fun SubjectProgressHeader(
 ) {
     val totalTopics = subject.chapters.flatMap { it.topics }
     val mastered = totalTopics.count { masteryMap[it.id]?.masteryState == MasteryState.MASTERED }
-    val practicing = totalTopics.count {
-        val s = masteryMap[it.id]?.masteryState
-        s == MasteryState.PRACTICING || s == MasteryState.IN_PROGRESS || s == MasteryState.LEARNED
-    }
     val progress = if (totalTopics.isNotEmpty()) mastered.toFloat() / totalTopics.size else 0f
 
     Card(

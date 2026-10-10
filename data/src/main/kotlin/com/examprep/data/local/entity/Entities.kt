@@ -369,3 +369,60 @@ data class EntitlementEntity(
     val autoRenewalEnabled: Boolean,
     val updatedAt: Long
 )
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// QUESTION PAPER — Remote download catalog + local cache tracking
+// ═══════════════════════════════════════════════════════════════════════════════
+
+/**
+ * Catalog entry for a remotely hosted question paper.
+ *
+ * One record = one downloadable paper (100 questions) hosted on GitHub.
+ * The remote JSON is fetched via OkHttp and questions are inserted into the
+ * `question` table on successful download.
+ *
+ * Naming convention for [remoteUrl]:
+ *   https://raw.githubusercontent.com/<owner>/<repo>/main/content/<examId>/paper_<paperNumber>.json
+ */
+@Entity(
+    tableName = "question_paper_meta",
+    indices = [Index("examId"), Index("paperNumber")]
+)
+data class QuestionPaperMetaEntity(
+    @PrimaryKey val id: String,              // e.g., "jee_main_paper_1"
+    val examId: String,                       // e.g., "exam_jee_main"
+    val examName: String,                     // Display name, e.g., "JEE Main"
+    val paperNumber: Int,                     // 1–5
+    val title: String,                        // e.g., "Paper 1 — Mechanics & Thermodynamics"
+    val description: String,
+    val questionCount: Int,                   // Always 100
+    val subjectsCovered: String,              // JSON array of subject names
+    val difficultyLabel: String,              // e.g., "Mixed", "Advanced"
+    val remoteUrl: String,                    // GitHub raw content URL
+    val fileSizeKb: Int,                      // Approximate file size for display
+    val createdAt: Long = System.currentTimeMillis()
+)
+
+/**
+ * Tracks which papers have been downloaded by the user.
+ *
+ * A paper is "downloaded" when its questions have been successfully inserted
+ * into the local `question` table. Deletion removes those questions from Room.
+ */
+@Entity(
+    tableName = "question_paper_download",
+    foreignKeys = [ForeignKey(
+        entity = QuestionPaperMetaEntity::class,
+        parentColumns = ["id"],
+        childColumns = ["paperId"],
+        onDelete = ForeignKey.CASCADE
+    )],
+    indices = [Index("paperId")]
+)
+data class QuestionPaperDownloadEntity(
+    @PrimaryKey val paperId: String,
+    val downloadedAt: Long,
+    val questionCount: Int,        // Actual questions saved (for integrity check)
+    val fileSizeKb: Int
+)
+
